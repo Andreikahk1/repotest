@@ -1,0 +1,1640 @@
+[2026-05-08 13:55:12,336] WARNING in user_agent: USER_AGENT environment variable not set, consider setting it to identify your requests.
+[2026-05-08 13:55:33,776] INFO in routes: Celery queue purged: 0 tasks discarded
+[2026-05-08 13:55:33,864] INFO in routes: Returning single task_id response
+[2026-05-08 13:55:36,361] INFO in model_settings: Registered custom OpenAI model: /model at https://qwen3-ml.bveb.by/v1
+[2026-05-08 13:55:36,361] INFO in model_settings: ModelRegistry loaded 1 models, default: /model
+[2026-05-08 13:55:36,366] INFO in stream_processor: Pre-fetch skipped: isNoneDoc=True
+[2026-05-08 13:55:36,494] INFO in logging: Starting activity: stream - 6f49fe09-fe2e-4459-bbd4-2c38febdf922 - User: local
+[2026-05-08 13:55:36,495] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage 1/2 start (extract)
+[2026-05-08 13:55:36,505] INFO in payment_validator_pipeline_agent: 
+===================================
+AUTO_EXTRACT_RESULT_BEGIN
+{"extracted_fields": {"payment_order_number": "041651", "bn_no_number": false, "payment_order_date": "25.10.2023", "amount_number": 25000000.0, "amount_words": "ДВАДЦАТЬ ПЯТЬ МИЛЛИОНОВ РОССИЙСКИХ РУБЛЕЙ, 00 КОПЕЕК", "currency_code": "643", "payer_name": "ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"РЕЧИЦКИЙ МЕТИЗНЫЙ ЗАВОД\"", "payer_unp": "400024166", "payer_account": "BY13BELB30121308550400226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "ООО \"ТОРГОВЫЙ ДОМ БМЗ\",Г.САНКТ-ПЕТЕРБУРГ,РОССИЯ", "beneficiary_tin": "6101034448", "beneficiary_account": "40702810645000002104", "beneficiary_display": "ООО \"ТОРГОВЫЙ ДОМ БМЗ\"\nГ.САНКТ-ПЕТЕРБУРГ\nРоссия", "beneficiary_bank_name": "ОАО \"БАНК САНКТ-ПЕТЕРБУРГ\" ДОПОЛНИТЕЛЬНЫЙ ОФИС \"НАРВСКИЙ\"", "beneficiary_bank_swift": "044030790", "beneficiary_bank_address": "Г.САНКТ-ПЕРЕРБУРГ,К/СЧ 30101810900000000790,РОССИЯ", "beneficiary_bank_country": "Россия", "payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК.", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "25.10.2023 13:49:00", "executed_at": "25.10.2023", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:231025/042002/77173", "payment_details_raw": "Детали платежа", "deal_registration_entries": [{"contract_number": null, "contract_date": null, "status": "REGISTERED", "rnvd": "231025/042002/77173", "rnvd_date": null}], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": "ИНН", "beneficiary_country_inferred": null, "beneficiary_country_text": "Россия", "beneficiary_country_text_code": "RU", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": null, "beneficiary_bank_bic_info": null, "contract_docs_present": true, "contract_text": null}, "evidence_map": {"payment_order_number": ["№041651"], "payment_order_date": ["Дата: 25.10.2023"], "amount_words": ["Сумма и валюта: ДВАДЦАТЬ ПЯТЬ МИЛЛИОНОВ РОССИЙСКИХ РУБЛЕЙ, 00 КОПЕЕК"], "amount_number": ["Сумма цифрами: 25000000.00"], "currency_code": ["Код валюты: 643"], "payer_name": ["Плательщик:ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"РЕЧИЦКИЙ МЕТИЗНЫЙ ЗАВОД\" 247500 ГОМЕЛЬСКАЯ ОБЛ Г.РЕЧИЦА УЛ.ФРУНЗЕ Д.2"], "payer_account": ["Счет: BY13BELB30121308550400226000"], "payer_unp": ["УНП плательщика: 400024166"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: 044030790"], "beneficiary_bank_name": ["Банк-получатель: ОАО \"БАНК САНКТ-ПЕТЕРБУРГ\" ДОПОЛНИТЕЛЬНЫЙ ОФИС \"НАРВСКИЙ\","], "beneficiary_name": ["Бенефициар:ООО \"ТОРГОВЫЙ ДОМ БМЗ\",Г.САНКТ-ПЕТЕРБУРГ,РОССИЯ ИНН:6101034448"], "beneficiary_tin": ["TIN: 6101034448"], "beneficiary_account": ["Счет: 40702810645000002104"], "payment_purpose_raw": ["Назначение платежа:VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ"], "has_deal_registration_number": ["Регистрационный номер сделки:231025/042002/77173"]}, "notes": []}
+AUTO_EXTRACT_RESULT_END
+===================================
+[2026-05-08 13:55:36,506] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): bic_lookup sender_source=by_swift bene_source=ru_bic
+[2026-05-08 13:55:36,508] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): party_classification={'payer_is_resident': True, 'payer_entity_type': 'юрлицо', 'beneficiary_is_resident': False, 'beneficiary_entity_type': 'юрлицо', 'beneficiary_country_code': 'RU', 'beneficiary_country_name': 'Россия', 'beneficiary_country_source': 'alias'}
+[2026-05-08 13:55:36,509] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): auto-extract from docx used (missing=[])
+[2026-05-08 13:55:36,509] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [START]
+============================================================
+[2026-05-08 13:55:36,512] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 done status=FAIL checks=17
+[2026-05-08 13:55:36,512] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [DONE  STATUS=FAIL]
+  ⏱  elapsed: 0.00s
+============================================================
+[2026-05-08 13:55:36,513] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 FAIL — продолжаем LLM-стадии (no early exit)
+[2026-05-08 13:55:36,513] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): injected phase1_b1_legality status=PASS budget=False
+[2026-05-08 13:55:36,514] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): split B1+B2 routing=nonres (RU) b1_prompt=payment_validator/b1_legality_nonres.txt skip_b1_llm=True (phase1_pass=True force_skip=False)
+[2026-05-08 13:55:36,514] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [START]
+============================================================
+[2026-05-08 13:55:36,517] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_amounts start structured=False attachments=False payload_len=392
+[2026-05-08 13:55:36,518] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_amounts/0) role=system ====================
+
+
+<role>
+Ты — извлекатель сумм и регистрационных данных белорусского валютного платёжного поручения.
+Твоя задача — только извлечь поля.
+Верни РОВНО ОДИН валидный JSON.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК.", "deal_registration_raw": "Регистрационный номер сделки:231025/042002/77173", "payment_details_raw": "Детали платежа", "payer_residency": "resident", "beneficiary_residency": "nonresident"}}
+Поля входа:
+  payment_purpose_raw     — «Назначение платежа».
+  deal_registration_raw   — «Регистрационный номер сделки» (часто содержит разбивку сумм + РНВД / пометку об освобождении).
+  payment_details_raw     — «Детали платежа» (если заполнено).
+  payer_residency         — "resident" | "nonresident" | null (для контекста).
+  beneficiary_residency   — "resident" | "nonresident" | null (для контекста).
+</role>
+
+<output_schema>
+Структура ответа — заполни значения из реального входа, не из примеров промпта:
+{
+  "extracted_fields": {
+    "purpose_partial_amounts": [
+      {
+        "description": "<предмет платежа из текста>",
+        "amount": "<число float из текста>",
+        "contract_number": "<номер договора или null>",
+        "contract_date": "<дата ДД.ММ.ГГГГ или null>",
+        "rnvd": "<РНВД ДДММГГ/ОООООО/ХХХХХ или null>",
+        "rnvd_date": "<дата ДД.ММ.ГГГГ или null>"
+      }
+    ],
+    "deal_registration_number": ["<РНВД или null>"],
+    "deal_registration_exempt": "<true если явная пометка об освобождении, иначе false>"
+  },
+  "checks": []
+}
+Правило заполнения полей элемента purpose_partial_amounts:
+  • Сумма к договору (A1) → contract_number + contract_date заполнены; rnvd=null, rnvd_date=null.
+  • Сумма к РНВД (A2)     → rnvd + rnvd_date заполнены; contract_number=null, contract_date=null.
+  • Inline сумма (A3)     → все четыре поля null.
+</output_schema>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- checks ВСЕГДА пустой массив [].
+- Все три поля (purpose / deal_registration / payment_details) могут быть пустыми. Учитывай это.
+</global_rules>
+
+<extraction>
+
+<purpose_partial_amounts>
+Массив частичных сумм. ≥2 элементов — только если в одном или нескольких из 3 полей явно перечислены ≥2 пар (сумма + предмет/договор). Одна сумма платежа или нет явных частичных → [].
+
+<hard_invariants>
+Применяй ДО любого извлечения:
+
+КРИТИЧЕСКИЕ ПРАВИЛА (применяй ПЕРВЫМ):
+  Частичные суммы (≥2) ВСЕГДА находятся ТОЛЬКО В ОДНОМ из трёх полей: либо все в payment_purpose_raw, либо все в deal_registration_raw, либо все в payment_details_raw.
+  Они НИКОГДА не разбросаны по разным полям.
+  Частичных сумм может не быть — это самый частый сценарий!
+
+  Определение «партиал-кандидат в поле X» — это пара `<число><код_валюты>` в поле X, перед которой НЕТ слов «ВСЕГО», «ИТОГО», «ИТОГ».
+  Числа после ВСЕГО/ИТОГО — это итог, они НЕ партиал-кандидаты и в подсчёте «≥2 пар» НЕ участвуют.
+  Поэтому «ВСЕГО С НДС 0%-9325472RUB» в payment_purpose_raw даёт 0 партиал-кандидатов, даже если число выглядит как сумма.
+
+  Алгоритм выбора поля (СТРОГО по порядку, как только нашёл ≥2 партиал-кандидатов в поле — стоп):
+    1) payment_purpose_raw   → если там ≥2 партиал-кандидатов → берёшь partial ОТТУДА. Другие поля для partial НЕ СМОТРИШЬ.
+    2) deal_registration_raw → если там ≥2 партиал-кандидатов → берёшь partial оттуда. payment_details_raw НЕ СМОТРИШЬ.
+    3) payment_details_raw   → если там ≥2 партиал-кандидатов → берёшь оттуда.
+    4) Иначе → purpose_partial_amounts = [].
+
+  Пример (проблемный): payment_purpose_raw = «...,12153-25 08.10.25.ВСЕГО С НДС 0%-9325472RUB //»
+    В payment_purpose_raw 0 партиал-кандидатов (единственное число — после ВСЕГО). Шаг 1 не сработал.
+    deal_registration_raw = «10000-9217352RUB, 88782 -108220RUB» — 2 партиал-кандидата → берём partial из deal_registration_raw, payment_purpose_raw в partial НЕ ВЛИВАЕТСЯ.
+
+  Сумма ВСЕГДА прилеплена к коду валюты: «9217352RUB», «175000РУБ», «1500USD», «1500EUR» кроме случаев когда она идёт после слов ИТОГ или ВСЕГО 
+  Сумма может идти после дефиса или дефиса и пробела: «-9217352RUB», «- 175000РУБ»
+    Цифры БЕЗ валюты рядом — НИКОГДА не сумма. Это может быть:
+      – номер договора: «03-24/2», «11850-25»;
+      – номер допсоглашения: «ДС 1882», «ДС №3»;
+      – дата: «17.01.24», «24.03.26»;
+      – РНВД: «210728/042002/32777»;
+      – %, КПП, ИНН, счёт.
+    Все они — НЕ суммы. Не брать.
+    Перед суммой стоит «ВСЕГО», «ИТОГО», — это итог. Игнорируй. Примеры:
+    «08.10.25.ВСЕГО С НДС 0%-9325472RUB» — тоже итог. Слово ВСЕГО прилепилось к дате. Пропустить.
+    «ВСЕГО С НДС 0%- 100RUB» — тоже итог. Пропустить.
+    «ВСЕГО С НДС 0%-955100RUB» — тоже итог, без пробела. Пропустить.
+    «С НДС 0%-XXXVAL» без «ВСЕГО» — тоже итоговая строка, пропустить.
+    Запрещено выдумывать сумму из номеров договоров, ДС, РНВД, дат или счетов. Только то, что буквально написано как `<число><код_валюты>`.
+</hard_invariants>
+
+<patterns>
+Сканируй ВСЕ ТРИ ПОЛЯ. В одном из них могут быть суммы:
+  A1) `<id_договора> <дата>[-<сумма><валюта>]` — привязка к договору. id_договора — строка вида «ЦИФРЫ-ГГ» (например «11850-25»). Сумма идёт ПОСЛЕ даты или после номера договора.
+      Пример: «11111-25 01.10.25-9997352RUB».
+      Пример: «1111-25 -9997352RUB»
+  A2) `<РНВД> [<дата>] -<сумма><валюта>` — привязка к РНВД. РНВД это три блока цифр через «/»: `ХХХХХ/ХХХХХ/ХХХХХ`.
+      Сумма идёт ПОСЛЕ РНВД (сразу если даты нет или после даты).
+      Пример: «251028/042002/10000 28.10.25Г -65RUB» → РНВД=251028/042002/10000, сумма=65.
+      Пример: «240315/042002/11111 20.04.24Г-50000RUB» → РНВД=240315/042002/11111, сумма=50000.
+      Пример: «251028/042002/10000-35RUB» → РНВД=251028/042002/10000, сумма=35.
+  A3) Явные построчные компоненты с валютой в скобках: «АРЕНДА (175000 РУБ.) И ЗДАНИЕ (35000 РУБ.)».
+</patterns>
+
+<element_format>
+A1: {"description": "...", "amount": 0.0, "contract_number": "НОМЕР", "contract_date": "ДД.ММ.ГГГГ", "rnvd": null, "rnvd_date": null}
+A2: {"description": "...", "amount": 0.0, "contract_number": null, "contract_date": null, "rnvd": "ДДММГГ/ОООООО/ХХХХХ", "rnvd_date": "ДД.ММ.ГГГГ" | null}
+A3: {"description": "...", "amount": 0.0, "contract_number": null, "contract_date": null, "rnvd": null, "rnvd_date": null}
+</element_format>
+
+<rules>
+- Один tuple = один элемент. N tuples → N элементов. Не сворачивай в один.
+- description: фраза предмета, к которой относится tuple (часто общая, например «ОПЛ.АН.ОБОР.»).
+- amount: число (float).
+- A1 (договор): заполняй contract_number + contract_date, rnvd=null, rnvd_date=null.
+- A2 (РНВД): заполняй rnvd + rnvd_date (если есть), contract_number=null, contract_date=null.
+- Дата tuple нормализуй к ДД.ММ.ГГГГ («01.10.25» → «01.10.2025»).
+- Если ни одного `<число><валюта>` без «ВСЕГО» рядом не нашлось — верни []. Не выдумывай.
+- Один и тот же «ВСЕГО» из purpose / deal_registration / details — не считать дважды.
+</rules>
+
+<examples>
+W1 — единый платёж без разбивки (САМЫЙ ЧАСТЫЙ кейс):
+  payment_purpose_raw = «ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ 7 ОТ 01.01.2025»
+  deal_registration_raw = «Регистрационный номер сделки: 210728/042002/32777»
+  Кандидатов на сумму с валютой нет → Выход: []
+
+W2 — единый платёж без разбивки (САМЫЙ ЧАСТЫЙ кейс):
+  payment_purpose_raw = «ПРЕДОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ ПО ДОГ.КОМИС. 03-24/2 ОТ 17.01.24, ДС 1882 ОТ 24.03.26(УКАЗ 681 ОТ 28.12.2007 П.3)»
+  deal_registration_raw = «Регистрационный номер сделки: null»
+  Кандидатов на сумму с валютой нет → Выход: []
+
+W3 — A1: разбивка по договорам (deal_registration_raw):
+  payment_purpose_raw = «VO10200 //ОПЛ.АН.ОБОР. ПО ДОГ. 33333-25 02.02.25, ПО ДОГ. 44444-25 03.03.25//»
+  deal_registration_raw = «ВАЛЮТНЫЙ ДОГОВОР 33333-25 02.02.25-7000000RUB, ВАЛЮТНЫЙ ДОГОВОР 44444-25 03.03.25-2000000RUB. ВСЕГО С НДС 0%-9000000RUB»
+  Tuples 2 шт. «ВСЕГО ...-9000000RUB» → пропустить.
+  Выход:
+    [{"description":"ОПЛ.АН.ОБОР.", "amount":7000000.0, "contract_number":"33333-25", "contract_date":"02.02.2025", "rnvd":null, "rnvd_date":null},
+     {"description":"ОПЛ.АН.ОБОР.", "amount":2000000.0, "contract_number":"44444-25", "contract_date":"03.03.2025", "rnvd":null, "rnvd_date":null}]
+
+W4 — A2: разбивка по РНВД (deal_registration_raw):
+  deal_registration_raw = «251028/042002/10000-35RUB, 251028/042002/88782 28.10.25Г -65RUB»
+  payment_purpose_raw = «VO10200 //ОПЛ.АН.ОБОР. 11850-25 01.10.25,12153-25 08.10.25.ВСЕГО С НДС 0%- 100RUB //»
+  Разбор:
+    — «11850-25 01.10.25» — договор без суммы (нет `-<число><валюта>` после даты) → tuple НЕТ.
+    — «12153-25 08.10.25» — то же самое → tuple НЕТ.
+    — «ВСЕГО С НДС 0%- 100RUB» — итог → пропустить (пробел перед числом не меняет статус).
+    — «251028/042002/10000-35RUB» — РНВД=251028/042002/10000, сумма=35 (A2).
+    — «251028/042002/88782 28.10.25Г -65RUB» — РНВД=251028/042002/88782, сумма=65 (A2).
+  Выход (2 элемента, A2+A2):
+    [{"description":"ОПЛ.АН.ОБОР.", "amount":35.0, "rnvd":"251028/042002/10000", "rnvd_date":null, },
+     {"description":"ОПЛ.АН.ОБОР.", "amount":65.0, "rnvd":"251028/042002/88782", "rnvd_date":"28.10.2025"}]
+
+W5 — A3: inline в скобках:
+  payment_purpose_raw = «АРЕНДА УЧАСТКА (175000 РУБ.) И ЗДАНИЕ (35000 РУБ.)»
+  Выход:
+    [{"description":"аренда участка", "amount":175000.0, "contract_number":null, "contract_date":null, "rnvd":null, "rnvd_date":null},
+     {"description":"здание", "amount":35000.0, "contract_number":null, "contract_date":null, "rnvd":null, "rnvd_date":null}]
+
+АБСОЛЮТНОЕ правило: если ни в одном поле входа, нет ни одной последовательности `<цифры><код_валюты>` (где код — 3 латинских буквы или слово «РУБ», «USD», «EUR» и т.п. прямо рядом с числом) — возвращай purpose_partial_amounts = [].
+</examples>
+</purpose_partial_amounts>
+
+
+<deal_registration_number>
+deal_registration_number — регистрационный номер сделки (РНВД), формат три блока цифр через «/»: `ХХХХХ/ХХХХХ/ХХХХХ`. Пример: «210728/042002/32777», «251028/042002/88782».
+Он может быть или в deal_registration_raw или в поле payment_details_raw (их может быть несколько)
+Если не нашёл — null.
+</deal_registration_number>
+
+
+<deal_registration_exempt>
+deal_registration_exempt — есть ли явная пометка об освобождении от регистрации.
+true, если в deal_registration_raw или в payment_details_raw встречается одна из формулировок (регистр игнорируй):
+  • «не подлежит регистрации»
+  • «договор не подлежит регистрации»
+  • «не требует регистрации»
+  • «освобождён от регистрации» / «освобожден от регистрации»
+Иначе false.
+</deal_registration_exempt>
+
+</extraction>
+
+
+
+
+
+==================== PROMPT_SENT (b2_amounts/0) role=system ====================
+
+
+[2026-05-08 13:55:36,518] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_amounts/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (b2_amounts/1) role=user ====================
+
+
+[2026-05-08 13:55:36,520] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose start structured=False attachments=False payload_len=203
+[2026-05-08 13:55:36,520] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose/0) role=system ====================
+
+
+<role>
+Ты — валидатор поля «Назначение платежа» валютного платёжного поручения.
+По одному входному полю выполни 3 проверки и верни РОВНО ОДИН валидный JSON.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК."}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Структура ответа (заполни из реального входного JSON):
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ЗА БЫТОВОЕ ЭЛЕКТРООБОРУДОВАНИЕ",
+    "purpose_linked_documents": [
+      {"kind": {тип документа}, "number": {номер документа}, "date": {дата документа}, "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT",            "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY",         "status": "OUT_OF_SCOPE", "message": "..."}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B2.PURPOSE_SPECIFICITY: PASS, FAIL.
+B2.CONTRACT:            PASS, FAIL, OUT_OF_SCOPE.
+B2.THIRD_PARTY:         PASS, FAIL, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка.
+- Если payment_purpose_raw пустой — payment_purpose_semantic = "", purpose_linked_documents = [], B2.PURPOSE_SPECIFICITY=FAIL, B2.CONTRACT=FAIL, B2.THIRD_PARTY=OUT_OF_SCOPE.
+</global_rules>
+
+<critical_rules>
+- Используй только текст из входного JSON. Никогда не бери номера, даты, РНВД из примеров промпта.»
+- Если в payment_purpose_raw нет явного номера договора с датой или закона — purpose_linked_documents = [] переходи к шагу <payment_purpose_semantic>»
+</critical_rules>
+
+
+<extraction>
+
+ПОРЯДОК РАБОТЫ: сначала извлеки purpose_linked_documents из сырого payment_purpose_raw, затем вычисли payment_purpose_semantic путём очистки.
+
+<purpose_linked_documents>
+Возвращай ВСЕ найденные документы. Если есть И договор, И нормативный акт — оба отдельными элементами массива.
+
+<kinds>
+• "main_contract"  — «ДОГОВОР», «КОНТРАКТ», «СОГЛАШЕНИЕ», «ДОГ.», «ДОГ» (без точки)
+• "assignment_dut" — «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ»
+• "application"    — «ЗАЯВКА»
+• "statement"      — «ЗАЯВЛЕНИЕ»
+• "ukaz"           — Указ Президента РБ. number — голый: «681», «8», «353»; date — ДД.ММ.ГГГГ или null.
+• "postanovlenie"  — Постановление. number: «392/7»; date или null.
+• "zakon"          — Закон или кодекс. number: «226-З», «146-ФЗ», «НК РФ N 146-ФЗ»; date или null.
+• "other"          — иной нормативный акт.
+(invoice не включай.)
+</kinds>
+
+<rules>
+• kind определяется по ключевому слову в исходном тексте.
+• Кодекс (НК РФ, БК РБ, ГК РФ и т.п.) — это тоже закон (kind="zakon"). Отдельного kind="kodex" нет.
+• Если в тексте кодекс и номер ФЗ стоят рядом («НК РФ N 146-ФЗ») — ОДНА запись zakon, number = «НК РФ N 146-ФЗ».
+  ЗАПРЕЩЕНО из «НК РФ N 146-ФЗ» делать две записи. Это один документ.
+• number — только то что после ключевого слова: «146-ФЗ», «НК РФ N 146-ФЗ», «681». Ссылки на статьи (СТ., П., ПОДП.) в number НЕ включай.
+• date — ДД.ММ.ГГГГ. Двузначный год нормализуй (98 → 1998, 24 → 2024).
+• «б/н» в number — только если явно написано.
+• Паттерн `<id-YY> <ДД.ММ.YY>` (номер с двузначным годом + дата, без слова «ДОГ.») — банковская конвенция валютного договора → main_contract.
+  Пример: «44444-25 01.10.25» → {"kind":"main_contract","number":"44444-25","date":"01.10.2025"}.
+• Не включай ОГРН, КПП, КБК, ОКТМО, ИНН, БИК — это реквизиты, не документы.
+• counterparty_hint — для assignment_dut: наименование первоначального кредитора; иначе null.
+• counterparty_country — для assignment_dut: страна первоначального кредитора; иначе null.
+</rules>
+
+<examples>
+«УКАЗ ПРЕЗИДЕНТА РБ № 681 ОТ 28.12.2007»                  → {"kind":"ukaz","number":"681","date":"28.12.2007"}
+«ПОСТАНОВЛЕНИЕ 392/7 ОТ 06.07.2021»                       → {"kind":"postanovlenie","number":"392/7","date":"06.07.2021"}
+«ЗАКОН 146-ФЗ ОТ 31.07.98»                                 → {"kind":"zakon","number":"146-ФЗ","date":"31.07.1998"}
+«СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»                    → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  (СТ.333.19 — ссылка на статью, не часть number)
+«СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»  → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  — ОДНА запись! НК РФ № 146-ФЗ это один документ.
+«УКАЗ ПРЕЗИДЕНТА №8 ОТ 28.03.2008»                         → {"kind":"ukaz","number":"8","date":"28.03.2008"}
+«ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017» → ДВА документа:
+  {"kind":"main_contract","number":"б/н","date":"03.10.2019"} и {"kind":"ukaz","number":"8","date":"21.12.2017"}
+</examples>
+</purpose_linked_documents>
+
+<payment_purpose_semantic>
+Очисти payment_purpose_raw от служебной обёртки, сохрани суть платежа.
+
+Убирай:
+  • VO-коды («VO10100», «VO70060»);
+  • разделители «//» (двойные косые) — только сами символы, содержимое между ними СОХРАНЯЙ;
+  • реквизиты договоров: «ПО ДОГОВОРУ N ... ОТ ...», «СОГЛАСНО ДОГ. ... ОТ ...», «ПО ЗАЯВКЕ ... ОТ ...» и т.п.;
+  • ссылки на нормативные акты и статьи: «СОГЛ. СТ. ...», «В СООТВ. П. ...», «СОГЛ. ПОДП. ...», «НК РФ N ...», «НК РФ», «ФЗ», «ОТ ДД.ММ.ГГГГ» (дата закона);
+  • Договоры без слова "договор": «777-77 01.10.26», «888-88 08.10.26»;
+  • ОФФШОРНЫЙ СБОР, П/П ..., ДЛЯ КРЕДИТОВАНИЯ НА СЧ ...;
+  • страны/регионы в скобках в конце: «(РОССИЯ)», «(РФ)», «(БЕЛАРУСЬ)» — только если это страна, а не товар.
+
+Сохраняй (это часть предмета):
+  • маршрут / направление: «ПО МАРШРУТУ РБ - РФ», «ИЗ КИТАЯ В РБ»;
+  • период / диапазон: «ЗА МАРТ», «ЗА 1 ПОЛУГОДИЕ 2026»;
+  • уточнение вида: «АВТОТРАНСПОРТНЫЕ», «ИНОТЕРРИТОРИАЛЬНЫЕ»;
+  • получателя предмета, если он часть смысла: «ДЛЯ ПЕРСОНАЛА»;
+  • уточнение предмета в скобках: «(КРЕСЛО)», «(ЗАПЧАСТИ)» — если это конкретный товар/вид, а не страна.
+
+Примеры:
+«VO70060 ЗАРПЛАТА ЗА МАРТ, ТРУДОВОЙ ДОГОВОР 1 ОТ 01.03.2024»                  → «ЗАРПЛАТА ЗА МАРТ»
+«ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ ПО ДОГОВОРУ № 7 ОТ 02.05.2024» → «ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО) СОГЛАСНО ДОГОВОРУ 45 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»
+«VO10200 //ОПЛ.АН.ОБОР. 8888-25 01.10.25,7777-25 08.10.25//»               → «ОПЛ.АН.ОБОР.»
+«VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА О ВЗЫСКАНИИ 308 480,25 РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110» → «ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»
+</payment_purpose_semantic>
+
+</extraction>
+
+<checks>
+
+<check id="B2.PURPOSE_SPECIFICITY">
+Цель: убедиться что предмет платежа конкретен.
+
+Дисквалифицирующий список (общие токены, которые сами по себе НЕ являются предметом):
+  товары, товаров, услуги, услуг, оплата, расчёт, расчет, предоплата, аванс, авансовый, платёж, платеж, работы, работ,
+  goods, services, payment, prepayment.
+
+Алгоритм:
+1) Возьми payment_purpose_semantic. Это уже очищенный от служебной обёртки текст — значит всё что в нём осталось это и есть «значимые слова» предмета.
+2) Если все значимые слова payment_purpose_semantic (кроме предлогов: «за», «по», «согласно», «в», «с», «на», «от», «и», «или», «т.ч.») входят в дисквалифицирующий список → FAIL.
+   message: «Предмет назначения платежа не конкретизирован.»
+3) Иначе → PASS.
+
+Дисквалификация снимается ТОЛЬКО если в payment_purpose_semantic есть хотя бы одно слово/словосочетание ВНЕ списка — конкретный товар или вид услуги:
+  • в скобках — «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)» → «КРЕСЛО» вне списка → PASS;
+  • рядом — «ОПЛАТА ЗА БЕНЗИН» → «БЕНЗИН» вне списка → PASS;
+                «АВТОТРАНСПОРТНЫЕ УСЛУГИ» → «АВТОТРАНСПОРТНЫЕ» вне списка → PASS.
+
+Наличие договора, его номера или даты — дисквалификацию НЕ снимает. Только конкретное слово-предмет.
+
+Исключения (всегда PASS):
+  • Бюджетные платежи: ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ» — такие платежи в специфике не нуждаются.
+  • Банковские операции: «ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ» — конкретизация не требуется (ст.14 БК РБ).
+
+<examples_pass>
+«ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                         → PASS  (Оплата за внедрение Программного Обеспечения - "ПО" СТОИТ В КОНЦЕ это аббревиатура. Значит конкретный товар!)
+«АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»              → PASS  (АВТОТРАНСПОРТНЫЕ — конкретный вид услуги)
+«МЕТАЛЛОПРОКАТ»                                            → PASS  (конкретный вид товара)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»                            → PASS  (КРЕСЛО — конкретный вид товара)
+«ОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ»                         → PASS  (БЕНЗИН — конкретный вид товара)
+«ОПЛАТА ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ»                        → PASS  (ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ — конкретный вид товара; не путать с «ОПЛАТА ЗА ТОВАРЫ» — там нет конкретики)
+«ОПЛ.АН.ОБОР.»                                            → PASS  (аббревиатура конкретного вида товара — конкретный предмет; «ОПЛ» здесь часть составного названия, а не самостоятельный общий токен «оплата»)
+«АРЕНДА ЗЕМЕЛЬНОГО УЧАСТКА»                                → PASS
+«ЗАРПЛАТА ЗА МАРТ»                                         → PASS  (зарплата — конкретный вид выплаты)
+«РОЯЛТИ ЗА 2022»                                           → PASS  (роялти — конкретный вид платежа)
+«ВОЗВРАТ ЗАЙМА»                                            → PASS  (займа — конкретный вид обязательства)
+«ПРОДАЖА ВАЛЮТЫ»                                           → PASS  (банковская операция)
+</examples_pass>
+
+<examples_fail>
+«ПРЕДОПЛАТА ЗА ТОВАРЫ»                                     → FAIL  (ТОВАРЫ — общее слово без конкретики; слово «ОПЛАТА»/«ПРЕДОПЛАТА» само по себе не даёт конкретики)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023»   → FAIL  (после очистки semantic = «ПРЕДОПЛАТА ЗА ТОВАРЫ»; ссылка на договор не является конкретным предметом)
+«ОПЛАТА ЗА УСЛУГИ»                                         → FAIL  (УСЛУГИ — общее слово)
+«АВАНСОВЫЙ ПЛАТЁЖ»                                         → FAIL
+«»                                                         → FAIL  («Назначение платежа не заполнено.»)
+«ОПЛАТА»                                                   → FAIL  (только дисквалифицирующий токен)
+
+</examples_fail>
+</check>
+
+
+<check id="B2.CONTRACT">
+Цель: проверить наличие реквизитов договора-основания (номер + дата).
+
+Применяй сверху вниз:
+
+Шаг 0:  Если purpose_linked_documents нет записей → FAIL, message: «Договор-основание не упомянут в назначении.». Дальнейшие шаги пропускай. Стоп.
+Шаг 1:  Если в purpose_linked_documents есть запись с kind="main_contract" (или "assignment_dut") и заполнены и number, и date → PASS, message: "". Стоп.
+Шаг 2:  Если ≥2 main_contract без даты, но дата у каждого следует из паттерна `<id-YY> <ДД.ММ.YY>` — считается заполненной (Шаг 0).
+Шаг 3:  Если purpose_linked_documents содержит main_contract с заполненным number, но date пустая → FAIL, message: «Дата договора не указана.»
+Шаг 4:  Если main_contract есть, но number пустой (и в тексте нет «б/н») → FAIL, message: «Номер договора не указан.»
+Шаг 5:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut, но при этом есть упоминание договора («ПО ДОГОВОРУ», «СОГЛАСНО ДОГОВОРУ») без номера и даты → FAIL, message: «Номер и дата договора не указаны.»
+Шаг 6:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut,  → FAIL, message: «Договор-основание не упомянут в назначении.»
+Шаг 7 (исключения — OUT_OF_SCOPE):
+  • Бюджетный платёж (см. список в B2.PURPOSE_SPECIFICITY) — реквизиты договора не нужны → OUT_OF_SCOPE, message: «Бюджетный платёж — реквизиты договора не требуются.»
+  • Банковская операция (продажа/покупка валюты и т.п.) — основание не договор, а заявка/заявление → OUT_OF_SCOPE, message: «Банковская операция — реквизиты договора не требуются.»
+  • Договор не упоминается вообще, и платёж не подходит под бюджетный/банковский → OUT_OF_SCOPE, message: «Договор-основание не упомянут в назначении.»
+
+Если Шаги 0–3 не сработали и Шаг 4 не дал OUT_OF_SCOPE и Шаг 5 не дал FAIL → PASS.
+</check>
+
+<check id="B2.THIRD_PARTY">
+Признаки ДУТ: «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ», «УСТУПКА ТРЕБОВАНИЙ» или упоминание первоначального кредитора (в любой форме — см. ниже).
+
+Сокращения для первоначального кредитора:
+  «ПЕРВ. КРЕДИТ.», «ПЕРВ.КРЕД.», «ПЕРВОНАЧ. КРЕДИТОР», «ПЕРВОНАЧАЛЬНЫЙ КРЕДИТОР»
+
+Формат в скобках: «(ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  — ОСОО КАО КЕЙДЖИ = наименование, КЫРГЫЗ. = страна (Кыргызстан) → оба указаны → PASS.
+
+- PASS — указаны И наименование, И страна первоначального кредитора.
+- FAIL — отсутствует наименование ИЛИ страна. message — что именно не указано.
+- OUT_OF_SCOPE — признаки ДУТ не обнаружены.
+
+<examples>
+«ПО ДОГ. УСТ. ТРЕБ. 26/2435643 ОТ 20.03.2026 К КОНТР. 2404-5КР ОТ 03.04.2024 (ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  → ДУТ найден. Первоначальный кредитор: «ОСОО КАО КЕЙДЖИ», страна «КЫРГЫЗ.» (Кыргызстан). → PASS.
+
+«ПО ДУТ № 5 ОТ 01.01.2024»
+  → ДУТ найден. Наименование и страна первоначального кредитора не указаны. → FAIL.
+
+«ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ № 7»
+  → Признаков ДУТ нет. → OUT_OF_SCOPE.
+</examples>
+</check>
+
+</checks>
+
+<full_examples>
+
+Пример 1 — судебный платёж с НК РФ:
+Вход: {"payment_purpose_raw": "VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ САНКТ-ПЕТЕРБУРГА И ЛЕНИНГРАДСКОЙ ОБЛАСТИ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\" О ВЗЫСКАНИИ 308 480,25 РОССИЙСКИХ РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\"",
+    "purpose_linked_documents": [
+      {"kind": "zakon", "number": "НК РФ N 146-ФЗ", "date": "31.07.1998", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT", "status": "OUT_OF_SCOPE", "message": "Бюджетный платёж — реквизиты договора не требуются."},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+ВАЖНО: purpose_linked_documents содержит ОДНУ запись zakon «НК РФ N 146-ФЗ». НЕ ДВЕ (не «146-ФЗ» отдельно и «НК РФ» отдельно).
+
+Пример 2 — договор + декрет:
+Вход: {"payment_purpose_raw": "ПЕРЕЧИСЛЕНИЕ ДЕН СР-В ОТ ПРОДАЖИ ТОКЕНОВ ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ПЕРЕЧИСЛЕНИЕ ДЕНЕЖНЫХ СРЕДСТВ ОТ ПРОДАЖИ ТОКЕНОВ",
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "б/н", "date": "03.10.2019", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "ukaz", "number": "8", "date": "21.12.2017", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+</full_examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose/0) role=system ====================
+
+
+[2026-05-08 13:55:36,521] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose/1) role=user ====================
+
+
+[2026-05-08 13:55:36,650] INFO in routes: Returning single task_id response
+[2026-05-08 13:55:36,675] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 10571, 'content_head': '<role>\nТы — извлекатель сумм и регистрационных данных белорусского валютного платёжного поручения.\nТвоя задача — только извлечь поля.\nВерни РОВНО ОДИН валидный JSON.\n\nВход: {"extra'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 08.05.20'}]}
+[2026-05-08 13:55:36,675] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:55:36,676] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 15549, 'content_head': '<role>\nТы — валидатор поля «Назначение платежа» валютного платёжного поручения.\nПо одному входному полю выполни 3 проверки и верни РОВНО ОДИН валидный JSON.\n\nВход: {"extracted_fiel'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 08.05.20'}]}
+[2026-05-08 13:55:36,676] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:55:36,858] INFO in routes: Returning single task_id response
+[2026-05-08 13:55:39,050] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:55:39,054] INFO in openai: OpenAI response received: choices=1 content_len=505 finish_reason=stop usage=prompt=4821 completion=227 total=5048
+[2026-05-08 13:55:39,056] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_amounts) ====================
+
+
+{
+  "extracted_fields": {
+    "purpose_partial_amounts": [
+      {
+        "description": "ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК",
+        "amount": 0.0,
+        "contract_number": null,
+        "contract_date": null,
+        "rnvd": null,
+        "rnvd_date": null
+      }
+    ],
+    "deal_registration_number": ["231025/042002/77173"],
+    "deal_registration_exempt": false
+  },
+  "checks": []
+}
+
+
+==================== PROMPT_RESULT (b2_amounts) ====================
+
+
+[2026-05-08 13:55:39,056] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_amounts done elapsed_ms=2539 elapsed_s=2.54 result_len=505
+[2026-05-08 13:55:39,550] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:55:39,550] INFO in openai: OpenAI response received: choices=1 content_len=845 finish_reason=stop usage=prompt=6863 completion=294 total=7157
+[2026-05-08 13:55:39,552] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose) ====================
+
+
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ПО ДОГОВОРУ ПЕРЕВОДА ДОЛГА ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ",
+    "purpose_linked_documents": [
+      {
+        "kind": "main_contract",
+        "number": "23115617",
+        "date": "25.10.2023",
+        "counterparty_hint": null,
+        "counterparty_country": null
+      },
+      {
+        "kind": "main_contract",
+        "number": "22015387",
+        "date": "27.12.2022",
+        "counterparty_hint": null,
+        "counterparty_country": null
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "B2.PURPOSE_SPECIFICITY",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "id": "B2.CONTRACT",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "id": "B2.THIRD_PARTY",
+      "status": "OUT_OF_SCOPE",
+      "message": "Признаки ДУТ не обнаружены."
+    }
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose) ====================
+
+
+[2026-05-08 13:55:39,552] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose done elapsed_ms=3036 elapsed_s=3.04 result_len=845
+[2026-05-08 13:55:39,553] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [DONE  ELAPSED=3.04S]
+  ⏱  elapsed: 3.04s
+============================================================
+[2026-05-08 13:55:39,553] INFO in base: complete_stream: first answer chunk received
+[2026-05-08 13:57:42,223] INFO in stream_processor: Pre-fetch skipped: isNoneDoc=True
+[2026-05-08 13:57:42,284] INFO in logging: Starting activity: stream - ce465bba-ff1a-4299-b647-1a5c75f80382 - User: local
+[2026-05-08 13:57:42,284] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage 1/2 start (extract)
+[2026-05-08 13:57:42,298] INFO in payment_validator_pipeline_agent: 
+===================================
+AUTO_EXTRACT_RESULT_BEGIN
+{"extracted_fields": {"payment_order_number": "041651", "bn_no_number": false, "payment_order_date": "25.10.2023", "amount_number": 25000000.0, "amount_words": "ДВАДЦАТЬ ПЯТЬ МИЛЛИОНОВ РОССИЙСКИХ РУБЛЕЙ, 00 КОПЕЕК", "currency_code": "643", "payer_name": "ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"РЕЧИЦКИЙ МЕТИЗНЫЙ ЗАВОД\"", "payer_unp": "400024166", "payer_account": "BY13BELB30121308550400226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "ООО \"ТОРГОВЫЙ ДОМ БМЗ\",Г.САНКТ-ПЕТЕРБУРГ,РОССИЯ", "beneficiary_tin": "6101034448", "beneficiary_account": "40702810645000002104", "beneficiary_display": "ООО \"ТОРГОВЫЙ ДОМ БМЗ\"\nГ.САНКТ-ПЕТЕРБУРГ\nРоссия", "beneficiary_bank_name": "ОАО \"БАНК САНКТ-ПЕТЕРБУРГ\" ДОПОЛНИТЕЛЬНЫЙ ОФИС \"НАРВСКИЙ\"", "beneficiary_bank_swift": "044030790", "beneficiary_bank_address": "Г.САНКТ-ПЕРЕРБУРГ,К/СЧ 30101810900000000790,РОССИЯ", "beneficiary_bank_country": "Россия", "payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК.", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "25.10.2023 13:49:00", "executed_at": "25.10.2023", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:231025/042002/77173", "payment_details_raw": "Детали платежа", "deal_registration_entries": [{"contract_number": null, "contract_date": null, "status": "REGISTERED", "rnvd": "231025/042002/77173", "rnvd_date": null}], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": "ИНН", "beneficiary_country_inferred": null, "beneficiary_country_text": "Россия", "beneficiary_country_text_code": "RU", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": null, "beneficiary_bank_bic_info": null, "contract_docs_present": true, "contract_text": "=== 130855__041651_25.10.2023__22015387_27.12.2022.pdf ===\nооО &lt;Торговый Дом Бмз&gt;, г. Санкт-Петербург, Российская Федерация, l] лиtIе заместителя директора по ВЭВ ЩербаковаИ.И., действующего на основании доверенFIости м 67 оТ з0.\\2.2021г., именуемый в дальнейшеМ &lt;&lt;ПоставпlиIt&gt;, с одной стороны, tT О1,цры1ое акционерНое общество &lt;БелорУсский металлурГический завод - управляющая компаl]ия холдLIнга &lt;Белорусская металЛургическая компания&gt;, г. Жлобин, РеспУблика Беларусь, в лице заместитеIIя генерального директора по коммерtIеским вопросам Борикова А.П., действующего tIа основаIJии ДОВереннОсти Ns 8lЗ4З от 28.\\2.202|г., именуемыЙ в дальнейшем &lt;Покупатель), с лругой стороны, заключили настоящий контракт о нижеследующем:\n- 1.1. Поставщик поставляет Покупателю лом черных металлов собственном производстве, по прилагаемым СпецификациrIм, (далее Товар), длrl гlриN,tеllе}lrIrI в котfрые являются неотъел,тлеrцой частью настоящего Контракта,\n## 1. Предпrет KoHTpaItTa.\n- 1.2. Объем контракта | ЗЗ2 819,351 тн.\n- 1.3. Ориентировочная стоиN4ость контракта не менее 26 980 000 000 российских рублей.\n- 1.5. Весь Товар поставляется железнодорожным транспортом с территорл{и Российсttой Федерации на территорию Республики Беларусь, условия поставки DAP гралrица Российсrtой Федерации-Республики Беларусь станции назначения Злынка, Красное, Завережье соглас}lо Инкотермс-2010.\n- 1.4. Валюта контракта - российский рубль.\n## 2.I. Поставщикобязуется:\n## 2. Обязательства сторон.\n- 2.|.l. поставлять Товар ежемесячно равномерными партиями в теLIение l\\{есяца. Объем поставляемого Товара и сроки поставки согласовываются в письN4енной форме, посредстI]оNI направления заявки Покупателя в адрес Поставщика не позднее 25-ого LIисла IvIесяца, предшеств}.ющего месяцу поставки.\n- 2.1.2 ежедневно в рабочие дни предоставлять сведения посредством факсимильной свrIзи LIли электронноЙ почты о фактическоЙ отгрузке предыдущего рабо.Iего дня) выходI]I)tх и (лrли) праздничньж дней (номера вагонов, вид и вес металлолома либо колиLIество отгруженных вагонов).\n- 2.|.З. производить правильное оформJIение железнодорож}Iых накладных на Товар: накладпЕtя сопровождается документом о радиационной безопасности Товара (санитарrrоЭпидемиологическим заключением, выданным Государственной санитарно-эпидемиологи.lесttой службоЙ Российской Федерации) и док}ментом (удостоверением) о взрывобезопас}Iости Товара. В rкелезнодорохrной накладной четким и читаемым шрифтом должFIо быть указано:\n- . в графе 25 - номер и дата контракта между Покупателем и ПоставщикоNt;\n- о в графе 1 - наименование и полный почтовый адрес грузоотправителя;\n- . в графе 4 - наименование и полный почтовый адрес ГIокупателя;\nПОСторонние записи и сопроводительные документы, не имеющие отношIения к настояп1ему контракту (счета-фактуры, договора) исключаются. Поставщиtt oTBeLIaeT за обязательное указание в }келезнодорояtной накладной и сLIете-фактуре страны происхожденI4я Товара Российская Федерация) в противном случае Покупатель оставляет за собой право отказа от Товара с последуIощей переадресовкой.\n- . в графе 15 - наименование груза с указанием вида и категории лома соглztсно ГОСТ 27В12019, ту BY 400074854.021,-2012, ту BY 400074854.038\\_2014, ту 078100-008-4541з7з92006, сто Ашрч-2014, сто бАlхкл1-2021.\nВсе затраты, связанные с этим, относятся на счет Поставщика и возмещаются им в бесспорl]ом порядке в ЗO-тидневный срок с даты выставления счета в валIоте контракта.\nПоставщик несет ответственность за полное соблюдение своих обязательств.\n- 2.1.4. выставлять счет-фактуру за принятый Товар в соответствии с реестрами Гlокупателяt и высылать его электронную версию в адрес Покупателя (посредствоN,I элеIiтрон}lой по.tть-t) в течение 3 (трех) рабочих дней с даты направления реестра Поставщику по электронной по.rте с последующим (в срок не позднее месяца) предоставлением оригинаJIа.\n'\n- 2.1.5.1. Качество Товара - степень соответствия совокупности свойств и xapat(Tel]IlcT]iIi продукции или услуги, которые придают им способность удовлетворять требования к товару предъявляемые Покупателем.\n- 2.1.5. Поставщик гарантирует поставку качественного Товара и только в I]агоьlа\\ (за исключением глуходонньIх, отгрузка в которых допускается только при согласова}IIIII с Покупателем), очищенного от химического и радиоактивного загрязнения, тя)Itелых NIеталлоJов (гексавалентный хром, ртуть, свинец, кадмий), а также взрывоопасных предIчlетов (в толr tlltc\\_le бывшего военного потребления), сосудов под давлением, земли, ЖЩ шпа:r, цвстных металлов I1 сплавов. Вес одного куска металлолома не должен превышать б тонн, толrцина стенки tle бо\\_]ее 500 мм.\n- 2.\\.5,2. Качество Товара определяется способами, указанными в ГОСТах, техЕ]иtIесt(Llх )iсловIlrl.\\ или спецификациях, оговоренньж (указанных) в действуrоrцем контракте.\n- 2.1.5.3. Факт поставки некачественного Товара - это есть факт несоответствия требованIIrI)1 предъявляемым к Товару согласно ТНПА.\n\\\n- о поставка Товара, загрязненного химическими и радиоактивными веществами;\n2,|,5.4. Условиями контракта запрещается:\n- о поставка в качестве Товара взрывоопасных предметов (в том LIисле бьтвrлего вое1-IIIого потребления), а так}ке сосудов под давлением;\n- . поставка товара, несоответствуюrцего техниLIескиь,t требованиям ГоСТ, ТУ;\n- . поставка Товара. непоименованного в спецификации, кроме случаев поступления Товара. соответств)тощего ГОСТ 278]-20|9, ТУ BY 400074854.021-2012, ТУ BY 400074854.0З820|4, ТУ 078100-008-454137З9-2006, СТО АШРЧ-2014, СТО бАlХКЛ1-2021 (далее ГОСТ. ТУ), принятого Покупателем с составлением акта согJIасования цены, который составлrtется после положительного решения соответствуюlцих служб Покупателя о возмож]lости использования tIоступившего Товара в производстве,\n- о погрузка Товара в вагоны, неочищенные от остатков ранее перевозимого груза, нzllrиL]ие реквизита в вагонах (тtелезнодоро)tных шпал) не предусмотренного кТехническI{\\,1и условиями погрузки и крепления грузов)) согласно Правил перевозок грузов }Ia открыто]\\{ подвижном составе железнодорожного транспорта общего пользования, утвержден}Iых Постановлением Министерства транспорта и коммуникаций Республики Беларусь от 21,04.2008г. Jф 58 (\" ред. постановления Минтранса от 1З,07.201,5 N З5), а также Mycol]il, земли, камней, брака и т.п., превышающего размер допустимого ГОСТоп,r 2187-2019 &lt;Металлы черные вторичные) по кarкдому виду лома для данного вида Товара;\n- . поставка более двух видов лома в одном вагоне (два вида допускается согласно\n- утвержденной таблицы прило}кения ЛЪ 3 к контракту, а так}ке второй вид лома в виле укрытия вагона (лом вида 5А, 12А длиной куска не более б метров), либо по согласоваIIиtо сторон в иных случаях);\n- . [оставка чугунного лома в одном полувагоне со стальным\n- лоNIоN,{;\n- . поставка стаJIьного лома с наJIичием цветных металлов и сплавов.\n- 2.2. Покупатель обязуется:\n- 2.2.|. ежемесячно согласовывать объем поставки на предстоящий месяц.\n- 2.2.2. Покупатель направляет Поставщику (посредством электронной по.tты), в срок не поздtl-Iее 90 (девяносто) дней с даты оформления Акта приемки металлолома при достilвке железнодоропffiым транспортом (далее по тексту - Акт приемки), заявлеItие о вво:]е ,tоl]аров и уплате косвенных нalлогов (далее - Заявление) и уведомление о проставлении отд,{етки налогового органа, подтверждающее факт уплаты наJIога на добавленЕlуIо стоимость в полноА,I объёлле и содержащее сведения о номере и дате регистрации Заявления, офорпллеFIных в электl]онно]\\{ виде с электронной (электронно-цифровой) подписью (ЭЦП),\n- 2.2.3. заблаговременно, в срок не менее чем за З (три) дня письменно извещать Поставщикаr об изменении договорных цен Покупателем.\n- 2.2.4. оформлять Акт приемки (Приложение N9 1), и высыIIать его электронн)4о версиIо в ад(рес Поставщика (посредством электронной почты) в те.Iение 2 (двух) раб��.lих дней от даты оформления Акт приемки с последуюtцим (в срок не позднее месяца) предоставлеl{ием оригинала.\n- 2.2.5. оформлять реестры на фактически поступивший лом один раз в З (три) дня с разбивкойr\n- поставки по датам оформления Актов приемки Покупателя и высыJrать электронную версt4ю\nреестров в адрес Поставщика (посредством электронной почты) в течение З (трех) рабоLIих дней с даты их оформления с последующим (в срок не .rо.дпr.a месяца) предосl,авлением оригинала.\n## 3. Условия поставки, цена II порядок pacLIeToB.\n- письменно согласованные между Поставщиком только с письменного согласия Покупателя. Пр\n- 3.1. Товар поставляется е}кемесячно равномерн\n- при поставке до 10 тыс. тн /месяц -+l-\n- при поставке свыше З0 тыс. тн/месяц +l- 5%:\n- при поставке от 10 до З0 тыс. тнlмесяц +l- 7%;\n- 3.2. ЩенЫ на Товар являются договорными, с\n- з,2,1, при отгрУзке ТоваРа в адрес Попуrrur\"п\" йrr..rодоро'*ым полви)Itным cocTaBONl полувагонами, принадлеЖащимИ ПокупателЮ на праве собственности/аренды или другом законном основании, \\_Покупатель принимает и оплаLIивает поступатощий металлолом по ценам Спецификации ЛЬ 1, В этом any,ru\" связанные с этиМ обязателiства и ответственность cTol]oFI определяЮтся в Приложении к настояЩему контракту) которое оформляется при поставке Товара по Спецификации NЪ 1;\n- настоящеМу контракту в валюте контракта (п.1. Федерация - Республика Беларусь согласно которая определяется по дате штемпеля в желез Формирование цен осуществляется по зонаМ (отнесение станций отгрузки к конItретной зоне ОСУЩеСТВЛЯеТСЯ ПОКУПаТелем). Спецификации }]Ъ]\\Ъ 1, 2, з форм,иiуrо.* Й;-Й;;;.nn в зависимости от собственника вагона и оформляются при необходийоъr\",'\n- З,2,2, прИ отгрузке Товара в адреС Покупателя железнодорожным\n- 3.2.З. при отгрузке Товара в адрес Покупателя (полувагонами) иных собственников Покупатель r{етiulлолом по ценам Спецификации J'(Ъ 3. железнодорожным подвижным сос,tllвом принимает и оплачивает поступаIошlий\n- подви)ItЕIьтп4 cocT.lBoN' (полувагонами) инвентарного парк1] Покупател\" np\"\"\"ru., и оллаLIивает , поступаюций I\\.{еталлолом по ценам Спецификации ЛЬ 2;\n- 3,3, !атоЙ перехода права собственНости на ТоваР от ПостаВIцика к I1окупаТелIо и датой приеrlки Товара считается дата оформления Акта приЬмкir.\n- форшlе. Валlота расчета - российсttие рубли, оплата за Товар осуществляется путем перевода денежных средств }Ia расLIетный с.rет поставщика, на основании счетов-фактур Постаuщ\"пu, выставленных в валюте контракта в соответстВии с реестрами ПокУпателя, составленными по Актам приемки, с отсроLIкой платеrка до З5 (тридцатИ пяти) календарНых днеЙ с датЫ приемкИ Товара, \". .\"\"ru\" день приемки. !атой тв со сLIета Покупателя. денежных\n- 3,,l, РасчеТы по конТрактУ осуществЛяются в безналиЧной\nПокупатель предоставляет Поставщику\nатежFIое поруLIеFIие с oTMeTKoli llсполняIоlltег() ния оплаты.\nименяется код валютной операчии (VO) 10200.\n- 3.б. Сверка расчетов осуществляется в валюте контракта.\n- лаLIивает Покупатель, все расходы банка вне страны Покупателя, включая расходы банков-корреспондентов вне зависимости от территории их нахождения, оплачивает Поставщик.\n- з,7, Поставщик возм9щаеТ Покупателю расходы, понесен}Iые Покупателем в свrIзи с\n- 3,8, При нzL,Iичии у Покуп\\_ателя необходимости в дополнительной поставке 1'овара, таt(ая поставка моя(еТ бытЬ осуществлена с применением иных сроков и форп,r pacLIeToB, tte запрещенныХ законодаТельствоМ РеспубликИ Беларусь, с применениеN4 о.гдельг] ых спецификаций.\n- предоставлением дополнительной информации по запросам Поставrцика по происхождениtо платеrrtей, Счет на сумму понесенных при этом расходов Покупатель о(lормляет в валlоте контракта по курсУ на датУ списания средстВ банком за данную услугу с расLIетного cLIeTa Покупателя, Поставщик производит оплату счета в течении З0 (тридцати) календарных дней от даты выставления счета.\n'\n## 4. Особые условия и имущественная ответственность.\n- 4.1. В случае просрочки в оплате, если она не вызвана претензиями по KaLIecTBy, колиrIеству илLI другим причинам по вине Поставщика, Поставщик имеет право взыскать с Покупателя пеFtlо в размере 0,01 % за каждый день просрочки от HecBoeBpeMeHFIo опла.rенной суммы, но не более ЗОZ\n- от неоплаченной суммы,\n- 4.2. В случае поставки Товара сверх согласованного сторонами объёма, Покупатель оставляет за собой право либо на отказ от несогласованного объёма Товара с последующей переадресовкой (возвратом) и возмещением всех возникших в связи с этим затрат, в T.LI. за простой вагонов (неустойки), сбор за хранение и т.д., за счет Поставrцика, с последующим возN{ещеFIие\\I их,I в бесспорном порядке в ЗO-тидневный срок с даты выставJIения cLIeTa в валюте контракта; либо на прI{нятие несогласованного объема Товара с отсрочкой платеrка до 90 (девяноста) банковсttих\n- .].Hel\"I с .]аты приемки Товара.\n- {.3. В слr{ае недопоставки (непоставки) согласованного сторонами объёма Товара в сог\\_-Iасованные сторонами сроки, Покупатель имеет право взыскать с Поставщика пенtо в разN,Iере 0.01 % за каждый день просрочки от стоимости недопоставленнЬго (непоставленного) в срок Товара, но не более 3О% от стоимости недопоставленного (не поставленного) в с]]ок Товара (расчет производится по цене лома черных метаJIлов вида ЗА по 14 зоне Специфиttацлtи Л9 2. В сл\\,чае из\\{енения цены в течение месяца поставки, pacLIeT производится по усреднеtIF]ой цене\n- лоIlа черных металлов вида 3А по 14 зоне Спецификации Nb 2).\n- 4.5. В слr{ае нарушения требований, указанных в л. 2.\\.3 настояrцего коIIтракта, как то: tle },казание или неверное указание номера и даты контракта в )Itелезнодоротtной накладной, вагон выгружается, Товар берется на ответственное хранеFIие до выяснения контраltтодер)I(ателя. Щокументами, удосТоверяюlцими принаДлежностЬ Товара, являются подтверхtдаIоUцие пись\\,Iа контрактодержателя и грузоотправителя.\n- .l..1. При не поставке Товара в течение 4 месяцев от даты заклIочения контракта Покупатель оставляет за собой право отказаться от настоящего контракта с последующим его расторжет;ием в одностороннем внесудебном порядке с обязательным уведомлением Поставщика.\nв случае непредоставления документов, подтверждающих контрактодер}кателя, в теLtение одного календарного месяца от даты поставки, Товар переходит в собственность Покупателя.\n- 4.7. В случае наложения штрафных санкций на Покупателя rкелезной дорогоЙ ввиДу неправильных сведений, указанных в сопроводительных документах, данные штlэафы относятся на счет Поставщика и возмещаются им в бесспорном порядке в ЗO-дневный срок с даТы выставления счета в валюте контракта.\n- 4.6. В случае, когда в я(елезнодорояrной накладноЙ указан номер и дата KotITpaKTa другого Поставщика, Покупатель оставляет за собой право, не дожидаясь выяснения действительного контрактодержатепя, оприходовать Товар под тем номером контракта, который уI(аЗан в железнодорожной накладной. Исправления и переоформления не допускаются. Все разногласI-{я, связанные с неправильным указанием номера контракта, Поставщик с грузоотправителех4 решает самостоятельно, за исключением случаев, когда Поставщик предоставит письменнОе подтверждение неверно указанного контракта.\n- 4.8. В случае поставки Поставщиком в адрес покупателя Товара не Российского происхождеI]ия, Поставщик обязан возместить в бесспорном порядке Покупателю сумму всех затрат, связанных с таможенным оформлением поставки, а также сумму всех платежей и экономиLIеских санкций, наложенных на Покупателя, в ЗO-дневный срок с даты выставления счета в валIоте контракта.\n- 4.9. В случае указания Поставщиком недостоверных сведениЙ в настоящем ](онтракте и отгрузочных документах, повлекших за собой наложение на Покупателя контролируюrцим органом Республики Беларусь экономических санкций, Поставщик возмещает Покупателю взысканные суммы в бесспорном порядке в 30-дневный срок с даты выставления cLIeTa в валюте контракта.\n- 4.10. ПрИ наJIичиИ в одноМ вагоне смешаннОго Товара двух и более видов, весь лом принtIN{ается\nВ случае приемки партии Товара, заявленной габаритными вида\\{и лома (1А, 2А, ЗА, 3А-1,\n- и оплачиВается по цене низшего вида, имеющегося в вагоне, независимо от процентI]ого содержания разJIичных виliов Товара.\nзА-2,4д) и ее переводе в негабаритные виды (5А, 12А), Покупатель предоставляет Поставциtt1' фотографии Товара, не соответствующего заявленным каLIественным характеристикам.\n- 4.11. В случае выявления поставки Товара, реэкспортированного на территорию Республики\n'\n- 4.|2. В СЛУЧае Выявления некачественного товара (несоответствующего требоваrlлtя\\4 Il)/tIlil.a 2.I .5. настоящего контракта) Поставщик несет ответственность соIласFIо главы 4 кособые\nБеларусь, Поставrцик уплачивает Покупателю штраф в размере 100% стоимости поставки в 3Одневный срок с даты выставления счета в валюте контракта, сама поставка остается без оплаты.\n- условия и имущественная ответственность) контракта.\n- произвести работы по выгрузке и рассортировке поступившего Товара. сметшанного с браком;\n- 4.12.1. В случае выявления некачественного Товара (несоответствующего требованиям пуItкта 2.|.5, настоящего контракта) Покупатель предоставляет Поставщику фотографии некачественного товара, а также остатков засора в вагоне перед за.lисткой и в соответствии с пунктом 5.1. контракта в одностороннем порядке по своему выб��ру вправе:\n- возвратить в адрес Поставщика вагоны с товаром;\nВсе затраты Покl,пателя (за исклюLIением затрат, связанных с FIалиLIL{еN,I I] вагонах чугунного лома), связанные с поставкой некачественного Товара, в T.aI. выгl])/зка, перевеска, рассортировка, зачистка вагона, ж.д.тариф, таможенные сборы и пошлины, доста1]]ка отходо]] Har полигон, неустоЙка за простоЙ вагона собственности/аренды Покупателя в размере 1080 российских рублей (НДС не облагается) в сутки, в ваJIюте контракта по курсу на дату рассортировки (нормативное время нахождения вагона под рассортировкой - 5 cyTott, начиная с даты информирования Поставщика о выявлении некаLIественного товара, срок пlакси\\fальI]о возможного простоя вагона на территории под рассортировкой 10 суток, наLILIная с даты информирования Поставщика о выявлении некачественного товара), при возврате вагонов железнодорохсньтй тариф по прибытиIо и отправлению, захоронеI]ие отходов, свяIз?]IнIэIе с\n- -прекратить выгрузку Товара, принять выгруженный Товар, соответст]]утоl\\_ций требованиям настоящего контракта, составив на него Акт приемки, оставшуIося tlacTb Товара ненадлежащего качества возвратить в адрес грузоотправителя (Jtибо иного лица, указанного Поставщиком).\nустранением чрезвычайной ситуации (ее лиltвидации) относrIтся на Поставщика.\n- 4.12.2. При выполнении работ производственного характера по дополнительной перевеске, зачистке, маневровой работе и т.д. датой совершения хозяйственной операции по выставлеI-ltlоI\\,lу первичному учетному документу (акт выполненных работ) является дата подписания указанного акта Поставщиком.\nСогласование и оформление актов выполненных работ осуществляется ме}кду Покl,ttате:rепt и Поставщиком путем пересылки документов по электронной по.tте. Стороtlы согласил[Iсь, LITo документы, полученные по электронной связи, имеют юридическую силу и приравниваlотся к оригинальным документам с последующей их заменой оригиналами.\nПоставщик производит оплату в срок не позднее З0 календарных дней с момента\nвыставления счета-фактуры оформленного на основании подписанного по электронной по.tте акта выполненных работ в ваJIюте контракта.\n- 4.|2.З. При возврате вагонов с некаLIественным Товаром на ПоставщиI(а относитсrI Hellc1g;r,l au простой вагона собственности/аренды Покупателя в размере 1080 российских рублелi (FIffС гlе облагается) в сутки (нормативное время оплачиваемого Поставщиком нахождения вагоIIа tla территории Покупателя - 5 суток, начиная с даты прибытия вагона Покl,ц;l1gлIо на cTaHT\\_II,I]o назначения по данным системы ЭТРАН).\n- 4.12.4, Покупатель предварительно письменно информирует Поставщика о стоиN,Iости оказываемых услуг (рассортировка, зачистка вагонов, выгрузка негабаритного груза и про.rее) и их изменению.\n- 4.13. В случае неоднократной поставки Поставщиком Товара (от одного грузоотправ1.Iтеrlя с\n- определенной станции отгрузки в течение месяца), несоответствуIощего условиям, предъявляемым контрактом, ТНПА к качеству Товара, Покупатель вправе BыIlec1,I4 предупреждение по данному грузоотправителю с необходимостью предоставле}Iия корректирующих мероприятий по форме BD.\n- В случае повторного выяЪления случаев поставки вагонов с м/ломом, несоответствуIоlцего\n- требованиям контракта, ТНПА от грузоотправителей, ишtевшим предупреждение, а TaK)I(e в случае поставки с грубьши несоответствиями (нали.Iие взрывоопасIIого лома, легковоспJIаменяющихся веществ, наJIичие цветных метаJIлов и сплавов и т.п,) усJlовиям, предъявляемым контрактом, ТНПА к качеству Товара, Покупатель оставляет за собой право\n'\nПри возобновлении поставок металлолома от Поставrцика, доп).стившего FIарушениrl, Поставшltlк производит оплату за 100% контроль метаJтполома (партия не более З-х вагонов, суll{N4арно не более 10 вагонов) в срок не позднее 30 календарных дней с момента выставления cLIeTa в валIоте контракта.\nвременно откzваться от поставки м/лома от конкретного грузоотправителя. Для возобновления отгрузки Поставщик совместно с груЗоотправителеМ обязан предоставить корреIiтирующие N{ероприятиЯ (письменно) rrО форме 8D, направлеI]ные на исклюLIение поставок Toвap:r, несоответствующего требованиям ТнпА, одобренные и принятr,lе Покупателе\\4.\n- 4.14. В случае несоответствия поступившего Товара ГОСТ, ТУ по специфиIсации\n- 4.15. При поставке радиоактивного м/лоп,lа вагон возвращаетсrI в одностороннеNI порядке с отнесением всех затрат на Поставщика. При поставке в вагоне взрывоопасного металлолома (в том числе бывшего военного потребления и сосудов под давлением) не соответствуIощего требованиям безопасности, Покупатель извещает об этом Поставrцика, и Поставщик уплаLIивает Покупателю штраф в ва]Iюте контракта в следующих размерах:\n- даFIного КОнтракта Покупатель не оплачивает Поставrцику стоиl\\,Iость отбракованного Товара. Покупатель извещает Поставщика о наJIичии отбракованного Товара ]] пост)iпившей 1lартLlи. ГIоставrцик Обязан известить Покупателя о направлении своего представителя для совместIIого решениrI Вопроса по приемке партии Товара в рабочие дни - не позднее 1 рабочего дня с \\{омента уведомления, в выходные дни и прiвдничные дни - в первый рабочий день (следуtощий за выходными и праздничными) с момента уведомления. ПисьменноЕ подтверждение Поставu(ика должно быть предоставлено в течение одного рабочего дня с момента rtоJlуL]ения извеtцеFIия. Неполучения ответа на извещение в вышеуказанный срок дает право ПокупателIо осуществить приемку фактического количества поступившего Товара со снятиеN,{ с веса отбракованI]ого Товара самостоятельно. Отбракованный Товар не возвращается, При отсутствI,II,I ответа от представителя Поставщика о согласовании даты совместноЙ приемки в трехдневныЙ срок с латы отправки уведоNIления, а также неявки в указанный срок, согласованный обеимлI стоl]онами, приеl\\,1ка IIроизводится Покупателем в одностороннем порядке, Акт о приемке, составленный Покупателем, является обязательным для обеих сторон.\n- при обнаруя&lt;енйи в вагоне авиационной бомбы, морской мины, торпеды&gt; ракеты или\n- при обнаружении в вагоне артиллериЙского снаряда калибром от 76 MNI и больше,\n- предмета с содержанием взрывчатого вещества свыше 16 кг - сумму эIсвивалентную 250 000 россиЙских рублеЙ за кa&gt;кдуIо обнаруrкенную единиц)/, плIос заrтраты на pacco]]1,!Il]ol]lt)/ металлолома;\n- противотанковых мин, миномётных мин с содержанием взрывLIатого вещества от 0,5 до 16 кг сумму эквивалентную 90 000 россиЙских рублеЙ за каждую обнаруженную едиI-{ицу, плIос затраты на рассортировку металлолома;\n- при обнаружении в вагоне баллонов с неизвестным содержимым, гидравличесltих\n- при обнаружении в вагоне артиллерийсttих снарядов 1\\,{енее 76 мп,t, ручtJых гранат, противопехотных мин, артиллерийских и авиационных взрывателей, с содержаниеN,I взрывчатого вещества до 0,5 кг - сумму эквивалентн}то 50 000 россиЙских рублей за кarкдую обнаlэутсенrтую единицу, плюс затраты на рассортировку метаJIлолома;\n- цилиндров различньж форм и размеров (более 1 метра), кроме автомобильных аN4ортизато]]оi], пакетов с запрессованными взрывоопасными предметами - сумму эквивалентIJlzlg 40 000 россиЙских рублеЙ за каждую обнаруженную единицу, плюс затраты I-Ia paccol]Tl{\\_polзKy металлолома,\n- металлическими материаJIами (земля, бетон, песок) - сум\\,{у эквивалентнуIо 60 000 российских рублей за каждую обнаруrкенную единицу, плюс затраты на рассортировку \\,Jеталлолома,\n- при обнаружении в вагоне ёмкостеЙ, пакетов с умышленно запрессованными внутрь не\n- -при обнарутrении в вагоне газового баллона не отвеLIающему требованияlt,t\n- взрывобезопасности, не разобранного агрегата заполненных )Itидкостыо, закрытых ёмttостей (более 0,5 метра в одном измерении), кроме огнетушителей, - сумму эквивалентнуIо 20 000 российских рублей за кdждую обнаруrкенную единицу, плюс затраты на paccopTlipoBкy металлопома;\n- при обнаружении в вагоне железнодорожных деревянных шпал - сумму эквивалеI]тI-IуIо 1 500 российских рублей за каждую обнаруженную единицу, плIос затраты ITa рассортироRку металлолома;\n'\n- при обнаруя&lt;ении в вагоне емкостей с алюминиевой пудрой -\n- прИ обнарутrении в вагоне автомобильных амортизаторов, гидравлиLlеских цилиндров менее 1 метра, закрытых емкостеЙ менее 0,5 метра в одноМ измерениИ, огнетушИтелеЙ - cyl\\4yy при обнарухrении 1-3 единицы эквивалентнуто 1 000 российских рублей за каждую обнаруженную единиЦУ, сумму при обнаружении 4 и более - 20 000, российских рl,блей плк)с 1 000 российских рублей за каждую обнарутtенную единицу, плIос затрzrl.ы FIа рассортировку металлолома;\n- суN,rму эквивzUIелIтLIую 10 000 российских рублей на партию товара, плюс затраты на рассортировку металлолоN{а;\n- -ПРИ ОбНаружении в вагоне закрытых емкостеЙ (банок, аэрозольных баллонLIиков с НаJIИЧИеМ остаТков краски) от 20 шт. сумму эквиваJтlентнуIо 10 000 россиЙсttих рублей на партию товара, плюс затраты на рассортировку метаJIлолома;\nШтрафы за поставку взрывоопасного лома выставляIотся в валIоте ltoнTpaкTa IIо Kyi]cy на ДаТУ СОСТавления акта обнаружения. Также Поставщик возмещает Покупателю все понесенные расходы, связанные с устранением чрезвычайной ситуации (рa ликвидации), утилизации, выгрузкоЙ, перевескоЙ вагона, доставкоЙ отходов на полигон, rlользованиеN,I ваго}lом (в т.ч, неустоЙку выставленную железноЙ дорогоЙ), захоронением отходов, а TaIoKe таможе��ные сборы и ПошЛИны, ж.д. тариф и пр. Срок оплаты - не позднее З0 калеr:дарI]ых днеli с д{омен,Iа выставления счета в валюте контракта.\n- 4.15.1. В слl^rае вьшлаты Поставщиком штрафов и пени, предусмотренньD( }Iастояшим договорох{, Поставщик удерживает налог 20О/о и )шлачивает его в бюдrкет РоссиЙскоti Фелерации в cooTBeTcTBtl]] с законодательством Российской Федерации.\nСогласно статье 18 СоглаттlениJI мещду Правительством Российской Федерации и Правительсlвом Республики Беларусь от 2i.04.1995 \"Об избетtании двойного налогообложения и предот]]l]ащеLl.tlи },кJIонения от )цIлаты наlтогов в отношении налогов на доходы и имущество\" при выплarlе штрафньж санкциЙ, предусмотренньD( настоящим Контрактом, кСТОРОНА&gt; ис.rисJuIет и удерживает нztлог с дохода, поJtученного другой (СТОРОНОЙ&gt; от источников в Российской Федерации/ Республиlси Беларусь, в размере, предусмотренном национальным наJIоговьIм законодательство^,{ (СТОРОНЫ), удерх&lt;ивающей на,тог.\nкСТОРОНА&gt;, удержавшаJI и уплатившаJI налог в бюджет Российской ФедерацииДеспублиrtи Беларусь обязана предоставить в течении 90 (девяносто) календарньD( дней от даты оплаты штрафов и пени письменное подгверщдение и документы (копия налоговой декларации с подтвер)Itдением ее прин,IтиJI налоговьIм органом, налоговьй расчет о с}ммах вьшлаченньIх иностранньIм организациям доходов и удержанньD( налогов, копиrI плате)Itного пору{ения подтвер)цающего факт 1тлаты наJ]ога в бЮдiкет), из KoTopbD( следует, что соответствуIощаlI сумма.налога удержана и yttJlaLIcHLl источником вьшлаты.\n- 4.16. Соответствующие кИнструкции на отправку вагона в порожнем состояlIии) пl]и пocTal]I(e Товара по п.З.2.З, настоящего контракта от Поставщиrса иlили Компании-опера,I,ора (экспедитора, агента и т.п.) должны быть предоставлены Покупателю в рабо.lие дни не позднее 3 (трех) суток до момента прибытия вагона на подъездной путь Покупателя на следующие e-nrail: cёr,gqJd9@bщa$Q,|,nel.b}z, ecl у, 9\\_9рд!Зф]цZ,gац:сl.t]J1.\n- подъездном пути Покупателя более трех суток с момента выгр)/зклI по ftl]иLl],llle не ПРеДОСТаВПения инструкции на отправку порожнего вагоFIа, Покупатель оставляет за собоti llpaBo ВысТаВить Поставщику неустоЙку за задержку подвl4жного состава на подъездllом lly,r,ll ПокУпателя в валюте контракта (по курсу на день возникновения неустойtси) сумп,rу Эквивалентную 1080 (тысяча восемьдесят) россиЙских рублей (НДС не облагается) в сутItи) начиная с четвертых суток нахождения вагона на подъездном пути Покупателя.\n- 4.|'7, В случае простоя вагона иных собственников, при поставке Товара по п.З.2.3., r-rа\n- 4.|7.|, Покупатель обеспечивает нахождение вагонов иных собственников, прtlвлеLIенных Поставщиком, на путях общего иlили не общего пользования на станции назнаLIенIIя не более 5 (пяти) суток, Время нахождения исчисляется с даты прибытия (дата календарного штеNtпеля в графе &lt;Прибытие на станццю назначения&gt;) и по дату отправленлtяr (дата калеl,lлаl]ttого штеN4пелrt в графе кОформление приема груза к перевозке&gt;) пороrкнего грузового вагона из-под выгрузки. На инфраструктурах, отличньIх от ОАО (РЖД)) и расположенных за пределами РФ -на основании информационных отчетов (сообщений) экспедитораиlили электронных баз ГВЦ ОАО (РЖД) ИВЦ )tА и.т.д.\n'\n- 4.18. В случае возникновения у Покупателя дополнительных затрат, не предусмотренных\n- НаСТОЯЩИМ КОНТрактОм и связанных с оплатоЙ IIорожнего пробега по территории Республики Беларусь собственных/арендованных/привлеченных вагонов Поставщика использованных лJtя поставки товара Покупателю при их возврате в Россию, Поставщик обязуется возместить I4x Покупателю. Основанием для возмещения указанных затрат является выставлегtный Покупателем счет в валюте контракта (по курсу Национального Банка Республики Беларусь l].t дату отгрузки порожнего вагона). Срок оплаты - не позднее З0 каJIендарных днеЙ с MoMe}lTa выставления счета.\n- 4.19. Оплата железнодорожного тарифа груженого рейса вагона по территории Российской Фелерачии осуtцествляется Поставщиком. Оплата железнодоро)Itного тарифа груженого рейса вагона по территории Республики Беларусь осуrцествляется Покупателел,t. Оплата железнодорожного тарифа порожнего рейса собственного вагона Поставщика иlили его Компании-оператора по территории Республики Беларусь осуществляется ПоставщиltоNI, либо его Компанией-оператором (экспедитором, агентом и т.п.). \\\n- 4.20 Покупатель информирует Поставщика о не предоставпении,\\ отсутствии кИнструкцJ,1]4 на отправку вагона в порожнем состоянии&gt; в рабо.rие дни посредством электронной гto.lTb].\n- 4.21 Счета и подтверждающие документы (актьт выполненных работ, протоколы и пlэочие) для возмещения Поставrциком затрат, штрафньж санкций, неустоек, предус\\lотl]енFIых в настояще\\t контракте, предоставляются Поставщику посредством электронной почты не позднее 5 рабочих\nНачис-.tение штрафов, пеней, компенсаций, вынесение предупреждений, объявлеrтие\n- дней с даты выставления счета с последующим предоставлением оригина-па.\nзапрета поставки являются правом, а не обязанностью сторон.\n- 4.22 Отсрочка (рассрочка) оплаты по договору, предоставляемая ПокупателIо }Ie яl]Jlrlе,гся ко\\1}Iерчески]\\{ займом, проценты с сумN{ы, на уплату которой предоставIIена о,гсроLIка (рассрочка), оплаты, не взимаются.\n- 4.23. Покупатель приобретает право собственности на Товар с момента оформления ArtTa приеlчIки и передачи ему Товара Поставциком. Право заJIога на Товар до полной его оплаты Покупателем у Поставщика не возникает. Покупатель вправе распоряжаться переданныL,I по настоящему контракту Товаром без ограничений, и Товар не считается находяtr(и\\{ся в залоге у\n## 5. Приемка товара по колиtIеству lI KatIecTBy.\n- 5.1. Поставляемый Товар доля(ен соответствовать требованиям ГОСТ, ТУ и условиям контракта. Поставка Товара, не предусмотренного ГОСТ, ТУ мотtет производиться только с пl.{сь]\\4еI]Ilого согласия Покупателя и с оформлением дополнительного соглашения к настоящему контракту. В случае поставки Товара не соответствующего требованиям ГОСТ, ТУ и (или) условI,IrIN,{ контракта в отношении качества Покупатель извещает Поставщика о выrIвIIеFII]оNI несоответствии не позднее суток в рабочие дни с момента обнаружения несоответствия. в выходные и праздничные - в первый рабочий день. Письtt,{енное подтверItдение Поставщика должно быть предоставлено в течение одного рабочего дня с момента полуLIения извеще}Iия. Неполучение ответа на извещение в вышеуказанный срок дает право ПокупателIо осуществ],Iть приемку Товара в одностороннем порядке по факту согласно пуЕкта 4.12. контракта.\nВ случае ожидания прибытия представителя для совместной приемки забракоl]аFIного вагона, Поставщик оплачивает не позднее 30 календарных дней с момента выставлеllиrt cLIeTa в валюте контракта все затраты за пользование вагоном.\nЗасоренность безвредными примесями снимается с веса в соответствии с ГОСТ, ТУ. Щля\nбрикетированной струпки засоренность снимается по фактическим результатам лабораторltых испытаний. Определение засоренности вторичных черных металлов безвредными пl]имесям}l и маслом выполняется согласно ПТИ 840-ЦЗЛ-72-20\\1 .\nПри наличии в вагоне после выгрузки остатков ранее перевозимых грузов, длrI тоLlfIого\nопределения веса остатков ранее перевозимых грузов вагон дополнительно провеши]]ается) в T.Ll. и тара порожнего вагона пdсле зачистки (в независимости от указанной тары поро)кнего вагона в документах) с оформлением акта общей формы с последующим снятием засора с веса м/rrома и с учетом провешенной тары у Покупателя.\nЗатраты, связанньlе с выгрузкой, рассортировкой, дополнительной перевеской, MaHeBpoBoti работой и зачисткой вагонов с металлоломом с нарушением ГОСТ 2781-2019, а TattlIte затраты }la\n- Поставщика.\n'\nего переработку и утилизацию относятся на поставщика, как дополнительная усJIуга, оказываемая на ОАО (БМЗуправляющая компания холдинга (БМК).\nОснованием для выставления затрат по зачистке вагонов с остатками ранее перевозил{ого груза (земля, мусор), выявленного после выгрузки- является акт общей формы.\nОснованием для выставления затрат по рассортировке и выгрузке вагонов является карта учета метаJIлолома, имеющего отклонения от требований ТНПА с соответствующиN4 реt]lениеN,I, акт выгрузки и рассортировки п/вагона несоответствуIоlцего ТНПА.\n- 5.2. Приемка Товара по количеству осуществляется по результатам взвешиваI]иrt на весах Покупателя и отра}кается в Акте приемки. Акт перевески, оформленный Покупателем, обладает юридической силой для обеих сторон.\nэлектронной почты, фотографии верха загруженного вагона.\n- В случае возникноВения расхоrкдений в весе (более З,0 тонн) Товара межд)/ ЗаяВЛеl{I]ыNl В сопроводИтельныХ докуN{ентаХ и фактиЧескиМ aKToNт перевески, Покуltатель по зап]]осу Поставщика фотографирует погруженный верх вагона и уведомляет Поставщика (представителя поставшика), с последующим предоставлением не позднее суток в рабочие лни с момента обнаружения несоответствия, в выходные и праздничные - в первый рабочrlir день rlосредс,гвод4\n- 5.3. Систепла управления качеством Поставщика должна быть направлеI]а на соответстt]ие требованиям стандарта системы менедж]чIента KaLIecTBa ISO 900i-2015. Поставщиtс обязан ознакомиться С документами, размещенными на внешнем сайте оАо кБмз - управJIrIющаlя компания холдинга кБМК&gt; щчдц,Ьсэlstееl.gQцl. Относящимся к бизнесу: Itорпоративной Политикой, Этическим кодексом, Политикой устойчивого развития, Кодексом ответственFIого поставщика, ежегодным социаJIьным отчетом, сертификатапlи на систеluы менеджмеt]тtl, Руководством для поставtцика (РКП). Поставщик обязуется выполнять требования, регламентированные РКП.\n## 6. Форс-мажор.\n- к обстоятельствам непреодолимой силы относятся события, на которые сторона не может оказать влияние и за возникновение которых не несет ответственностИ (землетряСения, наводненИя, пожарЫ и др.). К обстоятельствам, освобождаIощим стороны от ответственности, относятся также забастовки, правительственные постановления или распоряже}rия государственных (правоохранительных) органов, а также иные непредвиде}Iные обстоятельства.\n- 6.1. Стороны освобождаются от ответственности за частиLIное или полное неисполнение обязательств по настоящему контракту, если неисполнение явилось следствием обстоятельств непреодолимой силы, возникших после заключения контракта в результате событрtli чрезвычайногО характера, которые сторона не могJIа I]И предвидеть, ни предотвl]tlтl{ть разумными мерами.\n- 6.2. Сторона, ссылающаяся на такие обстоятельства, обязана в теLIение 5 (rrяти) днейl В письменной форме информировать Другую сторону о наступлении подобньж обстояl,ельств. причем по требованию другой стороны с наступлением подобных обстоятельств должен бытт, предъявлен подтверждающий документ, выданный Торгово-промышленной палатой со ответствуюIцего государства.\n- б.4. После прекращеНия действИя указаннЬш обстояТельстВ сторона обязана в теLlение 5 (пятr,r) дней сообщить об этом другой стороне в письменной форме, указав при этом срок, к котороп4у предполаГаетсЯ выполнитЬ обязательства. ЕслИ сторона не направиТ или lIecBOeBPe]vIeHHO \"irrpuu\"' необходимые извещения о начале и (или) окончании форс-мокора, то она обязана\n- б.3. Сторона, которая не может из-за обстоятельств непреодолимой силы выполнить обязательства по настоящеМу контракту, должна с учетоМ положений ttoHTpaKTa приложIlть все усилия к тому, чтобы как можно скорее компенсировать невыполнение.\n- возместитЬ другоЙ стороне причиненные этим убытки.\n- б.5. В случае возникновения обстоятельств непреодолимой силы срок выполнения обязателlьств по настоящему контракту отодвига9тся соразмерно временИ, в теLIение котоl]ого действуlот такие\n- обстоятельства и их последствия.\n- б.б. Если обстоятельства непреодолимой силы продолжаIот действовать более 90 (левяноста) дней и нет возможности сделать обязательное заявJIение о дате их прекращения в теLIение более шести месяцев, то каждая сторона имеет право расторгнуть настояrтdий контракт в\n'\nодносторОннем внеСудебноМ порядке с письмен ым уведоМлением об этом другой cTopoнbl за 20 (двадцать) дней до даты расторжения контракта.\n## 7. ГарантиlI ItatIecTBa II претеIIз[Iи.\n- 7.|. Поставщик гарантируеТ выполнение всех обязательств, указанных в ItoHTpaKTe и относящихся к качеству и количеству товара.\n- 7.2. Претензии могут быть выставлены в отношении:\n- -выполнения данного контракта.\n- -качества товара - в случае несоответствия его требованиям Гост, Ту и дополнительным требованиям контракта;\n## 8. Арбuтраlк.\n- 8.1. Все споры, разногласия или требования, возникающие из настоящего контракта или в связи с ним, В том числе касающиеся его исполнения, нарушения, прекращения или недействительности подлежат рассмотрению в экономическом суде Гомельской \" области в соответствии с материаJIьным правом Республики Беларусь. \\\n## 9. Прочllе условIlя.\n- 9.1. Контракт вступает в силу с момента подпис ния и действует в части поставок по З 1 .01 .2О24г. (по дате отгрузки), в части расчетов - по 29.02.2024г.\n- 9.2. Все изменения и дополнения к контракту, равно как и к спецификации, оформлятотсrI путем подписания сторонами дополнительных соглашений.\n- 9.3. Стороны обязуются исполнять условия, оговоренные в Прилолtении ЛЪ 2.\n- 9.5. ВСе переговоры и переписка, предшествующие подписанию J(o}ITpaKTa считаIотся недействительными с момента его подписания.\n- 9.4. Ни одна из сторон не вправе передавать свои права и обязанности по liоIlтраttту третl,ей стороне без предварительного письменного согласия с другой стороны.\n- 9.б. Сторонами признается воспроизведение подписей и пе.rатей посредством электроtIFlых средств связи (факс, электронная почта и др.),\n- 9.7. Стороны в ЗO-ти-дневный срок с момента подписания контракта обязуются обп,rеняться\n- Контрактом (со всеми приложениямиидополнениями) с оригинальными подписями, пеLIатяNIи.\n- 9.8. Контракт составлен в 3-х экземплярах, имеIощих одиFIаковуIо силу.\n## 10. Юридические адреса и реквизиты сторон:\n## 10.1. Покупатель:\nБанк Покупателя:\nОткрытое акционерное общество кБелорусский металлургический завод - управляющая компан ия холдинга &lt;Белорусская металлургическая компан ия) 2412|0 г. Жлобин, ул. Промышленная,З1 унн 400074854, окпо 04718711, отгрузочные реквизиты: ст. Жлобин Бел. ж.д. код 155004; получатель: БМЗ код 3437\n## ОАО (АСБ Беларусбанк&gt;&gt;\n220089, Республика Бел арусь г. Минск, проспект..Щзерlкинского, 1 8\nунп l00з25912\nSWIFT: AKBBBY2X\nOpen Joint Stock Сопрапу \"Byelorussian Steel Wolks - nanagenent cornpany оf \" Bye1olussian Metalhlrgical Соmрапу\" holding\" (O.rSC \"BSW - шапаgеmепt compally of \"ВМС\" 1roldirrg\" 241210 ZhIobin, Веlагlts, Ргоmуslrlеппауа stг. З7\nВе lагLrsЬап |&lt; 2200В9, RepLrbIic of Веlагtrs, Millsl&lt;, Dzегzh i пsl&lt;у ave., 1 8 LINP l00з25912 SWIFT: AKBBBY2X\nдля банкri'вскttх пепевоdов в ooccttйckltx tlч(lллt-у IBAN: Полчrtпплель ttлаплеlrcа ОАО кБМЗD - ущ)пвл.rllошцая l&lt;o.Ltt7ъt!Ir.я холit.ttпrt &lt;&lt; Б МК&gt;, z)I{ло б u н, vл. Пtl олl bt tцле н нпя, 3 7 вY85 Аквв 3012 0038 8050 6320 0000\n## 102. Поставщlш:\n## БашсПоставIщmа:\nБик 0440з0790 KBANK (SAIN'T- PETERSBLIRG)) PJSC, ВгапсIr Nm,vskv, ST.PETERSBUI].G, prospect Stachek 47 litега Е, RUSSIA к/о 30 1 0 l 8l 0900000000790 р/с 407028 l064500000? 1 04 SWTFT: JSBSRU2P\n<!-- image -->\n.lJo/il\nОАО'ЪСБ Беларусбанк\", г, Минск, Республпка Бе.,rарусь унп 100з25912\n## Баuк-по.пlгrатель:\n## SWIFT: АкВВВY2х\nк/о 30l I 181070000000006З\nПАО Сбsрбавк, г.Мооква РФ (SBERBANK, MOSco,W, RUSSIA) Бик 044525225, инн 770708з89з\nк/о З0 1 0 181 0400000000225\nДя ОАо ((БМЗ&gt; - управпяЮщая кL)1\\,1паниlI холдинга кБМК&gt; ..,за .,.по догOtsору }ф ..\"от..., по счN!... от..,\nв ГУБщrка России по LIФО, SWIFT: SABRUlvlM\nООО &lt;Торговый ffолr БМЗ&gt; 198097, г. Сыrкг-Петербург, РФ проспект Стачеit, 47 кА&gt; инн 610103444в кпп 78050100i окпо 706?9128. огрн 10з61010061?1\nLirnfte,l Liability Соmрапу BMZ Trading House (L.L.C. BMZ Trading Horrse) PROSPECT STAсHEK 47л ST-PETERSBURG RUSSh\nГIАО КБАFК САНКТ-ПЕТЕРБУРГD Г, САНКТ-ПЕТЕРБУРГ ,Щополн кI-Iарвокийr&gt; г, Санкт-Петербург tgво9т, ербург, пpoclleR,T Стачек, д.47, лlттер Е\n11окупатель:\nзапrеститель гсн д{ректорtl\nБориков\n## Ilодпlлсlt сторон:\nПоставпцтк: Заместитель директора по ВЭВ\nПО КОМА еским воиросам\nOB\nобласть\n<!-- image -->\n<!-- image -->\n?\n## приложЕниЕ J\\i1 к конТРАкТУ лЪ 2201538'7 от 2'7.12.2022г.\nОАО (БМЗ - управляющая компания холдинга кБМК&gt;\nг. Жлобин, ул. Промышленная, З7\nАКТ ПРИеМки металлолома при доставке железнодорожным транспортом N\nll ll 20 г.\nПокупатель (ломополучатель)\nунп\n(наименование)\nБанк\n(наименование, р/счет, МФО, адрес)\nПоставщик (ломосдатчик)\n(наименование)\nинн\n(область, район)\nБанк\n(наименование, р/с, МФО, адрес)\nГрузоотправитель\nСтанция отправления\nОбласть отправления\nЗона отгрузки\nЩата отгрузки\n,Щата прибытия\nВагон N\nЖелезнодорожная накладная\nВес при отправлении\nпри перевешивании\nУдостоверение о взрывобезопасности,\nбезопасности от N\nхимической и радиационной\n20 г.\nБрутто,\nт\nТара\nт\nНетто\nт\nВид\nлома\nЗасор,\nо/\n/(\nВес\ncoDa\nЧистый\nвес, т\nIJeHa за\n1 т, вал.\nСумма,\nв вал.\nИтого\nИтого\nНе принято по причине\nт.) в т.ч.\nОбоснование цены: контракт NЪ Спецификация NЪ от от\nПримечание: письмо NЪ\n(заполняется в случае подтвер}кдения номера контракта (договора) при его отсутствии либо неверном указании в товаросопроводительных документах)\nПринял\n(подпись)\n(И.О.Фамилия)\n(тел.)\n11\n11\nOT\nСтатья 1,\nПри кспоJIнепии своих обязателъств по настоящему Щоговору, Сторопът, их аффилированЕые пцца, работIIпки иJIи посредники не вьшлачивают, 1{е предпагшот выплат]-1ть и Ее разрешают выплату каких-лнбо денежЕых средств ил}I ценностей, пр\\_ш{о I{\\_r-Iи косвенЕо, .тпобьпt ЛИЦZlIчl, дJUI оказания влияния на действияил.и решения этих IIиц с целью поJI}'ЧIIТь какиелмбо неправомерные IреIIIчryщества лIлIл иные неправомерЕьlе цели.\nПри испоJшении cBol{x обязательотв по настоящеil{у ,Щоговору, Стороltы, их аффиrrироВанные rпrца, рабоТники иJп.l посреднI.IкИ нв осущвсТвляютдействия, квалllфицируемые шрименимЬЕr длЯ целеЙ настоящегО Щоговора закOЕодате;rьством, к}к дача / поrrучепllе взяткtт / посредничсство во взяточничестве, прLlfIятлIе незаконного вOзнагражд9ния, компtврчеокliil подкуп, а также действия, Еарушающие требоваrrия црIlrl{еIJимого закOЕодатеJIьства It LIежд,народных zuстоЕ о прот}Iводействии JIегаJI}Iзациш (отлtываrrиlо) доходов, поrrу'rlgЦrr]Х преступньп{ rгутем.\nВ слгrтае воз}IикноввIIия у Стороньт подозревIтй, IIто произошло l{лI,i мOжет проllзоЁIти нарушен!Iе какrа,х-либО полояtениЙ настоящеЙ Статьн, соOтветстВ)IIощаJI Сторова об,язусэ,гс.rl уведоýlить друryю Сторону в циQъIuенной форме. После ПиOъIчIеII}IоГо уведомлеIIriя, соответствУющаЯ CTopor,Ia I.IMeeT правО приостаIIоВить испоJIFIение обязательств по настояilIему [оговорУ до поIryчеЁ-рш подтверЖ/f,еНИЯ, что нарушениJI не произошло или не проl,tзоftдет. Это подтверждение доляtно бьггъ направлено в теченLlе деаят]l рабоqих днеt1 с даты направлениJI письý{енного уведо}.tления.\nв письменном уведомJlенlIи Сторона обязана сослаться rra факты илfl IIр9доставить NIатериаJIы, достоверно подтверждающие или дающие основан]{е предIIолагать, что гIроизошло иJIи NIox(eT произойтИ нарушекI{е как}Iх-либО положений настоящей СтатълI коIlтрагентоj\\{, его аффипароВаЕIlымИ JIицаL{!I, работникатrtИ иJIИ ПОСРеДНИКа]чIИ выраiкающееgя в д{ейотвltях, квмифшIИруеI{ьD( прIIме}IимьIМ закоЕодатЁ,rIьсТВо]ч1: каК дача илИ получен]tе взяткt{, коммерческий подкуп, а так}ке деI\"Iств!iях, нарушаюrц}tх требования прlп{епиiVIого законодательства и мождународньтХ актоВ о прOт}IвоДеfiствиИ легализациII доходов, псl\"цученньLч ПРеСТУПНЬlIч{ IIУТеМ.\n## Статья 2.\nВ стryчас нарушения одtтой Стороной обязатегьств воздЁрлtI{ватьL-,я 0т загIрOщсн}IъL\\ в Статье 1 настоящслi Оговорки деЙствIlЁ.I лllипи пепOлучен]ш другой Стороной подтвер}кленi]я, чт0 парушенIrЯ не цро1{зоШло иJlи не пролтзойдет) другая Сторона I]л\\(eeT rц)аво расторг,Irуть договор в одцостороЕном IIорядке полЕOстью .ltflи в части! направIлв письменfiоо уведL-}мJIеш}Iе о расторжении без возмещQния затрат (убытков) по !1сполненIilо обязатфльств по договару фrп.рuкry) дрlтой Стороне. В то же время, Ст,эрона. по чьеft иниIIиатfiве бьш расторгнут яастоящнЙ Щоговор в QоответствЁи с rrоложени-rми настоящей ОговоркЕI, вправе rребовать возмещеlIиJt реашьнOIо уtrlерба, возЕикшого в результате такого расторжен}lя,\nПоставщлrк (Сторока 1)\nПок:упатель (Стороrlа 2\nзаместrлтелъ\nIцпректора заместите\"rtь ге по коммерчееким волросам\ndaH\nрбаков\n<!-- image -->\n<!-- image -->\n<!-- image -->\n## АНТIII{ОРР}ZПЦI,IОFIIJАЯ ОГОВ ОРКА (да-цее - Оговорка)\n<!-- image -->\nф,j .ol бl 4N :N Еёл кЁ эоl -Фtt lп N (\\t ,С| Z F F\n<!-- image -->\n\n=== 130855__041651_25.10.2023__22015387_27.12.2022__.PDF ===\nr. Xftrodus\n$ 2f ,, orcr4sps 2013 rora\nAOJIIKIIW{: OA0 (.tEM3iynp4sJrffr0.rq$*. ,rnoMrr*Strtr rOJrAilHrO (GMIC}' B xmqg lr,o.,3ar'&amp;erl{rerln rsEspatrbEofo Ar4p$ftropa no frsMMepqecKmi[ onp,oeaM B.B:J(oA'ocoBeKotror Asffs'fts) rqero sa oSIIOBA$Ir}I .uonep€ssocru Ns 8R or 03;01.2023r;\nri:rggtOp: OOO r&lt;Toproxlrft florrr sM3&gt;, r. Casim-flenep6ypr s rsqe 3aMecrnrerul AHpelffopa n9-9?I] Il{ep6axoxa llropx grir.iuoloi, ge*crryroqeru na ocsonauxn AoBepesEocrlr J'{b 3 m 01'01'2023r', 3axrrossmt samon$fi AoroBop o Hldft(ecxe.qfiorqeM:\nxgdL{fi,q0fixwffi orrcpuroe $rc4norirbpHss 66trIgcf,snxdestrur$rfilrermflsrfiseBoj$)r.srtr{rlB 3aE{S0Trm$$r- ,rppe6.repa uo trpoHsBCIAsrsy ft csa6xeur,Ilg lllomaxa B.}i., 'qeficr-sylol{ero Ha ocsoBaHsH gpaepslilroctnlfs 1062 m 14'02:2023 rona\n- ;.;bffiG* *r, a lroB[,rft ,tio.rxauan lry]*{ee\" sa c6$s oGsgasxoctn nepBoro no Aorotsopy ua roc.fiffqny rrgug.'Ttlryg MsrarltroB }lb 22015387 ar Tl,l7'201{r, 3aKlroqessoro Mexry nonxfrumCIIrr'1f1dFsglr-Jni;olt r.r crarr,oBrrrcr Aorrlrul*torc rr4 cyuldy 75.000 000'00 (cerv$neorr rrsrb lrLITIJIHoxo-r,00), pocclrft exrx n$net.\n3. n$mrnae so*\"a co s.ruB.osfi}mngfb [O. {{H4{eyget nsralu6so s-rrery,xosm{E flEfis-rsHsvfl.1: E $r.eT norasrsHlllr 3an0{s(Fsn6sr.s:.u€FBfl;A0 sM no aorasopalll c6uta uee.arllouppryK$rn J&amp;,220?0530 ot OZ.inizOAan. * 6eXopyccgln( fl6ff,ffifgg jlo$Iacao n'1- xaoro4uero A'oi'oBopa ro Kypcy H$ pF *u luw *pJq*rxrr*u,'lrbnurviAoxxHrmoM xenercns( swfisrrlcffi.qraropy'\n- Z. Iro sacsosq.ruy sninunB,y HOBbifr AO;IX{HI'1K o6.*ryercx noracarb l{Fpruqglltr. nvreM nsp€l&amp;rcrre1rrg p.[\"r.*ilipy-Fne\\_{ p cyl*ae,ootJtu.Ho n.l uamogruero Aorosopano 04'11J023r'\n4. F teqegxe 1-ro, lrun 0 }d11geg,,ra roAaSCAffifl llaqts6qerg, AoroBope ,&amp;OJn[tIffIIt o6xra$ IlepeAarb HOFOMy nO gfffV tssro Aor(yMeHrauxlor ur xompoft Bsff€xarsr o6s3asuocm' f,BfuuonF'ecs npeguerou Haotoxqero,{oronoPa.\n6. Hacsoswfi aoronop Bcryuaer B cnny c uouegra ilolEdcslrHs ers cropoHaMl4 U lefisrnyer Ao ero noJlIroro Ectrollse$lu, &amp; nMgrll{o ;qo 04i1 1.2023ri\n5. B cnyvae Hesrilrorrsenlrx EoBbIM Ap-\"r${ry51119-tg*T:*-?3i:9,%KPEAgToPoM corilacno ,n.z 4o 04.11g0?t;, m,1-qO\"rrMbnn Eepen HOBbIIvIAOJITKIITIKOM corlta$ro n3:s&amp;crosqers xoronopau AoroFsp tu*erc{ pacm,prnymru, r..$-otrf:lBd3$panlaJore B[eplolra'xallbHoF $il$oxeEm0' Hcuome6se o6ssarer6crs IIOBhfr XOltNdn COtvt neper KpgggfOPOIvI conlacgo n'2 $ogrtspxgaerss- spegocras$s$tn&amp;M B 4sp.pc fro.J$fffiIryA sauope$nh$ ronr* AoK-yl\\{e-HroB banxoncxom lrePeBo,qo.\n- ?. HacroffiHft Eofosop c0c.Ia$le-rr S TpeX n0Mt@,lx,3rceMqtIfll]il( 1Io CIffio.\\{y ,qufl .I(tI)ilAp$ tr3 croppn\"\n9. IOPgAIp1Eirum,t#gcA g;EAIIKQBCI(SE P6'KBI43HT5T: iioiiltm , srrxpnroesrtuuonepno\\_e o6ule$rso &lt;rPeslittnufi nrer'ru3m1fi:,5'&amp;EoAD' Pecrrydrmxa EenaovjB:,Z+Zf0S. fo*edxd;ogn., r.p;enraio. Opy*ou,2ry1ln4000?4166 s OAO &lt;IBAIIK EEJts3s&gt; ;dilswlit::nslgBVzX, BAl.l;BYI3I'ELB 3012 1308 5s04 0022 6000'\n8. Croponaw np*nu*.\" Saxeqtrffiroe Bo9'sporrlB€rygr-1:Tgg u ' uo'rytacef '\n30t0: tl0g00000s00790, p/c 40?02810645CI00002l0{' ;iffi:frm11g'r -oAo &lt;&lt;BMSryupa'rrnroqar rco*rran's xorr'nra (lsMKD, r. xro6nu, yn' rlpouunuxenuax, 3?, vnn +ootil48:s+, lgAirl:'Bygs AKBB 3012 0038 8050 6320 0000 (py6' Po) oAo '3AcB Eena.pyeSarr*ir. r; Msgc6,,Peany6rnna Fe\"uw....g !ISI: AKB'BBYZX, d'.a 30111'910700000000053 Kffiljiibo-b';il;;;; Aft $[,6,, iafiii aoins444$,,]K -r 7805010CI1' 1e80e7, p{b, r. ca$xr' fletepdypr, np, Crase6, ,x, 4?a, n*9-. o* ,aeasnr.\"IIe,ep6iy,1ry11, r. Canm-f,-Ivien6JP:I::'^o{\"* ;,r{ueil;$r t, er-*illi*,il tlrsimq -&amp;gS*pS,yFx rp, Creqe'., n' 47 s'Bur( 044s307e0' r/c\n<!-- image -->\n## .{s)rosoF ffc t ! lr 5€ /1 ilepgFogs AoJrra"}, "evidence_map": {"payment_order_number": ["№041651"], "payment_order_date": ["Дата: 25.10.2023"], "amount_words": ["Сумма и валюта: ДВАДЦАТЬ ПЯТЬ МИЛЛИОНОВ РОССИЙСКИХ РУБЛЕЙ, 00 КОПЕЕК"], "amount_number": ["Сумма цифрами: 25000000.00"], "currency_code": ["Код валюты: 643"], "payer_name": ["Плательщик:ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"РЕЧИЦКИЙ МЕТИЗНЫЙ ЗАВОД\" 247500 ГОМЕЛЬСКАЯ ОБЛ Г.РЕЧИЦА УЛ.ФРУНЗЕ Д.2"], "payer_account": ["Счет: BY13BELB30121308550400226000"], "payer_unp": ["УНП плательщика: 400024166"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: 044030790"], "beneficiary_bank_name": ["Банк-получатель: ОАО \"БАНК САНКТ-ПЕТЕРБУРГ\" ДОПОЛНИТЕЛЬНЫЙ ОФИС \"НАРВСКИЙ\","], "beneficiary_name": ["Бенефициар:ООО \"ТОРГОВЫЙ ДОМ БМЗ\",Г.САНКТ-ПЕТЕРБУРГ,РОССИЯ ИНН:6101034448"], "beneficiary_tin": ["TIN: 6101034448"], "beneficiary_account": ["Счет: 40702810645000002104"], "payment_purpose_raw": ["Назначение платежа:VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ"], "has_deal_registration_number": ["Регистрационный номер сделки:231025/042002/77173"]}, "notes": []}
+AUTO_EXTRACT_RESULT_END
+===================================
+[2026-05-08 13:57:42,300] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): contract_text length=50440
+[2026-05-08 13:57:42,300] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): bic_lookup sender_source=by_swift bene_source=ru_bic
+[2026-05-08 13:57:42,302] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): party_classification={'payer_is_resident': True, 'payer_entity_type': 'юрлицо', 'beneficiary_is_resident': False, 'beneficiary_entity_type': 'юрлицо', 'beneficiary_country_code': 'RU', 'beneficiary_country_name': 'Россия', 'beneficiary_country_source': 'alias'}
+[2026-05-08 13:57:42,304] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): auto-extract from docx used (missing=[])
+[2026-05-08 13:57:42,304] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [START]
+============================================================
+[2026-05-08 13:57:42,309] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 done status=FAIL checks=17
+[2026-05-08 13:57:42,310] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [DONE  STATUS=FAIL]
+  ⏱  elapsed: 0.01s
+============================================================
+[2026-05-08 13:57:42,313] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 FAIL — продолжаем LLM-стадии (no early exit)
+[2026-05-08 13:57:42,313] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): injected phase1_b1_legality status=PASS budget=False
+[2026-05-08 13:57:42,316] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): split B1+B2 routing=nonres (RU) b1_prompt=payment_validator/b1_legality_nonres.txt skip_b1_llm=True (phase1_pass=True force_skip=False)
+[2026-05-08 13:57:42,316] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [START]
+============================================================
+[2026-05-08 13:57:42,319] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_amounts start structured=False attachments=False payload_len=392
+[2026-05-08 13:57:42,320] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_amounts/0) role=system ====================
+
+
+<role>
+Ты — извлекатель сумм и регистрационных данных белорусского валютного платёжного поручения.
+Твоя задача — только извлечь поля.
+Верни РОВНО ОДИН валидный JSON.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК.", "deal_registration_raw": "Регистрационный номер сделки:231025/042002/77173", "payment_details_raw": "Детали платежа", "payer_residency": "resident", "beneficiary_residency": "nonresident"}}
+Поля входа:
+  payment_purpose_raw     — «Назначение платежа».
+  deal_registration_raw   — «Регистрационный номер сделки» (часто содержит разбивку сумм + РНВД / пометку об освобождении).
+  payment_details_raw     — «Детали платежа» (если заполнено).
+  payer_residency         — "resident" | "nonresident" | null (для контекста).
+  beneficiary_residency   — "resident" | "nonresident" | null (для контекста).
+</role>
+
+<output_schema>
+Структура ответа — заполни значения из реального входа, не из примеров промпта:
+{
+  "extracted_fields": {
+    "purpose_partial_amounts": [
+      {
+        "description": "<предмет платежа из текста>",
+        "amount": "<число float из текста>",
+        "contract_number": "<номер договора или null>",
+        "contract_date": "<дата ДД.ММ.ГГГГ или null>",
+        "rnvd": "<РНВД ДДММГГ/ОООООО/ХХХХХ или null>",
+        "rnvd_date": "<дата ДД.ММ.ГГГГ или null>"
+      }
+    ],
+    "deal_registration_number": ["<РНВД или null>"],
+    "deal_registration_exempt": "<true если явная пометка об освобождении, иначе false>"
+  },
+  "checks": []
+}
+Правило заполнения полей элемента purpose_partial_amounts:
+  • Сумма к договору (A1) → contract_number + contract_date заполнены; rnvd=null, rnvd_date=null.
+  • Сумма к РНВД (A2)     → rnvd + rnvd_date заполнены; contract_number=null, contract_date=null.
+  • Inline сумма (A3)     → все четыре поля null.
+</output_schema>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- checks ВСЕГДА пустой массив [].
+- Все три поля (purpose / deal_registration / payment_details) могут быть пустыми. Учитывай это.
+</global_rules>
+
+<extraction>
+
+<purpose_partial_amounts>
+Массив частичных сумм. ≥2 элементов — только если в одном или нескольких из 3 полей явно перечислены ≥2 пар (сумма + предмет/договор). Одна сумма платежа или нет явных частичных → [].
+
+<hard_invariants>
+Применяй ДО любого извлечения:
+
+КРИТИЧЕСКИЕ ПРАВИЛА (применяй ПЕРВЫМ):
+  Частичные суммы (≥2) ВСЕГДА находятся ТОЛЬКО В ОДНОМ из трёх полей: либо все в payment_purpose_raw, либо все в deal_registration_raw, либо все в payment_details_raw.
+  Они НИКОГДА не разбросаны по разным полям.
+  Частичных сумм может не быть — это самый частый сценарий!
+
+  Определение «партиал-кандидат в поле X» — это пара `<число><код_валюты>` в поле X, перед которой НЕТ слов «ВСЕГО», «ИТОГО», «ИТОГ».
+  Числа после ВСЕГО/ИТОГО — это итог, они НЕ партиал-кандидаты и в подсчёте «≥2 пар» НЕ участвуют.
+  Поэтому «ВСЕГО С НДС 0%-9325472RUB» в payment_purpose_raw даёт 0 партиал-кандидатов, даже если число выглядит как сумма.
+
+  Алгоритм выбора поля (СТРОГО по порядку, как только нашёл ≥2 партиал-кандидатов в поле — стоп):
+    1) payment_purpose_raw   → если там ≥2 партиал-кандидатов → берёшь partial ОТТУДА. Другие поля для partial НЕ СМОТРИШЬ.
+    2) deal_registration_raw → если там ≥2 партиал-кандидатов → берёшь partial оттуда. payment_details_raw НЕ СМОТРИШЬ.
+    3) payment_details_raw   → если там ≥2 партиал-кандидатов → берёшь оттуда.
+    4) Иначе → purpose_partial_amounts = [].
+
+  Пример (проблемный): payment_purpose_raw = «...,12153-25 08.10.25.ВСЕГО С НДС 0%-9325472RUB //»
+    В payment_purpose_raw 0 партиал-кандидатов (единственное число — после ВСЕГО). Шаг 1 не сработал.
+    deal_registration_raw = «10000-9217352RUB, 88782 -108220RUB» — 2 партиал-кандидата → берём partial из deal_registration_raw, payment_purpose_raw в partial НЕ ВЛИВАЕТСЯ.
+
+  Сумма ВСЕГДА прилеплена к коду валюты: «9217352RUB», «175000РУБ», «1500USD», «1500EUR» кроме случаев когда она идёт после слов ИТОГ или ВСЕГО 
+  Сумма может идти после дефиса или дефиса и пробела: «-9217352RUB», «- 175000РУБ»
+    Цифры БЕЗ валюты рядом — НИКОГДА не сумма. Это может быть:
+      – номер договора: «03-24/2», «11850-25»;
+      – номер допсоглашения: «ДС 1882», «ДС №3»;
+      – дата: «17.01.24», «24.03.26»;
+      – РНВД: «210728/042002/32777»;
+      – %, КПП, ИНН, счёт.
+    Все они — НЕ суммы. Не брать.
+    Перед суммой стоит «ВСЕГО», «ИТОГО», — это итог. Игнорируй. Примеры:
+    «08.10.25.ВСЕГО С НДС 0%-9325472RUB» — тоже итог. Слово ВСЕГО прилепилось к дате. Пропустить.
+    «ВСЕГО С НДС 0%- 100RUB» — тоже итог. Пропустить.
+    «ВСЕГО С НДС 0%-955100RUB» — тоже итог, без пробела. Пропустить.
+    «С НДС 0%-XXXVAL» без «ВСЕГО» — тоже итоговая строка, пропустить.
+    Запрещено выдумывать сумму из номеров договоров, ДС, РНВД, дат или счетов. Только то, что буквально написано как `<число><код_валюты>`.
+</hard_invariants>
+
+<patterns>
+Сканируй ВСЕ ТРИ ПОЛЯ. В одном из них могут быть суммы:
+  A1) `<id_договора> <дата>[-<сумма><валюта>]` — привязка к договору. id_договора — строка вида «ЦИФРЫ-ГГ» (например «11850-25»). Сумма идёт ПОСЛЕ даты или после номера договора.
+      Пример: «11111-25 01.10.25-9997352RUB».
+      Пример: «1111-25 -9997352RUB»
+  A2) `<РНВД> [<дата>] -<сумма><валюта>` — привязка к РНВД. РНВД это три блока цифр через «/»: `ХХХХХ/ХХХХХ/ХХХХХ`.
+      Сумма идёт ПОСЛЕ РНВД (сразу если даты нет или после даты).
+      Пример: «251028/042002/10000 28.10.25Г -65RUB» → РНВД=251028/042002/10000, сумма=65.
+      Пример: «240315/042002/11111 20.04.24Г-50000RUB» → РНВД=240315/042002/11111, сумма=50000.
+      Пример: «251028/042002/10000-35RUB» → РНВД=251028/042002/10000, сумма=35.
+  A3) Явные построчные компоненты с валютой в скобках: «АРЕНДА (175000 РУБ.) И ЗДАНИЕ (35000 РУБ.)».
+</patterns>
+
+<element_format>
+A1: {"description": "...", "amount": 0.0, "contract_number": "НОМЕР", "contract_date": "ДД.ММ.ГГГГ", "rnvd": null, "rnvd_date": null}
+A2: {"description": "...", "amount": 0.0, "contract_number": null, "contract_date": null, "rnvd": "ДДММГГ/ОООООО/ХХХХХ", "rnvd_date": "ДД.ММ.ГГГГ" | null}
+A3: {"description": "...", "amount": 0.0, "contract_number": null, "contract_date": null, "rnvd": null, "rnvd_date": null}
+</element_format>
+
+<rules>
+- Один tuple = один элемент. N tuples → N элементов. Не сворачивай в один.
+- description: фраза предмета, к которой относится tuple (часто общая, например «ОПЛ.АН.ОБОР.»).
+- amount: число (float).
+- A1 (договор): заполняй contract_number + contract_date, rnvd=null, rnvd_date=null.
+- A2 (РНВД): заполняй rnvd + rnvd_date (если есть), contract_number=null, contract_date=null.
+- Дата tuple нормализуй к ДД.ММ.ГГГГ («01.10.25» → «01.10.2025»).
+- Если ни одного `<число><валюта>` без «ВСЕГО» рядом не нашлось — верни []. Не выдумывай.
+- Один и тот же «ВСЕГО» из purpose / deal_registration / details — не считать дважды.
+</rules>
+
+<examples>
+W1 — единый платёж без разбивки (САМЫЙ ЧАСТЫЙ кейс):
+  payment_purpose_raw = «ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ 7 ОТ 01.01.2025»
+  deal_registration_raw = «Регистрационный номер сделки: 210728/042002/32777»
+  Кандидатов на сумму с валютой нет → Выход: []
+
+W2 — единый платёж без разбивки (САМЫЙ ЧАСТЫЙ кейс):
+  payment_purpose_raw = «ПРЕДОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ ПО ДОГ.КОМИС. 03-24/2 ОТ 17.01.24, ДС 1882 ОТ 24.03.26(УКАЗ 681 ОТ 28.12.2007 П.3)»
+  deal_registration_raw = «Регистрационный номер сделки: null»
+  Кандидатов на сумму с валютой нет → Выход: []
+
+W3 — A1: разбивка по договорам (deal_registration_raw):
+  payment_purpose_raw = «VO10200 //ОПЛ.АН.ОБОР. ПО ДОГ. 33333-25 02.02.25, ПО ДОГ. 44444-25 03.03.25//»
+  deal_registration_raw = «ВАЛЮТНЫЙ ДОГОВОР 33333-25 02.02.25-7000000RUB, ВАЛЮТНЫЙ ДОГОВОР 44444-25 03.03.25-2000000RUB. ВСЕГО С НДС 0%-9000000RUB»
+  Tuples 2 шт. «ВСЕГО ...-9000000RUB» → пропустить.
+  Выход:
+    [{"description":"ОПЛ.АН.ОБОР.", "amount":7000000.0, "contract_number":"33333-25", "contract_date":"02.02.2025", "rnvd":null, "rnvd_date":null},
+     {"description":"ОПЛ.АН.ОБОР.", "amount":2000000.0, "contract_number":"44444-25", "contract_date":"03.03.2025", "rnvd":null, "rnvd_date":null}]
+
+W4 — A2: разбивка по РНВД (deal_registration_raw):
+  deal_registration_raw = «251028/042002/10000-35RUB, 251028/042002/88782 28.10.25Г -65RUB»
+  payment_purpose_raw = «VO10200 //ОПЛ.АН.ОБОР. 11850-25 01.10.25,12153-25 08.10.25.ВСЕГО С НДС 0%- 100RUB //»
+  Разбор:
+    — «11850-25 01.10.25» — договор без суммы (нет `-<число><валюта>` после даты) → tuple НЕТ.
+    — «12153-25 08.10.25» — то же самое → tuple НЕТ.
+    — «ВСЕГО С НДС 0%- 100RUB» — итог → пропустить (пробел перед числом не меняет статус).
+    — «251028/042002/10000-35RUB» — РНВД=251028/042002/10000, сумма=35 (A2).
+    — «251028/042002/88782 28.10.25Г -65RUB» — РНВД=251028/042002/88782, сумма=65 (A2).
+  Выход (2 элемента, A2+A2):
+    [{"description":"ОПЛ.АН.ОБОР.", "amount":35.0, "rnvd":"251028/042002/10000", "rnvd_date":null, },
+     {"description":"ОПЛ.АН.ОБОР.", "amount":65.0, "rnvd":"251028/042002/88782", "rnvd_date":"28.10.2025"}]
+
+W5 — A3: inline в скобках:
+  payment_purpose_raw = «АРЕНДА УЧАСТКА (175000 РУБ.) И ЗДАНИЕ (35000 РУБ.)»
+  Выход:
+    [{"description":"аренда участка", "amount":175000.0, "contract_number":null, "contract_date":null, "rnvd":null, "rnvd_date":null},
+     {"description":"здание", "amount":35000.0, "contract_number":null, "contract_date":null, "rnvd":null, "rnvd_date":null}]
+
+АБСОЛЮТНОЕ правило: если ни в одном поле входа, нет ни одной последовательности `<цифры><код_валюты>` (где код — 3 латинских буквы или слово «РУБ», «USD», «EUR» и т.п. прямо рядом с числом) — возвращай purpose_partial_amounts = [].
+</examples>
+</purpose_partial_amounts>
+
+
+<deal_registration_number>
+deal_registration_number — регистрационный номер сделки (РНВД), формат три блока цифр через «/»: `ХХХХХ/ХХХХХ/ХХХХХ`. Пример: «210728/042002/32777», «251028/042002/88782».
+Он может быть или в deal_registration_raw или в поле payment_details_raw (их может быть несколько)
+Если не нашёл — null.
+</deal_registration_number>
+
+
+<deal_registration_exempt>
+deal_registration_exempt — есть ли явная пометка об освобождении от регистрации.
+true, если в deal_registration_raw или в payment_details_raw встречается одна из формулировок (регистр игнорируй):
+  • «не подлежит регистрации»
+  • «договор не подлежит регистрации»
+  • «не требует регистрации»
+  • «освобождён от регистрации» / «освобожден от регистрации»
+Иначе false.
+</deal_registration_exempt>
+
+</extraction>
+
+
+
+
+
+==================== PROMPT_SENT (b2_amounts/0) role=system ====================
+
+
+[2026-05-08 13:57:42,320] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_amounts/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (b2_amounts/1) role=user ====================
+
+
+[2026-05-08 13:57:42,322] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose start structured=False attachments=False payload_len=203
+[2026-05-08 13:57:42,322] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_amounts) ====================
+
+
+{
+  "extracted_fields": {
+    "purpose_partial_amounts": [
+      {
+        "description": "ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК",
+        "amount": 0.0,
+        "contract_number": null,
+        "contract_date": null,
+        "rnvd": null,
+        "rnvd_date": null
+      }
+    ],
+    "deal_registration_number": ["231025/042002/77173"],
+    "deal_registration_exempt": false
+  },
+  "checks": []
+}
+
+
+==================== PROMPT_RESULT (b2_amounts) ====================
+
+
+[2026-05-08 13:57:42,322] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose/0) role=system ====================
+
+
+<role>
+Ты — валидатор поля «Назначение платежа» валютного платёжного поручения.
+По одному входному полю выполни 3 проверки и верни РОВНО ОДИН валидный JSON.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "VO10200 ОПЛАТА ПО ДОГ.ПЕРЕВОДА ДОЛГА N 23115617 ОТ 25.10.2023Г.,ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ,КОНТР.22015387 ОТ 27.12.22Г.,ЗА ОАО БМЗ УПР.КОМ ПАНИЯ ХОЛДИНГА БМК."}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Структура ответа (заполни из реального входного JSON):
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ЗА БЫТОВОЕ ЭЛЕКТРООБОРУДОВАНИЕ",
+    "purpose_linked_documents": [
+      {"kind": {тип документа}, "number": {номер документа}, "date": {дата документа}, "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT",            "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY",         "status": "OUT_OF_SCOPE", "message": "..."}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B2.PURPOSE_SPECIFICITY: PASS, FAIL.
+B2.CONTRACT:            PASS, FAIL, OUT_OF_SCOPE.
+B2.THIRD_PARTY:         PASS, FAIL, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка.
+- Если payment_purpose_raw пустой — payment_purpose_semantic = "", purpose_linked_documents = [], B2.PURPOSE_SPECIFICITY=FAIL, B2.CONTRACT=FAIL, B2.THIRD_PARTY=OUT_OF_SCOPE.
+</global_rules>
+
+<critical_rules>
+- Используй только текст из входного JSON. Никогда не бери номера, даты, РНВД из примеров промпта.»
+- Если в payment_purpose_raw нет явного номера договора с датой или закона — purpose_linked_documents = [] переходи к шагу <payment_purpose_semantic>»
+</critical_rules>
+
+
+<extraction>
+
+ПОРЯДОК РАБОТЫ: сначала извлеки purpose_linked_documents из сырого payment_purpose_raw, затем вычисли payment_purpose_semantic путём очистки.
+
+<purpose_linked_documents>
+Возвращай ВСЕ найденные документы. Если есть И договор, И нормативный акт — оба отдельными элементами массива.
+
+<kinds>
+• "main_contract"  — «ДОГОВОР», «КОНТРАКТ», «СОГЛАШЕНИЕ», «ДОГ.», «ДОГ» (без точки)
+• "assignment_dut" — «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ»
+• "application"    — «ЗАЯВКА»
+• "statement"      — «ЗАЯВЛЕНИЕ»
+• "ukaz"           — Указ Президента РБ. number — голый: «681», «8», «353»; date — ДД.ММ.ГГГГ или null.
+• "postanovlenie"  — Постановление. number: «392/7»; date или null.
+• "zakon"          — Закон или кодекс. number: «226-З», «146-ФЗ», «НК РФ N 146-ФЗ»; date или null.
+• "other"          — иной нормативный акт.
+(invoice не включай.)
+</kinds>
+
+<rules>
+• kind определяется по ключевому слову в исходном тексте.
+• Кодекс (НК РФ, БК РБ, ГК РФ и т.п.) — это тоже закон (kind="zakon"). Отдельного kind="kodex" нет.
+• Если в тексте кодекс и номер ФЗ стоят рядом («НК РФ N 146-ФЗ») — ОДНА запись zakon, number = «НК РФ N 146-ФЗ».
+  ЗАПРЕЩЕНО из «НК РФ N 146-ФЗ» делать две записи. Это один документ.
+• number — только то что после ключевого слова: «146-ФЗ», «НК РФ N 146-ФЗ», «681». Ссылки на статьи (СТ., П., ПОДП.) в number НЕ включай.
+• date — ДД.ММ.ГГГГ. Двузначный год нормализуй (98 → 1998, 24 → 2024).
+• «б/н» в number — только если явно написано.
+• Паттерн `<id-YY> <ДД.ММ.YY>` (номер с двузначным годом + дата, без слова «ДОГ.») — банковская конвенция валютного договора → main_contract.
+  Пример: «44444-25 01.10.25» → {"kind":"main_contract","number":"44444-25","date":"01.10.2025"}.
+• Не включай ОГРН, КПП, КБК, ОКТМО, ИНН, БИК — это реквизиты, не документы.
+• counterparty_hint — для assignment_dut: наименование первоначального кредитора; иначе null.
+• counterparty_country — для assignment_dut: страна первоначального кредитора; иначе null.
+</rules>
+
+<examples>
+«УКАЗ ПРЕЗИДЕНТА РБ № 681 ОТ 28.12.2007»                  → {"kind":"ukaz","number":"681","date":"28.12.2007"}
+«ПОСТАНОВЛЕНИЕ 392/7 ОТ 06.07.2021»                       → {"kind":"postanovlenie","number":"392/7","date":"06.07.2021"}
+«ЗАКОН 146-ФЗ ОТ 31.07.98»                                 → {"kind":"zakon","number":"146-ФЗ","date":"31.07.1998"}
+«СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»                    → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  (СТ.333.19 — ссылка на статью, не часть number)
+«СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»  → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  — ОДНА запись! НК РФ № 146-ФЗ это один документ.
+«УКАЗ ПРЕЗИДЕНТА №8 ОТ 28.03.2008»                         → {"kind":"ukaz","number":"8","date":"28.03.2008"}
+«ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017» → ДВА документа:
+  {"kind":"main_contract","number":"б/н","date":"03.10.2019"} и {"kind":"ukaz","number":"8","date":"21.12.2017"}
+</examples>
+</purpose_linked_documents>
+
+<payment_purpose_semantic>
+Очисти payment_purpose_raw от служебной обёртки, сохрани суть платежа.
+
+Убирай:
+  • VO-коды («VO10100», «VO70060»);
+  • разделители «//» (двойные косые) — только сами символы, содержимое между ними СОХРАНЯЙ;
+  • реквизиты договоров: «ПО ДОГОВОРУ N ... ОТ ...», «СОГЛАСНО ДОГ. ... ОТ ...», «ПО ЗАЯВКЕ ... ОТ ...» и т.п.;
+  • ссылки на нормативные акты и статьи: «СОГЛ. СТ. ...», «В СООТВ. П. ...», «СОГЛ. ПОДП. ...», «НК РФ N ...», «НК РФ», «ФЗ», «ОТ ДД.ММ.ГГГГ» (дата закона);
+  • Договоры без слова "договор": «777-77 01.10.26», «888-88 08.10.26»;
+  • ОФФШОРНЫЙ СБОР, П/П ..., ДЛЯ КРЕДИТОВАНИЯ НА СЧ ...;
+  • страны/регионы в скобках в конце: «(РОССИЯ)», «(РФ)», «(БЕЛАРУСЬ)» — только если это страна, а не товар.
+
+Сохраняй (это часть предмета):
+  • маршрут / направление: «ПО МАРШРУТУ РБ - РФ», «ИЗ КИТАЯ В РБ»;
+  • период / диапазон: «ЗА МАРТ», «ЗА 1 ПОЛУГОДИЕ 2026»;
+  • уточнение вида: «АВТОТРАНСПОРТНЫЕ», «ИНОТЕРРИТОРИАЛЬНЫЕ»;
+  • получателя предмета, если он часть смысла: «ДЛЯ ПЕРСОНАЛА»;
+  • уточнение предмета в скобках: «(КРЕСЛО)», «(ЗАПЧАСТИ)» — если это конкретный товар/вид, а не страна.
+
+Примеры:
+«VO70060 ЗАРПЛАТА ЗА МАРТ, ТРУДОВОЙ ДОГОВОР 1 ОТ 01.03.2024»                  → «ЗАРПЛАТА ЗА МАРТ»
+«ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ ПО ДОГОВОРУ № 7 ОТ 02.05.2024» → «ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО) СОГЛАСНО ДОГОВОРУ 45 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»
+«VO10200 //ОПЛ.АН.ОБОР. 8888-25 01.10.25,7777-25 08.10.25//»               → «ОПЛ.АН.ОБОР.»
+«VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА О ВЗЫСКАНИИ 308 480,25 РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110» → «ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»
+</payment_purpose_semantic>
+
+</extraction>
+
+<checks>
+
+<check id="B2.PURPOSE_SPECIFICITY">
+Цель: убедиться что предмет платежа конкретен.
+
+Дисквалифицирующий список (общие токены, которые сами по себе НЕ являются предметом):
+  товары, товаров, услуги, услуг, оплата, расчёт, расчет, предоплата, аванс, авансовый, платёж, платеж, работы, работ,
+  goods, services, payment, prepayment.
+
+Алгоритм:
+1) Возьми payment_purpose_semantic. Это уже очищенный от служебной обёртки текст — значит всё что в нём осталось это и есть «значимые слова» предмета.
+2) Если все значимые слова payment_purpose_semantic (кроме предлогов: «за», «по», «согласно», «в», «с», «на», «от», «и», «или», «т.ч.») входят в дисквалифицирующий список → FAIL.
+   message: «Предмет назначения платежа не конкретизирован.»
+3) Иначе → PASS.
+
+Дисквалификация снимается ТОЛЬКО если в payment_purpose_semantic есть хотя бы одно слово/словосочетание ВНЕ списка — конкретный товар или вид услуги:
+  • в скобках — «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)» → «КРЕСЛО» вне списка → PASS;
+  • рядом — «ОПЛАТА ЗА БЕНЗИН» → «БЕНЗИН» вне списка → PASS;
+                «АВТОТРАНСПОРТНЫЕ УСЛУГИ» → «АВТОТРАНСПОРТНЫЕ» вне списка → PASS.
+
+Наличие договора, его номера или даты — дисквалификацию НЕ снимает. Только конкретное слово-предмет.
+
+Исключения (всегда PASS):
+  • Бюджетные платежи: ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ» — такие платежи в специфике не нуждаются.
+  • Банковские операции: «ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ» — конкретизация не требуется (ст.14 БК РБ).
+
+<examples_pass>
+«ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                         → PASS  (Оплата за внедрение Программного Обеспечения - "ПО" СТОИТ В КОНЦЕ это аббревиатура. Значит конкретный товар!)
+«АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»              → PASS  (АВТОТРАНСПОРТНЫЕ — конкретный вид услуги)
+«МЕТАЛЛОПРОКАТ»                                            → PASS  (конкретный вид товара)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»                            → PASS  (КРЕСЛО — конкретный вид товара)
+«ОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ»                         → PASS  (БЕНЗИН — конкретный вид товара)
+«ОПЛАТА ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ»                        → PASS  (ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ — конкретный вид товара; не путать с «ОПЛАТА ЗА ТОВАРЫ» — там нет конкретики)
+«ОПЛ.АН.ОБОР.»                                            → PASS  (аббревиатура конкретного вида товара — конкретный предмет; «ОПЛ» здесь часть составного названия, а не самостоятельный общий токен «оплата»)
+«АРЕНДА ЗЕМЕЛЬНОГО УЧАСТКА»                                → PASS
+«ЗАРПЛАТА ЗА МАРТ»                                         → PASS  (зарплата — конкретный вид выплаты)
+«РОЯЛТИ ЗА 2022»                                           → PASS  (роялти — конкретный вид платежа)
+«ВОЗВРАТ ЗАЙМА»                                            → PASS  (займа — конкретный вид обязательства)
+«ПРОДАЖА ВАЛЮТЫ»                                           → PASS  (банковская операция)
+</examples_pass>
+
+<examples_fail>
+«ПРЕДОПЛАТА ЗА ТОВАРЫ»                                     → FAIL  (ТОВАРЫ — общее слово без конкретики; слово «ОПЛАТА»/«ПРЕДОПЛАТА» само по себе не даёт конкретики)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023»   → FAIL  (после очистки semantic = «ПРЕДОПЛАТА ЗА ТОВАРЫ»; ссылка на договор не является конкретным предметом)
+«ОПЛАТА ЗА УСЛУГИ»                                         → FAIL  (УСЛУГИ — общее слово)
+«АВАНСОВЫЙ ПЛАТЁЖ»                                         → FAIL
+«»                                                         → FAIL  («Назначение платежа не заполнено.»)
+«ОПЛАТА»                                                   → FAIL  (только дисквалифицирующий токен)
+
+</examples_fail>
+</check>
+
+
+<check id="B2.CONTRACT">
+Цель: проверить наличие реквизитов договора-основания (номер + дата).
+
+Применяй сверху вниз:
+
+Шаг 0:  Если purpose_linked_documents нет записей → FAIL, message: «Договор-основание не упомянут в назначении.». Дальнейшие шаги пропускай. Стоп.
+Шаг 1:  Если в purpose_linked_documents есть запись с kind="main_contract" (или "assignment_dut") и заполнены и number, и date → PASS, message: "". Стоп.
+Шаг 2:  Если ≥2 main_contract без даты, но дата у каждого следует из паттерна `<id-YY> <ДД.ММ.YY>` — считается заполненной (Шаг 0).
+Шаг 3:  Если purpose_linked_documents содержит main_contract с заполненным number, но date пустая → FAIL, message: «Дата договора не указана.»
+Шаг 4:  Если main_contract есть, но number пустой (и в тексте нет «б/н») → FAIL, message: «Номер договора не указан.»
+Шаг 5:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut, но при этом есть упоминание договора («ПО ДОГОВОРУ», «СОГЛАСНО ДОГОВОРУ») без номера и даты → FAIL, message: «Номер и дата договора не указаны.»
+Шаг 6:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut,  → FAIL, message: «Договор-основание не упомянут в назначении.»
+Шаг 7 (исключения — OUT_OF_SCOPE):
+  • Бюджетный платёж (см. список в B2.PURPOSE_SPECIFICITY) — реквизиты договора не нужны → OUT_OF_SCOPE, message: «Бюджетный платёж — реквизиты договора не требуются.»
+  • Банковская операция (продажа/покупка валюты и т.п.) — основание не договор, а заявка/заявление → OUT_OF_SCOPE, message: «Банковская операция — реквизиты договора не требуются.»
+  • Договор не упоминается вообще, и платёж не подходит под бюджетный/банковский → OUT_OF_SCOPE, message: «Договор-основание не упомянут в назначении.»
+
+Если Шаги 0–3 не сработали и Шаг 4 не дал OUT_OF_SCOPE и Шаг 5 не дал FAIL → PASS.
+</check>
+
+<check id="B2.THIRD_PARTY">
+Признаки ДУТ: «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ», «УСТУПКА ТРЕБОВАНИЙ» или упоминание первоначального кредитора (в любой форме — см. ниже).
+
+Сокращения для первоначального кредитора:
+  «ПЕРВ. КРЕДИТ.», «ПЕРВ.КРЕД.», «ПЕРВОНАЧ. КРЕДИТОР», «ПЕРВОНАЧАЛЬНЫЙ КРЕДИТОР»
+
+Формат в скобках: «(ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  — ОСОО КАО КЕЙДЖИ = наименование, КЫРГЫЗ. = страна (Кыргызстан) → оба указаны → PASS.
+
+- PASS — указаны И наименование, И страна первоначального кредитора.
+- FAIL — отсутствует наименование ИЛИ страна. message — что именно не указано.
+- OUT_OF_SCOPE — признаки ДУТ не обнаружены.
+
+<examples>
+«ПО ДОГ. УСТ. ТРЕБ. 26/2435643 ОТ 20.03.2026 К КОНТР. 2404-5КР ОТ 03.04.2024 (ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  → ДУТ найден. Первоначальный кредитор: «ОСОО КАО КЕЙДЖИ», страна «КЫРГЫЗ.» (Кыргызстан). → PASS.
+
+«ПО ДУТ № 5 ОТ 01.01.2024»
+  → ДУТ найден. Наименование и страна первоначального кредитора не указаны. → FAIL.
+
+«ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ № 7»
+  → Признаков ДУТ нет. → OUT_OF_SCOPE.
+</examples>
+</check>
+
+</checks>
+
+<full_examples>
+
+Пример 1 — судебный платёж с НК РФ:
+Вход: {"payment_purpose_raw": "VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ САНКТ-ПЕТЕРБУРГА И ЛЕНИНГРАДСКОЙ ОБЛАСТИ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\" О ВЗЫСКАНИИ 308 480,25 РОССИЙСКИХ РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\"",
+    "purpose_linked_documents": [
+      {"kind": "zakon", "number": "НК РФ N 146-ФЗ", "date": "31.07.1998", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT", "status": "OUT_OF_SCOPE", "message": "Бюджетный платёж — реквизиты договора не требуются."},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+ВАЖНО: purpose_linked_documents содержит ОДНУ запись zakon «НК РФ N 146-ФЗ». НЕ ДВЕ (не «146-ФЗ» отдельно и «НК РФ» отдельно).
+
+Пример 2 — договор + декрет:
+Вход: {"payment_purpose_raw": "ПЕРЕЧИСЛЕНИЕ ДЕН СР-В ОТ ПРОДАЖИ ТОКЕНОВ ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ПЕРЕЧИСЛЕНИЕ ДЕНЕЖНЫХ СРЕДСТВ ОТ ПРОДАЖИ ТОКЕНОВ",
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "б/н", "date": "03.10.2019", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "ukaz", "number": "8", "date": "21.12.2017", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""},
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+</full_examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose/0) role=system ====================
+
+
+[2026-05-08 13:57:42,323] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_amounts done elapsed_ms=4 elapsed_s=0.00 result_len=505
+[2026-05-08 13:57:42,323] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose/1) role=user ====================
+
+
+[2026-05-08 13:57:42,325] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose) ====================
+
+
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ПО ДОГОВОРУ ПЕРЕВОДА ДОЛГА ЗА ЛОМ ЧЕРНЫХ МЕТАЛЛОВ",
+    "purpose_linked_documents": [
+      {
+        "kind": "main_contract",
+        "number": "23115617",
+        "date": "25.10.2023",
+        "counterparty_hint": null,
+        "counterparty_country": null
+      },
+      {
+        "kind": "main_contract",
+        "number": "22015387",
+        "date": "27.12.2022",
+        "counterparty_hint": null,
+        "counterparty_country": null
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "B2.PURPOSE_SPECIFICITY",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "id": "B2.CONTRACT",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "id": "B2.THIRD_PARTY",
+      "status": "OUT_OF_SCOPE",
+      "message": "Признаки ДУТ не обнаружены."
+    }
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose) ====================
+
+
+[2026-05-08 13:57:42,325] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose done elapsed_ms=7 elapsed_s=0.01 result_len=845
+[2026-05-08 13:57:42,352] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [DONE  ELAPSED=0.04S]
+  ⏱  elapsed: 0.04s
+============================================================
+[2026-05-08 13:57:42,355] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Compressor): Сжатие документов-оснований  [START]
+============================================================
+[2026-05-08 13:57:42,384] INFO in orchestrator: compressor(map-reduce): start chunks=4 char_budget=39225 overhead_tokens=2925
+[2026-05-08 13:57:42,400] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 10884, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-08 13:57:42,401] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:57:42,407] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 18075, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-08 13:57:42,408] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:57:42,424] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 47879, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-08 13:57:42,424] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:57:42,538] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2026-05-08 13:57:42,539] ERROR in base: Primary LLM failed and no fallback configured: Error code: 400 - {'error': {'message': "You passed 16001 input tokens and requested 4000 output tokens. However, the model's context length is only 20000 tokens, resulting in a maximum input length of 16000 tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=16001)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[2026-05-08 13:57:42,539] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=1/2] attempt=1 llm_error=Error code: 400 - {'error': {'message': "You passed 16001 input tokens and requested 4000 output tokens. However, the model's context length is only 20000 tokens, resulting in a maximum input length of 16000 tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=16001)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[2026-05-08 13:57:42,570] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 47879, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-08 13:57:42,570] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:57:42,635] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2026-05-08 13:57:42,636] ERROR in base: Primary LLM failed and no fallback configured: Error code: 400 - {'error': {'message': "You passed 16001 input tokens and requested 4000 output tokens. However, the model's context length is only 20000 tokens, resulting in a maximum input length of 16000 tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=16001)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[2026-05-08 13:57:42,636] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=1/2] attempt=2 llm_error=Error code: 400 - {'error': {'message': "You passed 16001 input tokens and requested 4000 output tokens. However, the model's context length is only 20000 tokens, resulting in a maximum input length of 16000 tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=16001)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[2026-05-08 13:57:42,644] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 12370, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-08 13:57:42,644] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:58:28,873] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:58:28,874] WARNING in openai: OpenAI response received: choices=1 content_len=8969 finish_reason=length usage=prompt=4826 completion=4000 total=8826
+[2026-05-08 13:58:28,883] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:58:28,884] WARNING in openai: OpenAI response received: choices=1 content_len=9066 finish_reason=length usage=prompt=7937 completion=4000 total=11937
+[2026-05-08 13:58:28,886] WARNING in orchestrator: compressor(map): chunk=[doc=130855_-_041651_25.10.2023.docx chunk=1/1] json_parse_failed attempt=1 elapsed=46.50s raw_len=8969
+[2026-05-08 13:58:28,888] WARNING in orchestrator: compressor(map): chunk=[doc=130855_-_041651_25.10.2023.docx chunk=1/1] json_parse_failed attempt=2 elapsed=0.00s raw_len=8969
+[2026-05-08 13:58:28,892] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=2/2] json_parse_failed attempt=1 elapsed=46.50s raw_len=9066
+[2026-05-08 13:58:28,895] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=2/2] json_parse_failed attempt=2 elapsed=0.00s raw_len=9066
+[2026-05-08 13:58:28,897] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:58:28,898] WARNING in openai: OpenAI response received: choices=1 content_len=8845 finish_reason=length usage=prompt=5673 completion=4000 total=9673
+[2026-05-08 13:58:28,906] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022__.PDF chunk=1/1] json_parse_failed attempt=1 elapsed=46.27s raw_len=8845
+[2026-05-08 13:58:28,908] WARNING in orchestrator: compressor(map): chunk=[doc=130855__041651_25.10.2023__22015387_27.12.2022__.PDF chunk=1/1] json_parse_failed attempt=2 elapsed=0.00s raw_len=8845
+[2026-05-08 13:58:28,909] INFO in orchestrator: compressor(reduce): deterministic-only path, no conflicts (chunks=4)
+[2026-05-08 13:58:28,909] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Compressor): Сжатие документов-оснований  [DONE]
+  ⏱  elapsed: 46.55s
+============================================================
+[2026-05-08 13:58:28,909] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Validator-B): Проверка по документам-основаниям  [START]
+============================================================
+[2026-05-08 13:58:28,911] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=validator_b start structured=False attachments=False payload_len=388
+[2026-05-08 13:58:28,911] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (validator_b/0) role=system ====================
+
+
+<role>
+Ты — валидатор платёжного поручения по сжатым документам-основаниям.
+По входному JSON-ядру выполни проверки B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE и верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход (вопрос): Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+Вход (JSON-ядро): {"extracted_fields": {"contract_facts": {"documents": []}}, "evidence_map": {}, "notes": ["Compressor map не смог обработать чанки: [doc=130855_-_041651_25.10.2023.docx chunk=1/1], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=1/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=2/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022__.PDF chunk=1/1]"]}
+</role>
+
+<output_schema>
+{
+  "overall_status": "OK",
+  "extracted_fields": {},
+  "checks": [
+    {"id": "B2.CONTRACT_REF", "status": "PASS", "message": "...", "evidence": ["..."]},
+    {"id": "B3.DOC_MATCH",    "status": "PASS", "message": "...", "evidence": ["..."]},
+    {"id": "B3.ASSIGNMENT",   "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B2.OFFSHORE",     "status": "OUT_OF_SCOPE", "message": "...", "evidence": []}
+  ],
+  "remarks": [],
+  "requested_inputs": []
+}
+</output_schema>
+
+<allowed_statuses>
+B2.CONTRACT_REF: PASS, WARN, NEED_MORE_INFO.
+B3.DOC_MATCH:    PASS, WARN, FAIL, NEED_MORE_INFO.
+B3.ASSIGNMENT:   PASS, WARN, OUT_OF_SCOPE.
+B2.OFFSHORE:     WARN, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Работай только с полями из входного JSON.
+- Для договорных проверок используй contract_facts.documents (массив объектов по одному на документ) или contract_text (если есть).
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, без рассуждений о выборе статуса.
+- evidence: короткие фрагменты из evidence_map (без дублей, ≤200 символов на элемент).
+- НЕ включай в выход поле extracted_fields.contract_text и НЕ включай тексты / фрагменты договоров в checks / remarks / requested_inputs.
+- remarks: только наблюдения, не покрытые конкретной проверкой выше (межпроверочные противоречия / контекстные предупреждения). Не пересказывай checks.
+- requested_inputs: запрашивай только если contract_facts.documents пуст. Запрос исходных текстов / копий / исправленных версий документов запрещён.
+- Верни РОВНО 4 чека в порядке: B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE.
+</global_rules>
+
+<context>
+contract_facts.documents — это уже извлечённые факты из ВСЕХ приложенных документов. Каждый объект имеет doc_type ("main_contract", "assignment_dut", "invoice", "addendum", "other"). Если documents не пуст — документы получены и обработаны.
+</context>
+
+<checks>
+
+<check id="B2.CONTRACT_REF">
+  <intent>Полнота реквизитов договора в назначении платежа и согласованность с приложенными документами.</intent>
+  <steps>
+    - Если в назначении есть ссылка на договор / роялти — оцени полноту реквизитов (номер, дата, предмет).
+    - Если contract_facts.documents не пуст: для каждого договора, упомянутого в ПП, найди соответствующий объект в documents[] и проверь, что у него заполнены payment_terms и amounts.
+  </steps>
+  <statuses>
+    - PASS — реквизиты договора в ПП полные и согласуются с documents[].
+    - WARN — payment_terms или amounts пусты у профильного документа (данные неполные).
+    - NEED_MORE_INFO — в ПП есть ссылка на договор, но реквизитов недостаточно для оценки.
+  </statuses>
+</check>
+
+<check id="B3.DOC_MATCH">
+  <intent>Соответствие реквизитов ПП и приложенных документов.</intent>
+  <steps>
+    - Если contract_docs_present=false и documents пуст → NEED_MORE_INFO (запросить договор / приложения).
+    - Если documents не пуст: для каждого договора из payment_purpose_raw найди объект в documents[] по number / doc_type и сверь номер / дату.
+    - Сверяй реквизиты банка-получателя и бенефициара (наименование / адрес / SWIFT / счёт / TIN) с полями bank_details / beneficiary_details / swift_codes из соответствующего документа.
+    - Учитывай assignment_dut: данные нового кредитора могут отличаться от основного договора.
+  </steps>
+  <statuses>
+    - PASS — все доступные реквизиты совпадают.
+    - WARN — небольшие расхождения (объяснимые опечатки, регистр, форматирование).
+    - FAIL — грубые расхождения (разные номера / даты / SWIFT / бенефициары).
+    - NEED_MORE_INFO — нет documents и нет contract_text.
+  </statuses>
+</check>
+
+<check id="B3.ASSIGNMENT">
+  <intent>Корректность договора уступки права требования (ДУТ).</intent>
+  <steps>
+    - Найди объект в documents[] с doc_type="assignment_dut".
+    - Проверь поля original_creditor, new_creditor, original_contract_ref.
+  </steps>
+  <statuses>
+    - PASS — все три поля заполнены и согласуются с реквизитами ПП.
+    - WARN — поля заполнены, но есть расхождения с ПП.
+    - OUT_OF_SCOPE — в documents[] нет объекта с doc_type="assignment_dut".
+  </statuses>
+</check>
+
+<check id="B2.OFFSHORE">
+  <intent>Принадлежность бенефициара к офшорной субтерритории внутри US / MY / PT.</intent>
+  <steps>
+    - Если beneficiary_country_code НЕ в {US, MY, PT} → OUT_OF_SCOPE (большинство офшоров уже проверено Python до этого промпта).
+    - US: офшор только Делавэр и Вайоминг. Любой другой штат / город США → OUT_OF_SCOPE.
+    - MY: офшор только остров Лабуан. Остальная Малайзия → OUT_OF_SCOPE.
+    - PT: офшор только остров Мадейра. Остальная Португалия → OUT_OF_SCOPE.
+    - Ищи штат / остров в именах, адресах, contract_facts, evidence_map.
+  </steps>
+  <statuses>
+    - WARN — обнаружена офшорная субтерритория (Делавэр / Вайоминг / Лабуан / Мадейра).
+    - OUT_OF_SCOPE — субтерритория не найдена либо страна не US / MY / PT.
+  </statuses>
+</check>
+
+</checks>
+
+<overall_status_calc>
+- Хотя бы один FAIL → "REJECT".
+- Иначе хотя бы один NEED_MORE_INFO ИЛИ requested_inputs не пуст → "NEED_MORE_INFO".
+- Иначе хотя бы один WARN → "WARN".
+- Иначе → "OK".
+</overall_status_calc>
+
+
+
+==================== PROMPT_SENT (validator_b/0) role=system ====================
+
+
+[2026-05-08 13:58:28,911] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (validator_b/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (validator_b/1) role=user ====================
+
+
+[2026-05-08 13:58:28,917] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 5991, 'content_head': '<role>\nТы — валидатор платёжного поручения по сжатым документам-основаниям.\nПо входному JSON-ядру выполни проверки B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE и верни'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 08.05.20'}]}
+[2026-05-08 13:58:28,917] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:58:33,146] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:58:33,148] INFO in openai: OpenAI response received: choices=1 content_len=1505 finish_reason=stop usage=prompt=2107 completion=574 total=2681
+[2026-05-08 13:58:33,151] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (validator_b) ====================
+
+
+{
+  "overall_status": "NEED_MORE_INFO",
+  "extracted_fields": {},
+  "checks": [
+    {
+      "id": "B2.CONTRACT_REF",
+      "status": "NEED_MORE_INFO",
+      "message": "Отсутствуют данные о договоре в contract_facts.documents. Невозможно проверить реквизиты договора в назначении платежа.",
+      "evidence": []
+    },
+    {
+      "id": "B3.DOC_MATCH",
+      "status": "NEED_MORE_INFO",
+      "message": "В documents отсутствуют приложенные документы. Невозможно проверить соответствие реквизитов платежа и документов.",
+      "evidence": []
+    },
+    {
+      "id": "B3.ASSIGNMENT",
+      "status": "OUT_OF_SCOPE",
+      "message": "В documents отсутствует документ типа assignment_dut. Проверка уступки права требования не применима.",
+      "evidence": []
+    },
+    {
+      "id": "B2.OFFSHORE",
+      "status": "OUT_OF_SCOPE",
+      "message": "Страна бенефициара не указана или не входит в US, MY, PT. Проверка офшорной субтерритории не применима.",
+      "evidence": []
+    }
+  ],
+  "remarks": [
+    "Не удалось обработать чанки документов: [doc=130855_-_041651_25.10.2023.docx chunk=1/1], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=1/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=2/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022__.PDF chunk=1/1]. Это привело к отсутствию данных в contract_facts.documents."
+  ],
+  "requested_inputs": [
+    "Приложенные документы (договор, дополнения, сопроводительные бумаги) для проверки реквизитов платежа."
+  ]
+}
+
+
+==================== PROMPT_RESULT (validator_b) ====================
+
+
+[2026-05-08 13:58:33,151] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=validator_b done elapsed_ms=4241 elapsed_s=4.24 result_len=1505
+[2026-05-08 13:58:33,153] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Validator-B): Проверка по документам-основаниям  [DONE  ELAPSED=4.24S]
+  ⏱  elapsed: 4.24s
+============================================================
+[2026-05-08 13:58:33,153] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2C (DocChecker): Бизнес-кейсы Блока 3  [START]
+============================================================
+[2026-05-08 13:58:33,154] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=doc_checker start structured=False attachments=False payload_len=388
+[2026-05-08 13:58:33,155] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (doc_checker/0) role=system ====================
+
+
+<role>
+Ты — эксперт по валютному контролю Республики Беларусь.
+По входному JSON-ядру проверь содержание приложенных документов и их связность между собой и с платёжным поручением.
+Верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход (вопрос): Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+Вход (JSON-ядро): {"extracted_fields": {"contract_facts": {"documents": []}}, "evidence_map": {}, "notes": ["Compressor map не смог обработать чанки: [doc=130855_-_041651_25.10.2023.docx chunk=1/1], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=1/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022.pdf chunk=2/2], [doc=130855__041651_25.10.2023__22015387_27.12.2022__.PDF chunk=1/1]"]}
+</role>
+
+<output_schema>
+{
+  "overall_status": "OK",
+  "extracted_fields": {},
+  "checks": [
+    {"id": "B3.ROYALTY",    "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B3.ASSIGNMENT", "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B3.COHERENCE",  "status": "PASS",         "message": "...", "evidence": ["..."]}
+  ],
+  "remarks": [],
+  "requested_inputs": []
+}
+</output_schema>
+
+<allowed_statuses>
+B3.ROYALTY:    PASS, WARN, FAIL, NEED_MORE_INFO, OUT_OF_SCOPE.
+B3.ASSIGNMENT: PASS, WARN, FAIL, NEED_MORE_INFO, OUT_OF_SCOPE.
+B3.COHERENCE:  PASS, WARN, FAIL, NEED_MORE_INFO.
+</allowed_statuses>
+
+<global_rules>
+- Работай только с полями из входного JSON.
+- Для проверок используй contract_facts.documents (массив объектов по одному на документ) или contract_text (если есть).
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, без рассуждений о выборе статуса.
+- evidence: короткие цитаты из evidence_map (≤200 символов на элемент).
+- НЕ включай в выход поле extracted_fields.contract_text и НЕ включай тексты / фрагменты договоров в checks / remarks / requested_inputs.
+- Верни РОВНО 3 чека в порядке: B3.ROYALTY, B3.ASSIGNMENT, B3.COHERENCE.
+</global_rules>
+
+<context>
+contract_facts.documents — структурированные факты по каждому приложенному документу.
+Каждый объект: doc_type, number, date, parties, payment_terms, amounts и др.
+Для assignment_dut дополнительно: original_creditor, new_creditor, original_contract_ref.
+</context>
+
+<checks>
+
+<check id="B3.ROYALTY">
+  <intent>Проверка платежей-роялти: подтверждается ли роялти-характер платежа предметом договора.</intent>
+  <applicability>Выполняй только если payment_purpose_raw содержит «роялти», «royalty» или «лицензионный платёж». Иначе — OUT_OF_SCOPE.</applicability>
+  <steps>
+    - В contract_facts (или contract_text) проверь:
+      1. Раздел «Предмет договора» явно упоминает роялти как основной предмет — не вскользь.
+      2. Договор является лицензионным соглашением, франчайзингом или содержит лицензионное вознаграждение.
+  </steps>
+  <statuses>
+    - PASS — предмет договора явно подтверждает роялти-платёж.
+    - WARN — роялти упомянуто, но предмет договора сформулирован размыто.
+    - FAIL — в договоре нет упоминания роялти как предмета, хотя платёж позиционируется как роялти.
+    - NEED_MORE_INFO — данных в документе нет (запросить договор с предметом).
+  </statuses>
+</check>
+
+<check id="B3.ASSIGNMENT">
+  <intent>Содержательная проверка договора уступки права требования (ДУТ).</intent>
+  <applicability>Выполняй только если payment_purpose_raw или contract_facts содержат «уступка требования», «ДУТ», «договор уступки», «assignment of claim», «cession». Иначе — OUT_OF_SCOPE.</applicability>
+  <steps>
+    - Найди в documents[] объект с doc_type="assignment_dut" и проверь:
+      1. original_creditor — совпадает с продавцом / бенефициаром по основному договору.
+      2. new_creditor — совпадает с beneficiary_name из ПП.
+      3. original_contract_ref — совпадает с contract_reference из ПП.
+      4. Подписи сторон — если parties[] содержит обе стороны, считай отражёнными.
+      5. Предмет ДУТ — подтверждается самим doc_type="assignment_dut".
+  </steps>
+  <statuses>
+    - PASS — все пять элементов присутствуют и согласуются с ПП.
+    - WARN — один-два элемента отсутствуют или формулировки размыты (укажи конкретно что не найдено).
+    - FAIL — отсутствуют критические элементы (original_creditor, new_creditor или original_contract_ref).
+    - NEED_MORE_INFO — нет объекта assignment_dut и нет contract_text.
+  </statuses>
+</check>
+
+<check id="B3.COHERENCE">
+  <intent>Согласованность всех приложенных документов между собой и с платёжным поручением.</intent>
+  <steps>
+    - Сверяй (по каждому документу из documents[] отдельно):
+      1. Наименование бенефициара: beneficiary_name из ПП ↔ beneficiary_details в documents[].
+      2. Номера договоров: все упомянутые в payment_purpose_raw ↔ documents[].number.
+      3. Даты договоров: documents[].date ↔ даты из payment_purpose_raw.
+      4. SWIFT / счёт / банк: данные ПП ↔ swift_codes / bank_details из соответствующего документа.
+      5. Если есть assignment_dut: original_contract_ref ↔ number основного договора в documents[].
+      6. Если несколько документов — все они логически связаны с одним ПП.
+  </steps>
+  <statuses>
+    - PASS — все доступные элементы согласуются, противоречий нет.
+    - WARN — одно-два расхождения (незначительные / объяснимые); укажи конкретное поле и расхождение.
+    - FAIL — грубые противоречия (разные бенефициары, разные номера договоров, несовпадающие даты).
+    - NEED_MORE_INFO — documents[] пуст; сверка невозможна.
+  </statuses>
+</check>
+
+</checks>
+
+<overall_status_calc>
+- Хотя бы один FAIL → "REJECT".
+- Иначе хотя бы один NEED_MORE_INFO ИЛИ requested_inputs не пуст → "NEED_MORE_INFO".
+- Иначе хотя бы один WARN → "WARN".
+- Иначе → "OK".
+</overall_status_calc>
+
+
+
+==================== PROMPT_SENT (doc_checker/0) role=system ====================
+
+
+[2026-05-08 13:58:33,155] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (doc_checker/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 08.05.2026
+
+
+==================== PROMPT_SENT (doc_checker/1) role=user ====================
+
+
+[2026-05-08 13:58:33,160] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 5782, 'content_head': '<role>\nТы — эксперт по валютному контролю Республики Беларусь.\nПо входному JSON-ядру проверь содержание приложенных документов и их связность между собой и с платёжным поручением.\n'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 08.05.20'}]}
+[2026-05-08 13:58:33,161] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-08 13:58:35,012] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-08 13:58:35,014] INFO in openai: OpenAI response received: choices=1 content_len=810 finish_reason=stop usage=prompt=2008 completion=244 total=2252
+[2026-05-08 13:58:35,017] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (doc_checker) ====================
+
+
+{
+  "overall_status": "NEED_MORE_INFO",
+  "extracted_fields": {},
+  "checks": [
+    {
+      "id": "B3.ROYALTY",
+      "status": "OUT_OF_SCOPE",
+      "message": "Платёж не содержит указания на роялти или лицензионный платёж.",
+      "evidence": []
+    },
+    {
+      "id": "B3.ASSIGNMENT",
+      "status": "OUT_OF_SCOPE",
+      "message": "В платеже или документах не указано наличие уступки права требования.",
+      "evidence": []
+    },
+    {
+      "id": "B3.COHERENCE",
+      "status": "NEED_MORE_INFO",
+      "message": "Отсутствуют документы для проверки согласованности с платёжным поручением.",
+      "evidence": []
+    }
+  ],
+  "remarks": [],
+  "requested_inputs": [
+    "Договор, подтверждающий предмет платежа и сторон",
+    "Документы, подтверждающие уступку права требования, если применимо"
+  ]
+}
+
+
+==================== PROMPT_RESULT (doc_checker) ====================
+
+
+[2026-05-08 13:58:35,018] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=doc_checker done elapsed_ms=1863 elapsed_s=1.86 result_len=810
+[2026-05-08 13:58:35,019] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2C (DocChecker): Бизнес-кейсы Блока 3  [DONE  TOTAL_PIPELINE=52.73S]
+  ⏱  elapsed: 1.87s
+============================================================
+[2026-05-08 13:58:35,020] INFO in base: complete_stream: first answer chunk received
