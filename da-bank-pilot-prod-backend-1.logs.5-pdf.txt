@@ -1,0 +1,1878 @@
+[2026-05-14 13:16:18,543] INFO in docling_model_cache: Docling predictor cache installed
+[2026-05-14 13:16:19,843] WARNING in user_agent: USER_AGENT environment variable not set, consider setting it to identify your requests.
+[2026-05-14 13:18:37,662] INFO in routes: Celery queue purged: 0 tasks discarded
+[2026-05-14 13:18:37,745] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,232] INFO in model_settings: Registered custom OpenAI model: /model at https://qwen3-ml.bveb.by/v1
+[2026-05-14 13:18:40,233] INFO in model_settings: ModelRegistry loaded 1 models, default: /model
+[2026-05-14 13:18:40,236] INFO in stream_processor: Pre-fetch skipped: isNoneDoc=True
+[2026-05-14 13:18:40,335] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,362] INFO in logging: Starting activity: stream - 76a791ec-63be-4ed2-a803-e41195ff889c - User: local
+[2026-05-14 13:18:40,362] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage 1/2 start (extract)
+[2026-05-14 13:18:40,374] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,606] INFO in payment_validator_pipeline_agent: 
+===================================
+AUTO_EXTRACT_RESULT_BEGIN
+{"extracted_fields": {"payment_order_number": "161", "bn_no_number": false, "payment_order_date": "08.08.2024", "amount_number": 119404.15, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payer_unp": "101128058", "payer_account": "BY55BELB301200405001C0226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "beneficiary_tin": null, "beneficiary_account": null, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE\nN 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_bank_name": "BANK MELLI IRAN P.O. BOX: 1894", "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_bank_country": "Объединённые Арабские Эмираты", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "08.08.2024 14:04:00", "executed_at": "08.08.2024", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "payment_details_raw": null, "deal_registration_entries": [], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": null, "beneficiary_country_inferred": null, "beneficiary_country_text": "Объединённые Арабские Эмираты", "beneficiary_country_text_code": "AE", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": null, "beneficiary_bank_bic_info": null, "contract_docs_present": true, "contract_text": null}, "evidence_map": {"payment_order_number": ["№161"], "payment_order_date": ["Дата: 08.08.2024"], "amount_words": ["Сумма и валюта: СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ"], "amount_number": ["Сумма цифрами: 119404.15"], "currency_code": ["Код валюты: 784"], "payer_name": ["Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4"], "payer_account": ["Счет: BY55BELB301200405001C0226000"], "payer_unp": ["УНП плательщика: 101128058"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: MELIAEA1XXX"], "beneficiary_bank_name": ["Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI"], "beneficiary_name": ["Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE"], "payment_purpose_raw": ["Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039"], "has_deal_registration_number": ["Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,"]}, "notes": []}
+AUTO_EXTRACT_RESULT_END
+===================================
+[2026-05-14 13:18:40,607] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): bic_lookup sender_source=by_swift bene_source=swift_country
+[2026-05-14 13:18:40,608] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): party_classification={'payer_is_resident': True, 'payer_entity_type': 'юрлицо', 'beneficiary_is_resident': False, 'beneficiary_entity_type': 'unknown', 'beneficiary_country_code': 'AE', 'beneficiary_country_name': 'Объединённые Арабские Эмираты', 'beneficiary_country_source': 'alias'}
+[2026-05-14 13:18:40,608] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): auto-extract from docx used (missing=[])
+[2026-05-14 13:18:40,608] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [START]
+============================================================
+[2026-05-14 13:18:40,609] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 done status=FAIL checks=17
+[2026-05-14 13:18:40,609] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [DONE  STATUS=FAIL]
+  ⏱  elapsed: 0.00s
+============================================================
+[2026-05-14 13:18:40,609] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 FAIL — продолжаем LLM-стадии (no early exit)
+[2026-05-14 13:18:40,609] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): BIC LLM parse start raw='BANK MELLI IRAN P.O. BOX: 1894 BANIYAS STREET,DEIRA-DUBAI UNITED ARAB'
+[2026-05-14 13:18:40,637] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,683] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,685] INFO in routes: Returning single task_id response
+[2026-05-14 13:18:40,688] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 309, 'content_head': 'Ты — парсер банковских реквизитов. Из строки реквизитов банка-получателя платёжного поручения извлеки три поля. Запятая в строке означает перенос строки (разделитель частей адреса)'}, {'role': 'user', 'content_len': 69, 'content_head': 'BANK MELLI IRAN P.O. BOX: 1894 BANIYAS STREET,DEIRA-DUBAI UNITED ARAB'}]}
+[2026-05-14 13:18:40,688] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:18:41,137] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:18:41,142] INFO in openai: OpenAI response received: choices=1 content_len=102 finish_reason=stop usage=prompt=147 completion=41 total=188
+[2026-05-14 13:18:41,147] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): BIC LLM parse done name='BANK MELLI IRAN' city='DUBAI' address='BANIYAS STREET,DEIRA-DUBAI UNITED ARAB'
+[2026-05-14 13:18:41,147] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): injected phase1_b1_legality status=WARN budget=False
+[2026-05-14 13:18:41,147] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): split B1+B2 routing=nonres (AE) b1_prompt=payment_validator/b1_legality_nonres.txt skip_b1_llm=False (phase1_pass=False force_skip=False)
+[2026-05-14 13:18:41,147] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [START]
+============================================================
+[2026-05-14 13:18:41,148] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): amounts prescan field=(none) candidates=0, deal_reg numbers=0 exempt=False
+[2026-05-14 13:18:41,148] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_semantic start structured=False attachments=False payload_len=233
+[2026-05-14 13:18:41,148] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_semantic/0) role=system ====================
+
+
+<role>
+Ты — экстрактор «семантического» назначения платежа из валютного платёжного поручения.
+Задача: по сырому полю «Назначение платежа» вернуть очищенный смысл (payment_purpose_semantic).
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ"}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Верни РОВНО ОДИН валидный JSON. Структура СТРОГО такая, без любых других ключей:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "<очищенный текст>"
+  }
+}
+
+ЗАПРЕЩЕНО добавлять поля: overall_status, checks, remarks, requested_inputs, payment_purpose_raw, любые другие.
+ЗАПРЕЩЕНО возвращать payment_purpose_raw вместо payment_purpose_semantic.
+ЗАПРЕЩЕНО оставлять payment_purpose_semantic пустым, если на входе payment_purpose_raw непустой.
+</output_schema>
+
+<bad_output_example>
+Так делать НЕЛЬЗЯ (агент не валидатор, лишние поля и raw вместо semantic):
+{
+  "overall_status": "pending",
+  "extracted_fields": {"payment_purpose_raw": "VO21100 ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"},
+  "checks": [],
+  "remarks": [],
+  "requested_inputs": []
+}
+</bad_output_example>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- Используй ТОЛЬКО текст из входного payment_purpose_raw. Никогда не бери номера, даты, формулировки из примеров промпта.
+- Если payment_purpose_raw пустой → payment_purpose_semantic = "".
+- Если очищать нечего (payment_purpose_raw не содержит служебной обёртки) → payment_purpose_semantic = payment_purpose_raw без изменений. Возвращать пустую строку при непустом входе ЗАПРЕЩЕНО.
+</global_rules>
+
+<task>
+Очисти payment_purpose_raw от служебной обёртки, сохрани суть платежа.
+
+Убирай:
+  • VO-коды («VO10100», «VO70060»);
+  • разделители «//» (двойные косые) — только сами символы, содержимое между ними СОХРАНЯЙ;
+  • реквизиты договоров: «ПО ДОГОВОРУ N ... ОТ ...», «СОГЛАСНО ДОГ. ... ОТ ...», «ПО ЗАЯВКЕ ... ОТ ...» и т.п.;
+  • ссылки на нормативные акты и статьи: «СОГЛ. СТ. ...», «В СООТВ. П. ...», «СОГЛ. ПОДП. ...», «НК РФ N ...», «НК РФ», «ФЗ», «ОТ ДД.ММ.ГГГГ» (дата закона);
+  • Договоры без слова «договор»: «777-77 01.10.26», «888-88 08.10.26»;
+  • ОФФШОРНЫЙ СБОР, П/П ..., ДЛЯ КРЕДИТОВАНИЯ НА СЧ ...;
+  • страны/регионы в скобках в конце: «(РОССИЯ)», «(РФ)», «(БЕЛАРУСЬ)» — только если это страна, а не товар.
+
+Сохраняй (это часть предмета):
+  • маршрут / направление: «ПО МАРШРУТУ РБ - РФ», «ИЗ КИТАЯ В РБ»;
+  • период / диапазон: «ЗА МАРТ», «ЗА 1 ПОЛУГОДИЕ 2026»;
+  • уточнение вида: «АВТОТРАНСПОРТНЫЕ», «ИНОТЕРРИТОРИАЛЬНЫЕ»;
+  • получателя предмета, если он часть смысла: «ДЛЯ ПЕРСОНАЛА»;
+  • уточнение предмета в скобках: «(КРЕСЛО)», «(ЗАПЧАСТИ)» — если это конкретный товар/вид, а не страна.
+</task>
+
+<examples>
+«VO21100 ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                                    → «ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»
+«VO70060 ЗАРПЛАТА ЗА МАРТ, ТРУДОВОЙ ДОГОВОР 1 ОТ 01.03.2024»                  → «ЗАРПЛАТА ЗА МАРТ»
+«ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ ПО ДОГОВОРУ № 7 ОТ 02.05.2024» → «ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО) СОГЛАСНО ДОГОВОРУ 45 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»
+«VO10200 //ОПЛ.АН.ОБОР. 8888-25 01.10.25,7777-25 08.10.25//»                   → «ОПЛ.АН.ОБОР.»
+«VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА О ВЗЫСКАНИИ 308 480,25 РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110» → «ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»
+</examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose_semantic/0) role=system ====================
+
+
+[2026-05-14 13:18:41,148] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_semantic/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_semantic/1) role=user ====================
+
+
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_documents start structured=False attachments=False payload_len=233
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_documents/0) role=system ====================
+
+
+<role>
+Ты — экстрактор сопутствующих документов из «Назначения платежа» валютного платёжного поручения.
+Задачи:
+  1) Извлечь purpose_linked_documents — все договоры/нормативные акты, упомянутые в payment_purpose_raw.
+  2) На основе извлечённого вернуть два чека: B2.CONTRACT и B2.THIRD_PARTY.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ"}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Верни РОВНО ОДИН валидный JSON (без markdown, без комментариев):
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "...", "number": "...", "date": "...", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT",    "status": "PASS|FAIL|OUT_OF_SCOPE", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "PASS|FAIL|OUT_OF_SCOPE", "message": ""}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B2.CONTRACT:    PASS, FAIL, OUT_OF_SCOPE.
+B2.THIRD_PARTY: PASS, FAIL, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка.
+- Используй только текст из входного JSON. Никогда не бери номера, даты, РНВД из примеров промпта.
+- Если в payment_purpose_raw нет явного номера договора с датой или закона → purpose_linked_documents = [].
+- Если payment_purpose_raw пустой → purpose_linked_documents = [], B2.CONTRACT = FAIL ("Назначение платежа не заполнено."), B2.THIRD_PARTY = OUT_OF_SCOPE ("Признаки ДУТ не обнаружены.").
+</global_rules>
+
+<purpose_linked_documents>
+Возвращай ВСЕ найденные документы. Если есть И договор, И нормативный акт — оба отдельными элементами массива.
+
+<kinds>
+• "main_contract"  — «ДОГОВОР», «КОНТРАКТ», «СОГЛАШЕНИЕ», «ДОГ.», «ДОГ» (без точки)
+• "assignment_dut" — «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ»
+• "application"    — «ЗАЯВКА»
+• "statement"      — «ЗАЯВЛЕНИЕ»
+• "ukaz"           — Указ Президента РБ. number — голый: «681», «8», «353»; date — ДД.ММ.ГГГГ или null.
+• "postanovlenie"  — Постановление. number: «392/7»; date или null.
+• "zakon"          — Закон или кодекс. number: «226-З», «146-ФЗ», «НК РФ N 146-ФЗ»; date или null.
+• "other"          — иной нормативный акт.
+(invoice не включай.)
+</kinds>
+
+<rules>
+• kind определяется по ключевому слову в исходном тексте.
+• Кодекс (НК РФ, БК РБ, ГК РФ и т.п.) — это тоже закон (kind="zakon"). Отдельного kind="kodex" нет.
+• Если в тексте кодекс и номер ФЗ стоят рядом («НК РФ N 146-ФЗ») — ОДНА запись zakon, number = «НК РФ N 146-ФЗ».
+  ЗАПРЕЩЕНО из «НК РФ N 146-ФЗ» делать две записи. Это один документ.
+• number — только то что после ключевого слова: «146-ФЗ», «НК РФ N 146-ФЗ», «681». Ссылки на статьи (СТ., П., ПОДП.) в number НЕ включай.
+• date — ДД.ММ.ГГГГ. Двузначный год нормализуй (98 → 1998, 24 → 2024).
+• «б/н» в number — только если явно написано слово «б/н» или «БЕЗ НОМЕРА». Если в тексте просто нет номера — в number ставь null. ЗАПРЕЩЕНО подставлять «б/н» по умолчанию.
+• ЗАПРЕЩЕНО копировать дату в поле number или номер в поле date. Если для документа в исходном тексте нет номера — number = null. Если нет даты — date = null. Поля number и date НЕ должны быть равны друг другу.
+• Если в тексте есть только дата документа без номера (например «ПО ДОГОВОРУ ОТ 04.07.2023») — это валидная запись с number=null и заполненной date. Чек B2.CONTRACT решит что делать.
+• Паттерн `<id-YY> <ДД.ММ.YY>` (номер с двузначным годом + дата, без слова «ДОГ.») — банковская конвенция валютного договора → main_contract.
+  Пример: «44444-25 01.10.25» → {"kind":"main_contract","number":"44444-25","date":"01.10.2025"}.
+• Не включай ОГРН, КПП, КБК, ОКТМО, ИНН, БИК — это реквизиты, не документы.
+• counterparty_hint — для assignment_dut: наименование первоначального кредитора; иначе null.
+• counterparty_country — для assignment_dut: страна первоначального кредитора; иначе null.
+</rules>
+
+<examples>
+«УКАЗ ПРЕЗИДЕНТА РБ № 681 ОТ 28.12.2007»                  → {"kind":"ukaz","number":"681","date":"28.12.2007"}
+«ПОСТАНОВЛЕНИЕ 392/7 ОТ 06.07.2021»                       → {"kind":"postanovlenie","number":"392/7","date":"06.07.2021"}
+«ЗАКОН 146-ФЗ ОТ 31.07.98»                                 → {"kind":"zakon","number":"146-ФЗ","date":"31.07.1998"}
+«СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»                    → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  (СТ.333.19 — ссылка на статью, не часть number)
+«СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»  → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  — ОДНА запись! НК РФ № 146-ФЗ это один документ.
+«УКАЗ ПРЕЗИДЕНТА №8 ОТ 28.03.2008»                         → {"kind":"ukaz","number":"8","date":"28.03.2008"}
+«ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017» → ДВА документа:
+  {"kind":"main_contract","number":"б/н","date":"03.10.2019"} и {"kind":"ukaz","number":"8","date":"21.12.2017"}
+«СОГЛАСНО ДОГОВОРУ ОТ 04.07.2023»                          → {"kind":"main_contract","number":null,"date":"04.07.2023"}  (номера нет → null; в number дату НЕ копируй)
+«ПО ДОГОВОРУ № 7»                                           → {"kind":"main_contract","number":"7","date":null}  (даты нет → null)
+«ПО ДОГОВОРУ»                                              → {"kind":"main_contract","number":null,"date":null}
+</examples>
+</purpose_linked_documents>
+
+<checks>
+
+<check id="B2.CONTRACT">
+Цель: проверить наличие реквизитов договора-основания (номер + дата).
+
+Применяй сверху вниз:
+
+Шаг 0:  Если purpose_linked_documents нет записей → FAIL, message: «Договор-основание не упомянут в назначении.». Дальнейшие шаги пропускай. Стоп.
+Шаг 1:  Если в purpose_linked_documents есть запись с kind="main_contract" (или "assignment_dut") и заполнены и number, и date → PASS, message: "". Стоп.
+Шаг 2:  Если ≥2 main_contract без даты, но дата у каждого следует из паттерна `<id-YY> <ДД.ММ.YY>` — считается заполненной (Шаг 0).
+Шаг 3:  Если purpose_linked_documents содержит main_contract с заполненным number, но date пустая (null или "") → FAIL, message: «Дата договора не указана.»
+Шаг 4:  Если main_contract есть с заполненной date, но number пустой (null или "") и в тексте нет слова «б/н» → FAIL, message: «Номер договора не указан.»
+Шаг 5:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut, но при этом есть упоминание договора («ПО ДОГОВОРУ», «СОГЛАСНО ДОГОВОРУ») без номера и даты → FAIL, message: «Номер и дата договора не указаны.»
+Шаг 6:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut → FAIL, message: «Договор-основание не упомянут в назначении.»
+Шаг 7 (исключения — OUT_OF_SCOPE):
+  • Бюджетный платёж (ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ») — реквизиты договора не нужны → OUT_OF_SCOPE, message: «Бюджетный платёж — реквизиты договора не требуются.»
+  • Банковская операция («ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ») — основание не договор, а заявка/заявление → OUT_OF_SCOPE, message: «Банковская операция — реквизиты договора не требуются.»
+  • Договор не упоминается вообще, и платёж не подходит под бюджетный/банковский → OUT_OF_SCOPE, message: «Договор-основание не упомянут в назначении.»
+
+ЖЁСТКОЕ ПРАВИЛО (самопроверка перед выдачей ответа):
+  • Если у любого main_contract поле number равно null или "" — статус B2.CONTRACT НЕ МОЖЕТ быть PASS. Только FAIL.
+  • Если у любого main_contract поле date равно null или "" — статус B2.CONTRACT НЕ МОЖЕТ быть PASS. Только FAIL.
+  • PASS допустим ТОЛЬКО когда есть хотя бы одна запись main_contract, у которой ОБА поля number и date — непустые строки.
+</check>
+
+<check id="B2.THIRD_PARTY">
+Признаки ДУТ: «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ», «УСТУПКА ТРЕБОВАНИЙ» или упоминание первоначального кредитора (в любой форме — см. ниже).
+
+Сокращения для первоначального кредитора:
+  «ПЕРВ. КРЕДИТ.», «ПЕРВ.КРЕД.», «ПЕРВОНАЧ. КРЕДИТОР», «ПЕРВОНАЧАЛЬНЫЙ КРЕДИТОР»
+
+Формат в скобках: «(ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  — ОСОО КАО КЕЙДЖИ = наименование, КЫРГЫЗ. = страна (Кыргызстан) → оба указаны → PASS.
+
+- PASS — указаны И наименование, И страна первоначального кредитора.
+- FAIL — отсутствует наименование ИЛИ страна. message — что именно не указано.
+- OUT_OF_SCOPE — признаки ДУТ не обнаружены. message: «Признаки ДУТ не обнаружены.»
+
+<examples>
+«ПО ДОГ. УСТ. ТРЕБ. 26/2435643 ОТ 20.03.2026 К КОНТР. 2404-5КР ОТ 03.04.2024 (ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  → ДУТ найден. Первоначальный кредитор: «ОСОО КАО КЕЙДЖИ», страна «КЫРГЫЗ.» (Кыргызстан). → PASS.
+
+«ПО ДУТ № 5 ОТ 01.01.2024»
+  → ДУТ найден. Наименование и страна первоначального кредитора не указаны. → FAIL.
+
+«ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ № 7»
+  → Признаков ДУТ нет. → OUT_OF_SCOPE.
+</examples>
+</check>
+
+</checks>
+
+<full_examples>
+
+Пример 1 — судебный платёж с НК РФ:
+Вход: {"payment_purpose_raw": "VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ САНКТ-ПЕТЕРБУРГА И ЛЕНИНГРАДСКОЙ ОБЛАСТИ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\" О ВЗЫСКАНИИ 308 480,25 РОССИЙСКИХ РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "zakon", "number": "НК РФ N 146-ФЗ", "date": "31.07.1998", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "OUT_OF_SCOPE", "message": "Бюджетный платёж — реквизиты договора не требуются."},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+Пример 2 — договор + декрет:
+Вход: {"payment_purpose_raw": "ПЕРЕЧИСЛЕНИЕ ДЕН СР-В ОТ ПРОДАЖИ ТОКЕНОВ ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "б/н", "date": "03.10.2019", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "ukaz", "number": "8", "date": "21.12.2017", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+</full_examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose_documents/0) role=system ====================
+
+
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_documents/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_documents/1) role=user ====================
+
+
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b1_legality_nonres start structured=False attachments=False payload_len=4381
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b1_legality_nonres/0) role=system ====================
+
+
+<role>
+Ты — валидатор правомерности валютной операции между резидентом РБ и нерезидентом (вне офшорных субтерриторий).
+Верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход: {"extracted_fields": {"payment_order_number": "161", "bn_no_number": false, "payment_order_date": "08.08.2024", "amount_number": 119404.15, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payer_unp": "101128058", "payer_account": "BY55BELB301200405001C0226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "beneficiary_tin": null, "beneficiary_account": null, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE\nN 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_bank_name": "BANK MELLI IRAN", "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_bank_country": "Объединённые Арабские Эмираты", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "08.08.2024 14:04:00", "executed_at": "08.08.2024", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "payment_details_raw": null, "deal_registration_entries": [], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": null, "beneficiary_country_inferred": null, "beneficiary_country_text": "Объединённые Арабские Эмираты", "beneficiary_country_text_code": "AE", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": {"source": "by_swift", "country": "BY", "name": "ОАО 'Банк БелВЭБ'", "city": "г.Минск", "address": null, "needs_llm_parse": true}, "beneficiary_bank_bic_info": {"source": "swift_country", "country": "AE", "name": "BANK MELLI IRAN", "city": "DUBAI", "address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "needs_llm_parse": false}, "contract_docs_present": true, "contract_text": null, "payer_is_resident": true, "payer_entity_type": "юрлицо", "beneficiary_is_resident": false, "beneficiary_entity_type": "unknown", "beneficiary_country_code": "AE", "beneficiary_country_name": "Объединённые Арабские Эмираты", "beneficiary_country_source": "alias", "phase1_b1_legality": {"status": "WARN", "message": "Бенефициар — нерезидент РБ, тип не определён.\nДля юрлица-нерезидента ограничений нет (ст.13 п.1 Закона 226-З); для физлица-нерезидента применяется ст.13 п.3 (SWIFT-переводы разрешены по п.3.1).\nУточните тип бенефициара для окончательного вывода."}}, "evidence_map": {"payment_order_number": ["№161"], "payment_order_date": ["Дата: 08.08.2024"], "amount_words": ["Сумма и валюта: СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ"], "amount_number": ["Сумма цифрами: 119404.15"], "currency_code": ["Код валюты: 784"], "payer_name": ["Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4"], "payer_account": ["Счет: BY55BELB301200405001C0226000"], "payer_unp": ["УНП плательщика: 101128058"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: MELIAEA1XXX"], "beneficiary_bank_name": ["Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI"], "beneficiary_name": ["Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE"], "payment_purpose_raw": ["Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039"], "has_deal_registration_number": ["Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,"]}, "notes": []}
+</role>
+
+<output_schema>
+{
+  "checks": [
+    {"id": "B1.LEGALITY_LLM", "status": "PASS", "message": "..."}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B1.LEGALITY_LLM: PASS, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Работай только с полями из входного JSON.
+- Вывод: один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски.
+- ПО УМОЛЧАНИЮ — OUT_OF_SCOPE (платёж в адрес нерезидента в общем порядке разрешён). PASS ставится только если назначение по смыслу подходит под один из специальных сценариев из <scenarios>. Маркеры — в помощь, не как жёсткое требование.
+</global_rules>
+
+<context>
+Бенефициар — нерезидент. По ст.13 Закона 226-З расчёты резидента в иностранной валюте с нерезидентом в общем случае разрешены.
+Твоя задача — найти специальное основание из <scenarios>; если ни одно не подошло — OUT_OF_SCOPE.
+</context>
+
+<scenarios>
+<scenario name="salary_nonres_abroad">
+  <summary>Выплата физлицу-нерезиденту вознаграждения за выполнение трудовых обязанностей на территории иностранного государства (ст.13 п.3.21 Закона 226-З).</summary>
+  <triggers>бенефициар — физлицо (нерезидент РБ); назначение содержит «зарплата», «заработная плата», «вознаграждение», «трудовые обязанности», «выполнение трудовых обязанностей», «salary», «wage», «remuneration».</triggers>
+  <message>«Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З).»</message>
+</scenario>
+
+<scenario name="decree8_tokens">
+  <summary>Операции с токенами / криптовалютой по Декрету Президента РБ №8 от 21.12.2017.</summary>
+  <triggers>назначение содержит «токен», «крипт», «майнинг», «смарт-контракт», «цифровой знак», «Декрет №8»; одна из сторон — оператор криптоплатформы / резидент Парка высоких технологий РБ.</triggers>
+  <message>«Операция с токенами разрешена Декретом Президента РБ №8 от 21.12.2017. Участие нерезидента допускается.»</message>
+</scenario>
+
+<scenario name="ukaz231_forex">
+  <summary>Форекс-операции по Указу Президента РБ №231 от 04.06.2015.</summary>
+  <triggers>назначение содержит «Указ 231», «форекс», «forex», «внебиржевые финансовые инструменты»; одна из сторон — банк / НКФО / форекс-компания.</triggers>
+  <message>«Операция в сфере форекс разрешена Указом Президента РБ №231 от 04.06.2015.»</message>
+</scenario>
+</scenarios>
+
+<message_templates>
+<out_of_scope>«Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З).»</out_of_scope>
+
+<example>
+  <input>payment_purpose_raw: «ОПЛАТА ПО ИНВОЙСУ №100 ЗА ПОСТАВКУ КОМПЛЕКТУЮЩИХ»; бенефициар — компания из Германии</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"OUT_OF_SCOPE","message":"Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ЗАРПЛАТА ЗА МАРТ ЗА ВЫПОЛНЕНИЕ ТРУДОВЫХ ОБЯЗАННОСТЕЙ»; бенефициар — физлицо-нерезидент</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «SALARY FOR APRIL»; бенефициар — физлицо-нерезидент</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ОПЛАТА ЗА КРИПТОВАЛЮТУ ПО СМАРТ-КОНТРАКТУ»; одна из сторон — резидент ПВТ</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Операция с токенами разрешена Декретом Президента РБ №8 от 21.12.2017. Участие нерезидента допускается."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ВЫПЛАТА ПО ФОРЕКС-СДЕЛКЕ»; плательщик — белорусская форекс-компания</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Операция в сфере форекс разрешена Указом Президента РБ №231 от 04.06.2015."}]}</output>
+</example>
+</message_templates>
+
+
+
+==================== PROMPT_SENT (b1_legality_nonres/0) role=system ====================
+
+
+[2026-05-14 13:18:41,149] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b1_legality_nonres/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b1_legality_nonres/1) role=user ====================
+
+
+[2026-05-14 13:18:41,150] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 3827, 'content_head': '<role>\nТы — экстрактор «семантического» назначения платежа из валютного платёжного поручения.\nЗадача: по сырому полю «Назначение платежа» вернуть очищенный смысл (payment_purpose_s'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:18:41,150] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:18:41,151] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 10546, 'content_head': '<role>\nТы — экстрактор сопутствующих документов из «Назначения платежа» валютного платёжного поручения.\nЗадачи:\n  1) Извлечь purpose_linked_documents — все договоры/нормативные акт'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:18:41,151] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:18:41,152] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 8783, 'content_head': '<role>\nТы — валидатор правомерности валютной операции между резидентом РБ и нерезидентом (вне офшорных субтерриторий).\nВерни РОВНО ОДИН валидный JSON по схеме ниже.\n\nВход: {"extrac'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:18:41,152] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:18:41,934] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:18:41,935] INFO in openai: OpenAI response received: choices=1 content_len=98 finish_reason=stop usage=prompt=1940 completion=44 total=1984
+[2026-05-14 13:18:41,936] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_semantic) ====================
+
+
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"
+  }
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_semantic) ====================
+
+
+[2026-05-14 13:18:41,936] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_semantic done elapsed_ms=787 elapsed_s=0.79 result_len=98
+[2026-05-14 13:18:42,136] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:18:42,137] INFO in openai: OpenAI response received: choices=1 content_len=153 finish_reason=stop usage=prompt=3583 completion=64 total=3647
+[2026-05-14 13:18:42,138] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b1_legality_nonres) ====================
+
+
+{"checks": [{"id": "B1.LEGALITY_LLM", "status": "OUT_OF_SCOPE", "message": "Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З)."}]}
+
+
+==================== PROMPT_RESULT (b1_legality_nonres) ====================
+
+
+[2026-05-14 13:18:42,138] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b1_legality_nonres done elapsed_ms=989 elapsed_s=0.99 result_len=153
+[2026-05-14 13:18:43,653] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:18:43,654] INFO in openai: OpenAI response received: choices=1 content_len=766 finish_reason=stop usage=prompt=4545 completion=271 total=4816
+[2026-05-14 13:18:43,657] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_documents) ====================
+
+
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "24/053", "date": "08.07.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "24/039", "date": "18.05.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "1", "date": "22.07.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "б/н", "date": "22.07.2024", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_documents) ====================
+
+
+[2026-05-14 13:18:43,657] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_documents done elapsed_ms=2508 elapsed_s=2.51 result_len=766
+[2026-05-14 13:18:43,657] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_specificity start structured=False attachments=False payload_len=86
+[2026-05-14 13:18:43,658] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_specificity/0) role=system ====================
+
+
+<role>
+Ты — валидатор конкретики предмета валютного платежа.
+Единственная задача: по назначению платежа (payment_purpose_semantic) вернуть один чек B2.PURPOSE_SPECIFICITY (PASS/FAIL).
+
+Вход: {"extracted_fields": {"payment_purpose_semantic": "ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"}}
+(в JSON только одно поле: payment_purpose_semantic — текст назначения платежа)
+</role>
+
+<output_schema_sturcture>
+Верни РОВНО ОДИН валидный JSON (без markdown, без комментариев):
+{
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""}
+  ]
+}
+</output_schema_sturcture>
+
+<allowed_statuses>
+B2.PURPOSE_SPECIFICITY: FAIL
+B2.PURPOSE_SPECIFICITY: PASS
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка. При PASS — пустая строка.
+- Если payment_purpose_semantic пустой → B2.PURPOSE_SPECIFICITY FAIL, message: «Назначение платежа не заполнено.»
+</global_rules>
+
+<task>
+Цель: убедиться что предмет платежа конкретен.
+
+Дисквалифицирующий список (общие токены, которые сами по себе НЕ являются предметом):
+  товары, товаров, услуги, услуг, оплата, расчёт, расчет, предоплата, аванс, авансовый, платёж, платеж, работы, работ,
+  goods, services, payment, prepayment.
+
+Алгоритм:
+1) Найди в payment_purpose_semantic хотя бы одно слово или словосочетание, которое называет конкретный товар, вид услуги, вид выплаты или вид обязательства (например: БЕНЗИН, КРЕСЛО, МЕТАЛЛОПРОКАТ, АВТОТРАНСПОРТНЫЕ, ЗАРПЛАТА, РОЯЛТИ, ЗАЙМ, АРЕНДА, ОБОРУДОВАНИЕ, "ПО" - если стоит в конце, значит это ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ: "УСЛУГИ ПО ВНЕДРЕНИЮ ПО").
+   Такое слово может стоять рядом с общим («ОПЛАТА ЗА БЕНЗИН»), в скобках («ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»), как прилагательное при общем слове («АВТОТРАНСПОРТНЫЕ УСЛУГИ») или быть единственным содержимым («МЕТАЛЛОПРОКАТ»).
+   Аббревиатуры конкретных товаров/услуг тоже считаются (ПО — «программное обеспечение», ОПЛ.АН.ОБОР. — конкретное оборудование).
+2) Если такое слово/словосочетание найдено → PASS, message: "".
+3) Если в payment_purpose_semantic присутствуют ТОЛЬКО общие токены из дисквалифицирующего списка (с допустимыми предлогами/союзами и числами/датами/периодами) → FAIL, message: «Предмет назначения платежа не конкретизирован.»
+
+Маршрут и период — конкретику предмета НЕ задают. Конкретику задаёт только слово, называющее сам товар/услугу/вид выплаты.
+
+Исключения (всегда PASS):
+  • Бюджетные платежи: ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ» — такие платежи в специфике не нуждаются.
+  • Банковские операции: «ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ» — конкретизация не требуется.
+</task>
+
+<examples_pass>
+«ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                         → PASS  («ПО» в конце — аббревиатура «Программное Обеспечение», конкретный предмет)
+«ПЕРЕЧИСЛЕНИЕ ДЕНЕЖНЫХ СРЕДСТВ ОТ ПРОДАЖИ ТОКЕНОВ»         → PASS  (покупка/продажа токенов - это конкретная операция)
+«АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»              → PASS  (АВТОТРАНСПОРТНЫЕ — конкретный вид услуги)
+«МЕТАЛЛОПРОКАТ»                                            → PASS  (конкретный вид товара)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»                            → PASS  (КРЕСЛО — конкретный вид товара)
+«ОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ»                         → PASS  (БЕНЗИН — конкретный вид товара)
+«ОПЛАТА ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ»                        → PASS  (ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ — конкретный вид товара)
+«ОПЛ.АН.ОБОР.»                                             → PASS  (аббревиатура конкретного вида товара)
+«ПРАФЮМЕРНАЯ ВОДА, КОНДИТ. ИЗД., МАСЛО МОТОР.»             → PASS  (конкретные виды товаров)
+«АРЕНДА ЗЕМЕЛЬНОГО УЧАСТКА»                                → PASS
+«ЗАРПЛАТА ЗА МАРТ»                                         → PASS  (зарплата — конкретный вид выплаты)
+«РОЯЛТИ ЗА 2022»                                           → PASS  (роялти — конкретный вид платежа)
+«ВОЗВРАТ ЗАЙМА»                                            → PASS  (займа — конкретный вид обязательства)
+«ПРОДАЖА ВАЛЮТЫ»                                           → PASS  (банковская операция)
+«ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»                              → PASS  (бюджетный платёж)
+</examples_pass>
+
+<examples_fail>
+«ПРЕДОПЛАТА ЗА ТОВАРЫ»                                     → FAIL  (ТОВАРЫ — общее слово; «ОПЛАТА»/«ПРЕДОПЛАТА» сами по себе не дают конкретики)
+«ОПЛАТА ЗА УСЛУГИ»                                         → FAIL  (УСЛУГИ — общее слово)
+«АВАНСОВЫЙ ПЛАТЁЖ»                                         → FAIL
+«»                                                         → FAIL  («Назначение платежа не заполнено.»)
+«ОПЛАТА»                                                   → FAIL  (только дисквалифицирующий токен)
+</examples_fail>
+
+
+
+==================== PROMPT_SENT (b2_purpose_specificity/0) role=system ====================
+
+
+[2026-05-14 13:18:43,658] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_specificity/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_specificity/1) role=user ====================
+
+
+[2026-05-14 13:18:43,661] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 4826, 'content_head': '<role>\nТы — валидатор конкретики предмета валютного платежа.\nЕдинственная задача: по назначению платежа (payment_purpose_semantic) вернуть один чек B2.PURPOSE_SPECIFICITY (PASS/FAI'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:18:43,661] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:18:44,008] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:18:44,009] INFO in openai: OpenAI response received: choices=1 content_len=91 finish_reason=stop usage=prompt=1874 completion=34 total=1908
+[2026-05-14 13:18:44,011] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_specificity) ====================
+
+
+{
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""}
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_specificity) ====================
+
+
+[2026-05-14 13:18:44,011] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_specificity done elapsed_ms=353 elapsed_s=0.35 result_len=91
+[2026-05-14 13:18:44,012] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [DONE  ELAPSED=2.86S]
+  ⏱  elapsed: 2.86s
+============================================================
+[2026-05-14 13:18:44,012] INFO in base: complete_stream: first answer chunk received
+[2026-05-14 13:19:31,181] INFO in stream_processor: Pre-fetch skipped: isNoneDoc=True
+[2026-05-14 13:19:31,241] INFO in logging: Starting activity: stream - 864a950e-a76c-42fb-8e53-084f33c3c84b - User: local
+[2026-05-14 13:19:31,241] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage 1/2 start (extract)
+[2026-05-14 13:19:31,246] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): preprocessed PDF text for 004050__161_08.08.2024__24-039_18.05.2024.pdf (len 7958 -> 7926; lines 79/79; table_lines_removed=0 empty_lines_removed=0 joins=0)
+[2026-05-14 13:19:31,248] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): preprocessed PDF text for 004050__161_08.08.2024__24-039_18.05.2024_..pdf (len 9480 -> 9476; lines 85/85; table_lines_removed=0 empty_lines_removed=0 joins=0)
+[2026-05-14 13:19:31,400] INFO in payment_validator_pipeline_agent: 
+===================================
+AUTO_EXTRACT_RESULT_BEGIN
+{"extracted_fields": {"payment_order_number": "161", "bn_no_number": false, "payment_order_date": "08.08.2024", "amount_number": 119404.15, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payer_unp": "101128058", "payer_account": "BY55BELB301200405001C0226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "beneficiary_tin": null, "beneficiary_account": null, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE\nN 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_bank_name": "BANK MELLI IRAN P.O. BOX: 1894", "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_bank_country": "Объединённые Арабские Эмираты", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "08.08.2024 14:04:00", "executed_at": "08.08.2024", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "payment_details_raw": null, "deal_registration_entries": [], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": null, "beneficiary_country_inferred": null, "beneficiary_country_text": "Объединённые Арабские Эмираты", "beneficiary_country_text_code": "AE", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": null, "beneficiary_bank_bic_info": null, "contract_docs_present": true, "contract_text": "=== 004050__161_08.08.2024__24-039_18.05.2024.pdf ===\npurchase contract | No 2,1/039 | Коптракт на закупку\nм INSK | l8.05.2024 | минск\nРа8е l оfз\nI Seller: KMED Trading LLc. UAE\n## ёсt ofcontract/п\n}Iз\nЛС,. Республика Беларусь | ПрOдавец: KMED Trading LLC. ОАЭ\nl\nl\nItcm J,i! | Goods Dcscrjption Описанио товара | Q\"ty, pcs к-во, шт, | Unit Price, AED Цена, дирхам ОАЭ | value, AED сумма, дирхам оАЭ\nО riпg О 1,78-1,78 (silicone 70)/ Уплотнительвое кольцо О 1,78-1,78 (силикоп 70) | з00 | 0,8з | 249,00\n2 | О гiпg О З,5-1,5 (Silicon9 70)/ Уплотнительвое кольцо О З,5-1,5 (силикон 70) | 300 | 0,85 | 255,00\nО riпg О 5,9.1,0 (Silicone 60)/ Уплотtlительttое кольцо О 5,9-1,0 (силикоп 60) | 500 | 0,85 | 425,00\n.1 | О Iiпg О 6,6-1,5 (silicone 60)/ Уплотнительное кольцо О 6,6-1,5 (силикоII60) | 3000 | 0,86 | 2 580,00\n5 | О гiп8 О 6,6-2,0 (Silicon9 70)/ УплотlIитсльпое кольцо О 6,6-2,0 (силикон 70) | з00 | 0,86 | 258,00\n6 | О Iing О 9,0-1,2 (silicone 70)/ Уплотнительно9 кольцо О 9,0-1,2 (силикон 70) | з00 | 0,92 | 2,16,00\n1 | О riпg О l2,0-1,8 Gilicone 70)/ УплотIIительпое кольцо О l2,0\"1,8 (силикон 70) | з00 | о,91 | 291,00\nlJ | О гiпg @ l3,0-2,0 (silicone 70)/ Уплотtlительное кольчо О l3,0-2,0 (силикон 70) | l000 | 0,99 | 990,00\nО гiпg О lЗ,0-2,5 (silicoпe 70)/ Уплотнитсль}iое кольцо О З,5-i (силикон 70) | з00 | 0,99 | 291,00\nl0 | О ring О l6,0-2,0 (siliconc 60)/ УплотнительlIое кольцо о l3,0-2,5 (силикон 60) | з00 | 1,15 | з45,00\nll | О гiлg О l7,4-0,8 (silicone 70)/ Угutотнительное кольцо О I7,4-0,8 (силикоя 70) | 300 | l,18 | з 54,00\nl2 | О гiпg @ l8.0-1,5 (silicone 70)/ Уttлотttи-гельпос коJIьцо О l8,0-1,5 (силикоп 70) | l000 | l,l9 | ll90,00\nlз | О гiп8 О l9,0.2,0 (silicone 60)/ УплотнителыIое кольцо О l9,0-2,0 (силикон 60) | l000 | &#124;,2&#124; | l 2l0,00\nl4 | О Iiпg О 22,0-1,5 (ýilicone 70)/ Уплотни,t,еltыlое кольuо О 22,0-1,5 (силикоtl 70) | l00 | &#124;,2з | l2з,00\nl5 | BP5,65/6-W, Socket, PN# l l004200/ BP5,65/6-W. Контакт, Парт, помер l l004200 | l50 | 21,7,48 | з2 622,00\nlб | Rotary SoIenoid RSR28/l7-SR45- 1 10/ Враца]оцийся солсttоид RSR28/l7-SR45-1 l0 | 50 | l89,4l | 9 470,50\n'[otal аmочпt, Exl Dubai, АЕD/Обцая стоимость, EXllV DчЬаi,дирхамОАЭ | '[otal аmочпt, Exl Dubai, АЕD/Обцая стоимость, EXllV DчЬаi,дирхамОАЭ | '[otal аmочпt, Exl Dubai, АЕD/Обцая стоимость, EXllV DчЬаi,дирхамОАЭ | '[otal аmочпt, Exl Dubai, АЕD/Обцая стоимость, EXllV DчЬаi,дирхамОАЭ | 50 935.50\nDelivery termý: Dclivery: Ьу July 31,2024. I,аrliаl dclivcIies ЬсlЬгс the specificd delrLlline arc allowed, Dclivcry tеппs: EXW Dubai (ассоrdiпд to llrcotcImý 2020). | &#124; Условия поставки: &#124; Срок поставки: до 3l июля 2024, &#124; Доttускаlотся частичные поставки раньц9 указапного срока, l У i EXW Дчбай (0oпlaclro\n## Рsуm€пt terrnýi\nСuп,спс),,АЕD\nAdvaпce рауmепt| Ьу Jчпе 07, 2024.\n## Условия опллты:\nВалю,га плл1,сжаi лирхам ОАЭ\nЛDilllсовLlй\nплаl(жi до 07 иlоtlя 2024.\nSelleг iп thе реlsоп oi'/ lIрол;iв1l]ч в лпче\n<!-- image -->\nl\nlа\nNi]пlс i]пd l'oslllon / Имл и должносliь! , l\\_ Th-]Kl-ijl'i,p::l\n/,i]ld \\lsnilwl\nl }\nBusiness Мапlgег\nК\n<!-- image -->\n№aте аnd Роsion Имя и должность:\nГ,:*l\"l'r:.1'f ,\"sk220024,Republicof веlаrчs, v^lT, ror tzBOsB НilЧШнВНiIч:*тgi:l*:if :,х\"_ mffКЪ\".\",l\"-л*,r,,li,,_л_ ffiimffilýзооо,''\",о, | MиrrcK 220024, респчбл ика Б ела Б\"лчрlt:\",... i-Jl1 ; Н l;iBi;, i,*lýзж,_t ff ::_ \"\" жпЩ 99.,jччо,ч, i,, * ^-. :\"l;\"'JЁl\"Дr\"{*:лB\"Ч Yii]jboo, т ь, т ооо о о, Гн;кl;ь[ :lýb'o оо *\"оо\"дsн BLD., Du, ДФ)ес ballкl:_\"\" \",^\" _ЁN,.tIR ATES i?it#.\"л+iж-,уltг\", ilё'лr\" з,'отовzзllч,, nn, tf:i:llЁ,:llк3\"\"*' Гffii;Фпокупатсля, Г-.-..-.-\"-тьодч\"\"цоб..-..--у,,\"указывать .п\"лу,оrпу,о \"\",l,op*1,1ý n,,ooo,\nГ;т;нзь*::}ъlьтil#о!\"*, ifr..jНi,ж,ъt ;;;,;u,\". n\"- \"\", Гх#;:;iцlt2lц*RDкньквнsнвt,ос, ifiн,,м{\",tlъкнlt,\"' А/С No, Э tu,\"\"_\"--. .lrэ ппl хЪ'оЬ\"3riоЪЬii о,о\"\", *, _-,,fф. r,{ъ-R! А г,l\\ t-, бlfr;тепеrаl теrшý ГбiБIfrЙЪfriБ\"Поi\"\", Wand/orusc, '_ПJýЪчоо, u\",,n\"rr,\"\"\" ,Тj,тii'iliТililliЁ::tъ,lжl,:;l\"\"ll\"вь | *Г\":Н:: f;ffiffIГ;J\"*;:?,i\"\"\"-, Тffi fli:H:fi\nр.iпублипч\n?Ji\n....$ЁНн*;н;'l:*u*Ii\"щ*=*;\n;\"\"T;;i\"ili\" :]]l11-,:,т:'\"ý: J}li:;;;\n;::\",*ii\"#,fi ffilж:н\";*i,Ч\nо,,, ,.,рЪпо\"пг , ,it\"\n'J\"i *::H;;l ;;\nlrc рс,5(\", ,_\n\\,\nund Position / Имл | дlrrrred Deputy\nof/\ntlre\niп регsоп\nSeller\n<!-- image -->\npurchase contract | No 2,1/0]9 | Контракт на закупку\nMlNSK | l8.05.2024 | минск\nРаgе З оfЗ\n]1п,сhаsе Contract in accoldance with (he existing legiSlation,\n- 6, Itапgе, qualltiLy апd раrаmоtеIs of ttre goods slrall соrгеsропd With the Specification ofthe РuIсhаsе contract, Тhе goods quality slrall соггеsропd with technical dосuпопts оf the SelleL The goods shall Ье frее fronr dеtЪсts in matelial and wоrkшапshiр at thc tinle 0f delivery, Туре оf packaging is carton, Wаrгапtу period ol tlre goods is l 2 (twclve) months ffоm the date of the sh ipmепt. The date of the WayBill is сопsidеrеd to Ье the date of thc shipment,\n7. All the amendments and addenda to the purchasc сопtrасt аrе valid oDly lvhеп issued iп wгitiпg and signed Ьу the both palties, Nеithег рагtу shall Ье entitled to transfel tlreir rights апd оЫigаtions undcr this Purclrase Contract to а thiгd party without Written сопsепt of the other contracting раrtу. All expelrses on paying taxes. dUties and оthеr expenýes соппесtоd with customs rogiýtra, tion in tho tert,itory of the SelleI'S country shall Ье Ьоrпе Ьу tho Sсllсг, All expcnscs оп paying taxes, duties and othel expgnses соппесtеd with customS r9gistratioл in the territory ofthe Вuуеr's countl,y shall Ье Ьоrпе Ьу the Buyer, The present Purchase contrасt, all аmепdmопts and сhапgеs to it sent Ьу fax or c,mail have lcgal еfТЪсt of th9 огigiпаl. The Purclrase Сопtrасt is conclud9d in the Ёпglish апd RuSSian languages. Both toxts have tho ýаmе legal cli'cct,\n- l], 'l'he Рuгсlrаsе Сопtrасt colnes into eifect оп the date of signatчге ol' both Рагtiеs and efъcts until Dсс9mЬег з l, 2024, lf а Ра[ty bas not fult']lled its оIэligаtiопs (in whole or in part) before the cxpiry oi'lh9 tеrtп hогео1, Suсh pal,ty Shall Ье obljgated to соmplete thc fulfillnent oГits оЫigаtiоп aftgr tho expily ofSaid tегm.\nSсllсг iп the реrsоп of/\nчика.\nПродавец и Покупатель несут ответственность по настояще, му Контракry на заt(упку в соответствии с дсЙствуюцим законодательством,\n6. АссортиNлепт, количество и параметры товара должпы соответствовать спецификации контракта. Качество товара должно соответствовать технической документации продав, ца. Товар но дол)t(ен содержать дефсктов материала и производства па момевт ttоставки. Вид тары L KapToHttая коробка. Гарантийныli срок Ila товар составляот l2 (двепццать) меся, цев с даты отгрузки. Дата трапспортной накJIадноfi считается датой отгрузки товара,\n2. 7, I]ce поправки и дополпевия к настоящеýlу KoltTpaKTy на закупку имеIот силу, если они внесеtlы в письменtrой форtrtе и полписапы обеими сторонами. Ни одпа из сторон не имеет права передава,гь свои права и обязательства по настоящеNлу Коптракту на закупку третьей стороне без письменного согласия другой стороtiы, Все расходы по уплато пошлип, нмогов, та!r{оженных пошлин и сборов, а t,акя&lt;е других платохеЙJ взимаемых па территории страны Продавца, несет Продавец. Все расходы по уплате пошлин, палогов! тамо, женных пOшлин и сборов. а также других платежей. взимаемых на т9рритории с'грапы fIокупатсля, несет Покупатель. FIастояций Контракт IIа закупку, всс прилохепия и изменения к ному, заклIоч9нные по 4)аксиNlильноЙ или электропной связи, иltlеют Iоридическую силу оригипала, Контракт на закупку составлен на английском и русском языках. Оба токста иNlеют одинаковуlо юридическую силу.\n3. 8, Коптракт на закупку вступает в силу с даты его подписа, IIи, обоими Сторонами и действует до З l декабря 2024, Если оторона IIе вьпIолнит своп обязательства (полностью или частично) до истечения срока действия настоящего Коптрак, таj то такая сторопа обязапа завершить вьпlолItспио своих обязательств и после истечеIIия указанного срока.\n<!-- image -->\n<!-- image -->\nK MED IRADINGL L.C P.O Box 25909 Dubai -UAE\n\n=== 004050__161_08.08.2024__24-039_18.05.2024_..pdf ===\nADDITIoNдL AGREEMENT ]Y9 1 to Purchase contract JT9 241039 dtd. l8.05.2024 | ДОПОЛНИТЕЛЬНОЕ СОГЛДШЕНИЕ N! 1 к контодктч нд здкчпкч л! 241039 от l8.05.2024\nMINSK JlJ&#124;y 22,2024 | Минск 22 утtоllя 2024\nPase l оfз | Стр. l из 3\nsОLДR Ls cJsc, Republic of Belarus, hereinafter Ieferred to as the Вчуеr, оп the опе hand, and KMED Trading LLC, UAE, hcrcinafter referred to aS the ýeller, оп the other hand, jointly refered to аý the Pяrtieý, have concluded thc pfesent Additional Agreement ]фl to the Рчrсhаsе contract N9 241039 dtd. 18,05,2024 about the following: | ЗДО (СО\"lИР ЛС>>, Республика Беларусь, именуемый в даJIьЕсйшем Покупатель, с одной стороны, и KMED Trading LLC, ОДЭ, именуемьтй в дlrльнсйшем Продавец, с другой сторопы, вместе именуемые Стороны, заключили настояцее ДоIIолнительное Соглашение Nчl к Контракry на закупку N! 2410З9 от 18,05,2024г. о нихеслсдуюцемi\n- l, Flerewith, the Parties сопfirm their аgrееmепt lo amend the Subject of Contract in the Pulchase Contract М 241039 dtd. l8.05.2024 and accept it in the following edition:\n## Subject of contrnct / Предмет ковтраtсга\nItem Np | Goods Description Описание товара | Q-ty, рсý к-во, шт. | Unit Рriсе, AED Цена, дирхам оАЭ | Vаluе, AED Сумма, дирхам ОАЭ\nl | О ring О 1,78-1,78 (silicone ?0)/ Уплотнитольное кольцо О 1,?8-I,78 (силикоп 70) | з00 | 0,83 | 249,00\n2 | О ring О 3,5-1,5 (silicone 70)/ Уплотнитеllьное кольцо О З,5-1,5 (силикон 70) | 300 | 0,85 | 255,00\nз | О ring О 5,9-1,0 (Silicone 60)/ Уплотнительное кольцо О 5,9-1,0 (аиликон 60) | 500 | 0,85 | 425,00\n4 | О Ting О 6,6-1,5 (silicone 60)/ УпrтотЕительяое кольцо О 6,6-1,5 (силикон 60) | 3000 | 0,86 | 2 580,00\n5 | О riпg О 6.6-2.0 (silicone 70)/ Уплотпительное кольцо о 6,6-2,0 (силикон 70) | з00 | 0,86 | 258,00\n6 | О ring О 9,0-1,2 (silicone 70)/ Уплотнительное кольцо О 9,0-1,2 (силикоц 70) | з00 | | 276,00\n,7 | О ring О l2,0-1,8 (ýilicone 70)/ Уплотнительное кольцо о l2,0-1,8 (силикон 70) | з00 | 0,97 | 291,00\n8 | О riпg О l3,0-2,0 (ýilicone 70)/ Уплотнительное кольцо О l3,0-2,0 (силикон 70) | l000 | 0,99 | 990,00\n9 | О riпg О 13,0-2,5 (silicone 70)/ Уплотвительвое кольцо О 3,5-1 (силикон 70) | 300 | 0,99 | 29,],о0\nl0 | О ring О 16,0-2,0 (silicone 60)/ Уплотнитсльпос кольцо О 13,0-2,5 (силикон 60) | з00 | 1,1 5 | 345,00\nl1 | О riпg О l7,4-0,8 (ýiIicone 70)/ Уплотнительное кольцо О 17,4-0,8 (силикон 70) | з00 | 1,18 | з54,00\nl2 | О riпg О 18,0-1,5 (silicone 70)/ Уплотнительно9 кольцо О l8,0-1,5 (силикон 70) | 1000 | 1,19 | 1 190,00\nlз | О riпg О l9,0-2,0 (ýiliconc 60)/ Уплотнительное кольцо О l9,0-2,0 (силикоя 60) | 1000 | 1,2&#124; | 1 2 &#124;0,00\n1,1 | О riпg О 22,0-1,5 (Silicone 70)/ Уплотвительцое кольцо а 22,0-1,5 (силиков 70) | l00 | l,2з | l2з,00\nl5 | BP5,65/6-W, Socket, PN# 1 l 004200/ BP5,65/6-W, Контакт, Парт, номер 11004200 | 150 | 21,7,48 | з2 622,00\n16 | Rotary solcnoid RSR28/l 7-SR45-1 1 0/ Вращающийся соленоид RSR28/l7-SR45-1 10 | 50 | l139,1l | 9 470,50\nl1 | Аrgоп Wavelength CaliЫation Source / Источвик издучсвия аргововый для калибровки длины волны | l | 5 | 5 696,tt4\n<!-- image -->\nSeller in the реrsоп оf/ Прод\"'вец\nl,,,\nKt\nzaid kishawi Business Manager\nil\nK MED IRAOING LL.C P.O Box 25909 Dubai-UAE\n1. настоящим стороны подтверхдqют свое согласие измепить Прсдмет контракIа в Ковтракт9 на закупку Na 2410З9 от 18.05,2024г, и принять его в следуIощей редакции:\nъý\n<!-- image -->\nS\"\"tl\"*T\"c;ffi\ni{ёдбЛ{цЭ.;.i:,,.l -lс9ПаБлЁ,.\nl.,, '; \\\n$i\\ii:..,;?,.\"-z\nADDITIONALAGREEMENT.}гr 1 to Purchaýe contract J\\ъ 241039 dtd. 18.05,2024 | ADDITIONALAGREEMENT.}гr 1 to Purchaýe contract J\\ъ 241039 dtd. 18.05,2024 | ДОПОЛНИТЕЛЬНОЕ СОrЛАШЕНИЕ Nq l к Коrтраrсгу ва закупку J\\Ъ 241039 от 18.05,2024 | ДОПОЛНИТЕЛЬНОЕ СОrЛАШЕНИЕ Nq l к Коrтраrсгу ва закупку J\\Ъ 241039 от 18.05,2024\nMINSK | l!\\y 22,2024 | Минск | 22 июля2024\nРаде 2 оlз | Раде 2 оlз | Раде 2 оlз | Стр, 2 из З\nl8 | Photodiode FcI-InGaAS-1 000 / Фотодиод FcI-InGaAS-1000 | Photodiode FcI-InGaAS-1 000 / Фотодиод FcI-InGaAS-1000 | 2 | | 1070,70\n19 | optical FiЬеr Cable WF 1500/1650/1800/2000 НТ, NA=0.22, L-зm, D\\ryg: 06949-RЕVВ/ Волоконно-оптический кабель WF l500/1650/1800/2000 НТ, NA=O.22. L=3 м. Чертежi 06949-REVB | optical FiЬеr Cable WF 1500/1650/1800/2000 НТ, NA=0.22, L-зm, D\\ryg: 06949-RЕVВ/ Волоконно-оптический кабель WF l500/1650/1800/2000 НТ, NA=O.22. L=3 м. Чертежi 06949-REVB | з0 | 2 580,58 | ,7,7 4l\"7,40\n2D | AoQ.Switch, model: wGQS-041-1,5-cQc-l 064-AM-D Модулятор добротности, модель: WGQS-041-1,5-CQC- I064-AM-D | AoQ.Switch, model: wGQS-041-1,5-cQc-l 064-AM-D Модулятор добротности, модель: WGQS-041-1,5-CQC- I064-AM-D | |\nSресvlсаliоп: QUARTZ, 40,68 MHa 1,5х1,5mm', Lincar | Sресvlсаliоп: QUARTZ, 40,68 MHa 1,5х1,5mm', Lincar | Спецuфuхацuя: Кварц, 40,68 МГц, 1.5х1.5ммt, лиЕейЕaц полlIриз{щиlI, l064BM | ll | l30з,05 | l4 зз3,55\n2l | Driчеr for AoQ-Switch, model: WGQD-020-041-024-FPS Драйвер для модулятора добротности, модельi WGoD-020-04 l -024-FPS | Driчеr for AoQ-Switch, model: WGQD-020-041-024-FPS Драйвер для модулятора добротности, модельi WGoD-020-04 l -024-FPS | |\nspeciticalioп: 40.68 MHa 24vDC, 20 watts, FрS With incl. | speciticalioп: 40.68 MHa 24vDC, 20 watts, FрS With incl. | Спецuфuкацuя: 40.68 Мгц, 24vDc, 20 Ватг, FрS С кабелем ( l70 +/- Змм) включ.2 Dазъема (папа) | l0 | l145,10 | l1 451.00\nTotol amount, Exw Dubяi, AED/ Общsя стоимость, Exw Dubai, дирхдм ОАЭ\n2. Herewith, the Parties сопfirm theif аgrееmепt to amend and accept Deliyery terms апd Рауmепt torms in the Рчrсhаsе contract М 241039 dtd, 18,05.2024 in the following edition: | 2, Настоящим стороны подтверя.ддот свое согласие изменить и принять Условия поставки и Условия опляты в Контракте на закупку NЪ 2410З9 от l8,05,2024г. в следующей редакции;\nDalivery t€rms: DeliYery: Ьу october 31,2024. Partial and еаrlу delivery is allowed, Delivery tегms: Exw DчЬяi (according to Incoterms 2020). | условия поставки: Срок поставки: до 31 окгября 2024. Частичнм и досрочная поставка разрешена. Условия поставкиi Exw Дубдй (согласно ИЕкотермс 2020),\nPayment termýl curfency:ДED Рrорауmспt of 50 9З5,50 AED shall Ье paid Ьу June 07, 2024, paymont of 77 417,40 AED shall Ье paid Ьу August 20, 2024 and the remaining amount of З2 552,09 AED Shall Ье paid within 30 calendar days afteT delivery. The date ofthe cargo customs d€claration is considered to Ье the date of the delively. | условия оплаты: Валюта плат9жа: дирхам ОАЭ. АваЕсовьй платеrt в рirзмере 50 9З5,50 дирхам ОАЭ долr(ен быть оплачеп до 07 июня 2024, платеж в размере 77 417,40 дирхам ОАЭ должен бьгь оллачен до 20 авryсга 2024, и остаток в размере 32 552,09 дирхам ОАЭ долж9н бьпь оплачеп в течение З0 кмеIlдарньй днсЙ после поставки. Дата грузовоЙ таможеliЕой декларации считается дmой поставки товара,\nIf the Sellef violates the delively tеrms ol the goods stated in the Pulchase contfact fof mofo than 60 (sixty) calendal days, the ВчуеI has the right to claim rcfunds of аdчапсе payments received Ьу the Sеllеr fot чпshiрреd goods, The refund of advance рауmепts for unshipped goods shall Ьо made Ьу the seller no latef than З0 (thifty) calendar days ftom the date of reccipt ofa formal Written notification fгоm the Вчуеr. | В случае Еарушения Продавцом срока поставки товара, установлевного в Контракте на закупку, более чем 60 (шестьлесят) календарных дней, Покупатель имеет право потребовать от Продавца возврата авансовых плагежеЙ. полученных Продавцом за Ееотгруженный товар. Возврат авансовьж платежей за неотгруженяый товар должеЕ быть произведен Продавцом в срок не позднее З0 (тридцати) календарньтх дней от даты получения официального письменного чведомления от Покчпатсля.\n- of the Рчrсhаsе contmct м\n- З. Остальные условия Контракта на закупку N! 2410З9 от 18,05.2024г остаrотся\n<!-- image -->\nSeller in the рerson of / Продавeц в лице\nBuyer in the person of / Mkynel иe\nСФАРЛС\nZaid Kishawi Business Manager\nK MED TRADING LL.C PO Box 25909 Dubai - UAE\nSvetlana Pugach/C.M. Iyray\nDirector/Директор\nKMED\nГ.МИНСК\n<!-- image -->\nADDITIONAL AGREEMENT N 1\nto Purchase Contract N 24/039 dtd. 18.05.2024\nMINSK\nДОПОЛНИТЕЛЬНОЕ СОГЛАШЕНИЕ № 1\nк Контракту на закупку № 24/039 от 18.05.2024\nМИHCK\n22 июля 2024\nPage 3 of 3\nСтр. 3 из 3\n5. The present Additional Agreement N91, all atnendments and сhапgеs to it sent Ьу fax or e-mail have legal effect of the original, | 5. Настоящео Дополнительное Соглашение N91, все приложеяия и измеЕения к нему, заключенные по (lаксимильной и электронной связи! ймеют юридическую сиJry оригипма,\n6. The present Additional Agrcement Ml is ап integral part of the Рчrсhаsе Contract Nr 2410з9 dtd. 18.05.2024 and shall епtеr into fоrсе frоm the moment it is Signed, | 6, Настоящее Допопнительное Соглацение Nд1 является неотъемлемой частью Контракта на закупку Ns 241039 от l8.05.2024г. и вступаот в силу с MoмetlTa его подписапия.\n?, Legal Addresscs ofthe Parti9s: The Seller: KMED Trading LL ofiice No. 1004, Waha Community, Nad Al Hamar, Dubai, United АrаЬ Ernirates, Р,О. Вох 25909 TRN:10003?617600003 The Вuуеl: SOLAR LS CJSC 4 stobenev lane,220024 Minsk, Republic ofBelarus vAT: 10l128058 | 7. Юридичýýкис адреса Сторон: Проdавец: KMED Trading LLC office No, 1004, Waha Community, Nad Al Наmаr Дубай, объединенвые Арабские эмираты Р.о. Вох 25909 TRN; l000376l7600003 Покуп&тель: здо (солдР Лс> Пер, Ст€бенева 4, 220024 г. Минск, Республика Беларусь Унпi l0l l28058\n<!-- image -->\n<!-- image -->\nSeller in the рerson of Тродавец в лице\nZaid Kishawi Business Manager\nK MEOTRADING LL.C P.O Box25909\nKMED\n<!-- image -->\nJuly 22, 2024\n\n=== 004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf ===\n<!-- image -->\n22.0 07.2024\nTo:\nSOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024\nHer #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024 transfer to th LLC asks 4 with Add he account SOLAR L ditional Agr of A L L F LS СJSC to reement #1 FZE by Aug o make a p dated 22.0 gust 20, 202 payment fo 7.2024 in t 24. or the Purc the amount chase Contr t of 77 417 ract 7,40\nThe Add of th e remaining ditional Agr he cargo cu g amount of reement #1 stoms decla f 32 552,09 dated 22.07 aration is co 9 AED und 7.2024 sha onsidered to der the Purc all be paid w o be the date chase Contr within 30 ca e of the deli ract #24/03 alendar day very. 39 dated 18 ys after deli 8.05.2024 w very, the d with date\nFor your refere ence, the rel levant detail ls are provid ded below:\nA L Bus Pub Uni Bus L L FZE siness Centr blishing City ted Arab Em siness licens re, Sharjah y Free Zone mirates se № 43080 e, Sharjah 027.01\nBan nk Melli Iran n\nAdd dress: P.O. B\nDeir ra-Dubai, U United Arab Emirates\nBox: 1894, B Baniyas Str reet,\nAcc count numbe\n6 D igit for Inte ernet Bankin\nIBA AN: AE 260 01 00000 10 010 139679 10\nBran nch routing g code: 9010\nSW WIFT CODE\nBRA ANCH NAM\nBRA ACH CODE\nBen neficiary's N Name: A L L\ner: 01010 1 39679 10\n: MELIAEA A1XXX\nME: MAIN N BRANCH H\nE: 01\nng: 139679\n020101\nL FZE\n<!-- image -->\n<!-- image -->\nZaid Bus d Kishawi siness Mana ager\n<!-- image -->\n<!-- image -->\n\n=== 004050__161_08.08.2024__24-053_08.07.2024.pdf ===\npurchase contract | No 241053 | Контракт на закyпкy\nMINSK | 08.07.2024 | минск\nPage l of2\nBuyer: SOLAR LS CJSC, RерuЫiс ofBelarus\nПокупатель: ЗАО (СОЛАР ЛС)), Ресrryблика Беларусь\nSeler: KMED Тгаdiпр LLC. UAE\nKMED Tradinя LLC. оАЭ\n## ect of\nItem Ns | Goods Description Описание товара | Q-ty к.во | Unit Price, AED Цена, дирхам ОАЭ | Vаluе, AED Сумма, дирхам ОАЭ\nl | Gаs Discharge Lamp NL7252A 6*90 ХFР cDQ/ Газоразрядная лампа NL7252A 6*90 ХFР cDQ | l30 pcs / шт, | | 8з 97з,50\nTotal аmоuпt! EXW Dubait AED/ Общая стоимость, EXW Dubai, дирхам ОАЭ | Total аmоuпt! EXW Dubait AED/ Общая стоимость, EXW Dubai, дирхам ОАЭ | Total аmоuпt! EXW Dubait AED/ Общая стоимость, EXW Dubai, дирхам ОАЭ | Total аmоuпt! EXW Dubait AED/ Общая стоимость, EXW Dubai, дирхам ОАЭ | 83 973,50\nDelivery t€rmýi Dclivcry: Ьу NочеmЬеr 30, 2024. Partial and еаrlу delivcry is allowed. Delivery tеrms: EXW Dubai (ассоrdiпg to Iпсоtеrms 2020), | условия поставки: Срок поставки:до 30 ноября 2024. Частичная и досрочная поставка разрешеца, &#124; Условия поставкиi Exw Дбай (согlrаспо Инкотермс 2020).\n## Рауmепt terms:\ncurrencyi ДЕI)\nPrepayment of41 986,75 AED shall Ье paid Ьу August 20, 2024, and the rеmаiпiпg amount of41 986,75 AED shall Ье paid Ьу octobcr 31, 2024.\nIf the Seller violates the deljvery telms of tho goods Stat9d in thc Рulсhаsе contract for more than 60 (sixty) calendar days, the Вчуеr has the right to claim rеl'чпds of advance payments received Ьу th9 Seller fol unshipped goods. The tefund ofadvancc paymonts for unshippod goods shall Ьо шаdе Ьу thе Sollar no later than 30 (thirty) calendar days frоm the date of receipt of а fоrmаl writtcn notification from the Buyer.\n## Условия оплsты:\nВалюта платежаi дирхам ОАЭ\nАвансовьй платеrr в размере 41 986,75 дирхам ОАЭ должен бьrь оплачен до 20 авryста 2024, остаток в размере 41 986,75 дирхам ОАЭ допхен бьпь оплачен до З l октября 2024г.\nВ случае rrарушеIrия Продавцом срока поставки товара, установлснного в Коптрактс на закупку, более чем 60 (ш9стьдссят) кuIсндарных дней, Покупатель имеет право потребовать от Продавца возврата авансовых платехей, полученных llродавцом за flеотгруженный товар. Возврат авансовых плате)кей за ЕеотФуженный товар должен быть rrроизв9дец Продавцом в срок не позднее З0 (тридцати) калсIцарвых дцýй от даты IlоJryчсния официального письменпого уведомпепия от Покупателя,\nLegalAddresseý ofthe Pдrties апd Вапk Detailý | Юрцдическце адреса ц Банковские реквизпты стороп\nýОLЛR LS CJSC 4 Stebenev lапе, Minsk 220024, RерчЫiс ofBelarus. VAT: 101128058 | зАо (солАР лсr, П9р. Стебснова 4, г. Мивск 220024, Рсспублика Бсларусь УнП: l0l128058\nBtyer's Валkl Валk BelVEB OJSC Вапk address: 29, Pobediteley Аче,, 220004, Minsk, RерчЫiс ofBelarus BIC SWIFT: BELBBY2X IBAN: ВY55ВЕLВз0l 20040500 1с0226000 Соrrеsропdепt Bank: JSC \"МВ Bank\", Moscow Code: MRBBRI]MM Account: 301 1 l7847000000000l2 Intertnediary Bank: BANK MELLI IRAN, Dubai, UAE (Code: MELIAEAD) | Банк Покупаmеля: ОАО <Банк БелВЭБ> Дdрес банка: пр-т Победителей 29, г. Минск, Республика Беларусь BIC SWIFT: BELBBY2X IBAN: BY55BELB30l 20040500 l с0226000 Баяк-коDреспоЕдоmi АО \"МБ Банк\", Москва КОДi MRBBRUMM Account: 301 1 l784700000000012 Interrnediary Bank: BANK MELLI IRAN, Dubai, UAE (code: MELIAEAD)\nKMED Trading LLc office No, l004, Wаhа community, Nad Al Hamar, Dubai, United Arab Emirates, Р,О. Вох 25909 тRN:l00037б l760000з | KMED Trsding office No, 1004, Waha community, Nad Al Наmаr Дубай, Объедипенныс Арабские Эмираты Р.О, Вох 25909 TRN: 1000376l7600003 LLc\nSeller's Вапk: BMIRATES ISLAMIC BANK Вапk adclress: EL SHK ZAYED RD KHARBASH BLDG, DUBAI, I-INITED ARAB EMIRATES Account: KMED TRADING LLc А/с No. 370742з232001 АЕ49 0з40 003? 0742 з232 00l SWIFT: MEBLAEAD | Банк Проdавца: EMIRATES ISLAMIC BANK Дdрес банка: EL SlЖ ZAYED RD KHARBASH BLDG, DU. BAI, UNITED ARAB EMIRATES счgт: KMED TRADING LLc А/с No. з70742323200l\nSeIler in the person ot / Продавец D лйце\nж\"К1:hd\"Р;rr\"\",,-\"\",\",),,\nBusiness Мапаgеr\nlКМГО\n<!-- image -->\n<!-- image -->\nKl m*\nt\nl\nСтр, 1 из\npurchase contract | No 241053 | Контракт на закупку\nMINSK | 08.07.2024 | минск\nРаgе 2 of2 | | Стр. 2 из 2\nOther Gепеrа&#124; Теrrпs | ,Щругпе общие условпя\nl, Carrier; upon Buyer's choice, | 1. Перевозчик&#124; на выбор Покупателя,\n2, All the charges соппссtеd with the Bank'S expenses While the money tranýfer to thе Seller's account shall Ье bome Ьу thc Вчуеr. | 2, Все расходы по переводу депег на счет Продавца несет Покупатель,\n3, The goods аrе purchased for domestic manufacture and/or use. | 3, Товар приобретается для собствсrrrrого производства и/или потребления.\n4, The Seller shsll indicate the following information in all the Invoices: - Exw Dubsi deliYery termý; - сочпtrу of goods origiп; - ýerial пчmЬеrý ofthe goods if they are available; - net and groýs weight (сап Ье indicated in the Packing List) | 4, Продавсц обязуется указывать во в!ех своих Инвоfiсах следуюuryю информачию: - условпя постввки EXW Дуб8й; _ стран& происхоr(деппя товара; - сериfiные номора Toвapoвl 9сли они имеются; - вес uетто и брутто (может быть указав в упаковочIlом листе),\n- 5, The Seller апd the Вчуег shall take all mеаsчrеs to 9пýчrс that апу disputes and differences which mау агiýе очt ofor iп аоппесtion With the present Рчrсhаý9 contract Ье settled аmiсаЫу, should the Seller and/or the Buyer fail to ýcttle thý claims Ьеtwсеп themselves, all the disputes and differences shall Ьс rсferred to а court oflaw оп leýpond9nt'ý ýit9.\nThe Sollcr апd the Вчуег Ьеаr rcsponsibilities under the рrosепt РчrсhаSе contract in accordance With the existing legislation.\n- 6, Rапgс, quantity and palam9t9rý ol the goods shall соrrеsропd with thc specification ofthe Purchase contract, Thc goods quality shall corespond with technical documents of the Seller, The goods shall Ье frec lrom dcfcctý in material and workmanship at the timc of dcliYcry. Турс of packaging is саrtоп. Warranty period ofthe goods is 12 (twelve) months from thc dat9 ofthe shipment. The date of the WayBill is considcred to Ье the date of the shipment,\n- 7, All the arnendments and addenda to the purchase сопtrасt аrе valid олlу wh9п iýýuod in writing and signed Ьу the both parties, Neither party shall Ьс cntitlcd to trапýfеr their rights and оЫigаtions undcr this PuIchasc contract to а third рагrу without writt9n сопs€пt of th9 othor contracting раrtу. All expenses оп paying taxeý, duties and other expenses connocted with customý registratiоп in the tefritory of the Seller's сочпtry Shall Ье Ьоrпе Ьу the Seller. All expensos оп paying taxes, dutios and othcr cxpenses соппесtеd with customs rcgiýtration iп the tclтitory ofthe Buyer's country shall Ье Ьоrпе Ьу the Вчуеr, The prcsent Рчrсhаýс Contract, all amendments and сhапgеS to it sent Ьу fax oI e-mail hаче legal effect ofthe original. The Рчrсhаsе Contract iý conclцded in the English and Russian lan8ua8es, Воth texts have the same legal effect.\n8. The Purchase contract соmеý into effect оп the date of Signature ofboth Partics and effcctý until Dесеmьеr з 1, 2025. Ifa Раrty has not fulfilled its оЫigаtiопs (iп whole or in part) before the oxpiry of the tегm hereof, such party shall Ье obligatcd to complete the fulfilment of its obligation aftcr thc expiry ofsaid term,\n1\nSelIer iп the person of/ Пролавеч в,пr7{rе\n<!-- image -->\n5. Продавец и Покупатель долхны принять всс меры для обеспечения дружелюбцого разр9шения всех рtвногласий и конфликтов, которые моryт возпикrтуть в связи с настоящим Ковтрактом на закупку. В случае, если Продавчу и/или Покупателю не удаегся уреryлировать мея(ду собой лрегензии. все разногласия и разltиtlлlя должньт быть отправлены для разрешениJI в судобвые органы по меату нахождения ответчика.\nПродавец и Покупатель несут ответственность tlo настояцему Контракту на закупку в соответствии с действующим законодательством,\n- 6, Ассортимецт, количество и параметры товара должны соответствовать спецификации контракта. Качество товара должно соответс1 вовать тсхнической документации продавца, Товар нс должен содержать дефектов материала и производства на момент поставки, Вид тары - картоцЕая коробка. ГараЕтийяый срок на товар составля€т 12 (двсцадцать) месяцев с даты отгрузки. Дата траЕспортвой накладной считаЕтся датой отгрузки товара,\n- 7, Все цоправки и доцолЕени-' к настоящему Контракту на закупку имеlот сиJry, если они внесевы в письм9пной форме и подписаЕы обсими сторонами, Ни одна из стороц нс имеет права псродавать свои права и обязательства по настоящему Контракту на закупку третьей стороне без письмонного оогласи, другой стороны, Все расходы IIо упл&amp;те пошлин, нaLпогов, таможенных пошлин и сборов, а также других платохей, взимаемых на территории страны Продавца, несет Продав9ц. Всс расходы по уплате пошлин, налогов, т&amp;моженных пошлия и сборов, а такхс других платежей, взимаемых яа территории страЕы Покупателя, яесет Покупатель. Настоящий Контракт ца закупку, все приложения и измен€ния к н9му! заключеЕные по факсимильвой или эл9ктронвой связи, имеют юридическую силу оригиgала. Ковтракт ва закупку составлен ца ангJIийском и русском языках, Оба тскста имеют одицаковую юридическую силу,\n8. Контракт на закупку вступает в сиJIу с даты его подписания обеими Сторовами и действует до 31 лекабря 2025, Еспи сторона tlc выполнит свои обязательства (полцостью или частично) до источсния срока действия настоящего Контракта, то такая сторона обязана завершить выtrолнсние своих обязат9льств и поýле истсчония указанного срока,\n<!-- image -->\nl\n\n=== 004050__161_08.08.2024__24-053_08.07.2024__3-_.pdf ===\n<!-- image -->\n08.0 07.2024\nTo:\nSOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024\nHer Con A L reby KMED ntract #24/0 L L FZE by D Trading 053 dated August 20, LLC asks 08.07.2024 2024. SOLAR L in the amo S СJSC to ount of 41 o make an 986,75 AED advance pa D by bank ayment for transfer to r the Purch the account hase t of\nThe paid e remaining d by bank tr amount of ransfer to th 41 986,75 A he account o AED under of A L L FZ r the Purcha ZE by Octo ase Contract ober 31, 202 t #24/053 24. dated 08.07 7.2024 sha all be\nFor your refere ence, the rel levant detail ls are provid ded below:\nA L Bus Pub Uni Bus L L FZE siness Centr blishing City ted Arab Em siness licens re, Sharjah y Free Zone mirates se № 43080 e, Sharjah 027.01\nBan nk Melli Iran n\nAdd dress: P.O. B\nDeir\nra-Dubai, U\nBox: 1894, B Baniyas Str reet,\nUnited Arab\nEmirates\nAcc count numbe\n6 D igit for Inte ernet Bankin\nIBA\nBran nch routing g code: 9010\nSW WIFT CODE\nBRA ANCH NAM\nBRA ACH CODE\nBen neficiary's N Name: A L L\nAN: AE 260 01 00000 10 010 139679 10\ner: 01010 1 39679 10\n: MELIAEA A1XXX\nME: MAIN N BRANCH H\nE: 01\nng: 139679\n020101\nL FZE\n<!-- image -->\nZaid Bus d Kishawi siness Mana ager\n<!-- image -->\n<!-- image -->\n<!-- image -->"}, "evidence_map": {"payment_order_number": ["№161"], "payment_order_date": ["Дата: 08.08.2024"], "amount_words": ["Сумма и валюта: СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ"], "amount_number": ["Сумма цифрами: 119404.15"], "currency_code": ["Код валюты: 784"], "payer_name": ["Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4"], "payer_account": ["Счет: BY55BELB301200405001C0226000"], "payer_unp": ["УНП плательщика: 101128058"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: MELIAEA1XXX"], "beneficiary_bank_name": ["Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI"], "beneficiary_name": ["Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE"], "payment_purpose_raw": ["Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039"], "has_deal_registration_number": ["Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,"]}, "notes": []}
+AUTO_EXTRACT_RESULT_END
+===================================
+[2026-05-14 13:19:31,400] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): contract_text length=29844
+[2026-05-14 13:19:31,401] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): bic_lookup sender_source=by_swift bene_source=swift_country
+[2026-05-14 13:19:31,402] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): party_classification={'payer_is_resident': True, 'payer_entity_type': 'юрлицо', 'beneficiary_is_resident': False, 'beneficiary_entity_type': 'unknown', 'beneficiary_country_code': 'AE', 'beneficiary_country_name': 'Объединённые Арабские Эмираты', 'beneficiary_country_source': 'alias'}
+[2026-05-14 13:19:31,402] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): auto-extract from docx used (missing=[])
+[2026-05-14 13:19:31,402] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [START]
+============================================================
+[2026-05-14 13:19:31,403] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 done status=FAIL checks=17
+[2026-05-14 13:19:31,403] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 1: Программные проверки ПП  [DONE  STATUS=FAIL]
+  ⏱  elapsed: 0.00s
+============================================================
+[2026-05-14 13:19:31,404] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): phase1 FAIL — продолжаем LLM-стадии (no early exit)
+[2026-05-14 13:19:31,404] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): BIC LLM parse start raw='BANK MELLI IRAN P.O. BOX: 1894 BANIYAS STREET,DEIRA-DUBAI UNITED ARAB'
+[2026-05-14 13:19:31,404] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): BIC LLM parse done name='BANK MELLI IRAN' city='DUBAI' address='BANIYAS STREET,DEIRA-DUBAI UNITED ARAB'
+[2026-05-14 13:19:31,404] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): injected phase1_b1_legality status=WARN budget=False
+[2026-05-14 13:19:31,405] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): split B1+B2 routing=nonres (AE) b1_prompt=payment_validator/b1_legality_nonres.txt skip_b1_llm=False (phase1_pass=False force_skip=False)
+[2026-05-14 13:19:31,405] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [START]
+============================================================
+[2026-05-14 13:19:31,405] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): amounts prescan field=(none) candidates=0, deal_reg numbers=0 exempt=False
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_semantic start structured=False attachments=False payload_len=233
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_semantic/0) role=system ====================
+
+
+<role>
+Ты — экстрактор «семантического» назначения платежа из валютного платёжного поручения.
+Задача: по сырому полю «Назначение платежа» вернуть очищенный смысл (payment_purpose_semantic).
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ"}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Верни РОВНО ОДИН валидный JSON. Структура СТРОГО такая, без любых других ключей:
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "<очищенный текст>"
+  }
+}
+
+ЗАПРЕЩЕНО добавлять поля: overall_status, checks, remarks, requested_inputs, payment_purpose_raw, любые другие.
+ЗАПРЕЩЕНО возвращать payment_purpose_raw вместо payment_purpose_semantic.
+ЗАПРЕЩЕНО оставлять payment_purpose_semantic пустым, если на входе payment_purpose_raw непустой.
+</output_schema>
+
+<bad_output_example>
+Так делать НЕЛЬЗЯ (агент не валидатор, лишние поля и raw вместо semantic):
+{
+  "overall_status": "pending",
+  "extracted_fields": {"payment_purpose_raw": "VO21100 ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"},
+  "checks": [],
+  "remarks": [],
+  "requested_inputs": []
+}
+</bad_output_example>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- Используй ТОЛЬКО текст из входного payment_purpose_raw. Никогда не бери номера, даты, формулировки из примеров промпта.
+- Если payment_purpose_raw пустой → payment_purpose_semantic = "".
+- Если очищать нечего (payment_purpose_raw не содержит служебной обёртки) → payment_purpose_semantic = payment_purpose_raw без изменений. Возвращать пустую строку при непустом входе ЗАПРЕЩЕНО.
+</global_rules>
+
+<task>
+Очисти payment_purpose_raw от служебной обёртки, сохрани суть платежа.
+
+Убирай:
+  • VO-коды («VO10100», «VO70060»);
+  • разделители «//» (двойные косые) — только сами символы, содержимое между ними СОХРАНЯЙ;
+  • реквизиты договоров: «ПО ДОГОВОРУ N ... ОТ ...», «СОГЛАСНО ДОГ. ... ОТ ...», «ПО ЗАЯВКЕ ... ОТ ...» и т.п.;
+  • ссылки на нормативные акты и статьи: «СОГЛ. СТ. ...», «В СООТВ. П. ...», «СОГЛ. ПОДП. ...», «НК РФ N ...», «НК РФ», «ФЗ», «ОТ ДД.ММ.ГГГГ» (дата закона);
+  • Договоры без слова «договор»: «777-77 01.10.26», «888-88 08.10.26»;
+  • ОФФШОРНЫЙ СБОР, П/П ..., ДЛЯ КРЕДИТОВАНИЯ НА СЧ ...;
+  • страны/регионы в скобках в конце: «(РОССИЯ)», «(РФ)», «(БЕЛАРУСЬ)» — только если это страна, а не товар.
+
+Сохраняй (это часть предмета):
+  • маршрут / направление: «ПО МАРШРУТУ РБ - РФ», «ИЗ КИТАЯ В РБ»;
+  • период / диапазон: «ЗА МАРТ», «ЗА 1 ПОЛУГОДИЕ 2026»;
+  • уточнение вида: «АВТОТРАНСПОРТНЫЕ», «ИНОТЕРРИТОРИАЛЬНЫЕ»;
+  • получателя предмета, если он часть смысла: «ДЛЯ ПЕРСОНАЛА»;
+  • уточнение предмета в скобках: «(КРЕСЛО)», «(ЗАПЧАСТИ)» — если это конкретный товар/вид, а не страна.
+</task>
+
+<examples>
+«VO21100 ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                                    → «ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»
+«VO70060 ЗАРПЛАТА ЗА МАРТ, ТРУДОВОЙ ДОГОВОР 1 ОТ 01.03.2024»                  → «ЗАРПЛАТА ЗА МАРТ»
+«ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ ПО ДОГОВОРУ № 7 ОТ 02.05.2024» → «ОПЛАТА ЗА АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ СОГЛАСНО ДОГОВОРУ 5 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ»
+«VO10100 ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО) СОГЛАСНО ДОГОВОРУ 45 ОТ 04.07.2023, В Т.Ч. НДС 0%» → «ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»
+«VO10200 //ОПЛ.АН.ОБОР. 8888-25 01.10.25,7777-25 08.10.25//»                   → «ОПЛ.АН.ОБОР.»
+«VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА О ВЗЫСКАНИИ 308 480,25 РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110» → «ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»
+</examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose_semantic/0) role=system ====================
+
+
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_semantic/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_semantic/1) role=user ====================
+
+
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_semantic) ====================
+
+
+{
+  "extracted_fields": {
+    "payment_purpose_semantic": "ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"
+  }
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_semantic) ====================
+
+
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_semantic done elapsed_ms=0 elapsed_s=0.00 result_len=98
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_documents start structured=False attachments=False payload_len=233
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b1_legality_nonres start structured=False attachments=False payload_len=4381
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_documents/0) role=system ====================
+
+
+<role>
+Ты — экстрактор сопутствующих документов из «Назначения платежа» валютного платёжного поручения.
+Задачи:
+  1) Извлечь purpose_linked_documents — все договоры/нормативные акты, упомянутые в payment_purpose_raw.
+  2) На основе извлечённого вернуть два чека: B2.CONTRACT и B2.THIRD_PARTY.
+
+Вход: {"extracted_fields": {"payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ"}}
+(в JSON только одно поле: payment_purpose_raw — текст «Назначение платежа»)
+</role>
+
+<output_schema>
+Верни РОВНО ОДИН валидный JSON (без markdown, без комментариев):
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "...", "number": "...", "date": "...", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT",    "status": "PASS|FAIL|OUT_OF_SCOPE", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "PASS|FAIL|OUT_OF_SCOPE", "message": ""}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B2.CONTRACT:    PASS, FAIL, OUT_OF_SCOPE.
+B2.THIRD_PARTY: PASS, FAIL, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка.
+- Используй только текст из входного JSON. Никогда не бери номера, даты, РНВД из примеров промпта.
+- Если в payment_purpose_raw нет явного номера договора с датой или закона → purpose_linked_documents = [].
+- Если payment_purpose_raw пустой → purpose_linked_documents = [], B2.CONTRACT = FAIL ("Назначение платежа не заполнено."), B2.THIRD_PARTY = OUT_OF_SCOPE ("Признаки ДУТ не обнаружены.").
+</global_rules>
+
+<purpose_linked_documents>
+Возвращай ВСЕ найденные документы. Если есть И договор, И нормативный акт — оба отдельными элементами массива.
+
+<kinds>
+• "main_contract"  — «ДОГОВОР», «КОНТРАКТ», «СОГЛАШЕНИЕ», «ДОГ.», «ДОГ» (без точки)
+• "assignment_dut" — «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ»
+• "application"    — «ЗАЯВКА»
+• "statement"      — «ЗАЯВЛЕНИЕ»
+• "ukaz"           — Указ Президента РБ. number — голый: «681», «8», «353»; date — ДД.ММ.ГГГГ или null.
+• "postanovlenie"  — Постановление. number: «392/7»; date или null.
+• "zakon"          — Закон или кодекс. number: «226-З», «146-ФЗ», «НК РФ N 146-ФЗ»; date или null.
+• "other"          — иной нормативный акт.
+(invoice не включай.)
+</kinds>
+
+<rules>
+• kind определяется по ключевому слову в исходном тексте.
+• Кодекс (НК РФ, БК РБ, ГК РФ и т.п.) — это тоже закон (kind="zakon"). Отдельного kind="kodex" нет.
+• Если в тексте кодекс и номер ФЗ стоят рядом («НК РФ N 146-ФЗ») — ОДНА запись zakon, number = «НК РФ N 146-ФЗ».
+  ЗАПРЕЩЕНО из «НК РФ N 146-ФЗ» делать две записи. Это один документ.
+• number — только то что после ключевого слова: «146-ФЗ», «НК РФ N 146-ФЗ», «681». Ссылки на статьи (СТ., П., ПОДП.) в number НЕ включай.
+• date — ДД.ММ.ГГГГ. Двузначный год нормализуй (98 → 1998, 24 → 2024).
+• «б/н» в number — только если явно написано слово «б/н» или «БЕЗ НОМЕРА». Если в тексте просто нет номера — в number ставь null. ЗАПРЕЩЕНО подставлять «б/н» по умолчанию.
+• ЗАПРЕЩЕНО копировать дату в поле number или номер в поле date. Если для документа в исходном тексте нет номера — number = null. Если нет даты — date = null. Поля number и date НЕ должны быть равны друг другу.
+• Если в тексте есть только дата документа без номера (например «ПО ДОГОВОРУ ОТ 04.07.2023») — это валидная запись с number=null и заполненной date. Чек B2.CONTRACT решит что делать.
+• Паттерн `<id-YY> <ДД.ММ.YY>` (номер с двузначным годом + дата, без слова «ДОГ.») — банковская конвенция валютного договора → main_contract.
+  Пример: «44444-25 01.10.25» → {"kind":"main_contract","number":"44444-25","date":"01.10.2025"}.
+• Не включай ОГРН, КПП, КБК, ОКТМО, ИНН, БИК — это реквизиты, не документы.
+• counterparty_hint — для assignment_dut: наименование первоначального кредитора; иначе null.
+• counterparty_country — для assignment_dut: страна первоначального кредитора; иначе null.
+</rules>
+
+<examples>
+«УКАЗ ПРЕЗИДЕНТА РБ № 681 ОТ 28.12.2007»                  → {"kind":"ukaz","number":"681","date":"28.12.2007"}
+«ПОСТАНОВЛЕНИЕ 392/7 ОТ 06.07.2021»                       → {"kind":"postanovlenie","number":"392/7","date":"06.07.2021"}
+«ЗАКОН 146-ФЗ ОТ 31.07.98»                                 → {"kind":"zakon","number":"146-ФЗ","date":"31.07.1998"}
+«СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»                    → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  (СТ.333.19 — ссылка на статью, не часть number)
+«СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98»  → {"kind":"zakon","number":"НК РФ N 146-ФЗ","date":"31.07.1998"}  — ОДНА запись! НК РФ № 146-ФЗ это один документ.
+«УКАЗ ПРЕЗИДЕНТА №8 ОТ 28.03.2008»                         → {"kind":"ukaz","number":"8","date":"28.03.2008"}
+«ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017» → ДВА документа:
+  {"kind":"main_contract","number":"б/н","date":"03.10.2019"} и {"kind":"ukaz","number":"8","date":"21.12.2017"}
+«СОГЛАСНО ДОГОВОРУ ОТ 04.07.2023»                          → {"kind":"main_contract","number":null,"date":"04.07.2023"}  (номера нет → null; в number дату НЕ копируй)
+«ПО ДОГОВОРУ № 7»                                           → {"kind":"main_contract","number":"7","date":null}  (даты нет → null)
+«ПО ДОГОВОРУ»                                              → {"kind":"main_contract","number":null,"date":null}
+</examples>
+</purpose_linked_documents>
+
+<checks>
+
+<check id="B2.CONTRACT">
+Цель: проверить наличие реквизитов договора-основания (номер + дата).
+
+Применяй сверху вниз:
+
+Шаг 0:  Если purpose_linked_documents нет записей → FAIL, message: «Договор-основание не упомянут в назначении.». Дальнейшие шаги пропускай. Стоп.
+Шаг 1:  Если в purpose_linked_documents есть запись с kind="main_contract" (или "assignment_dut") и заполнены и number, и date → PASS, message: "". Стоп.
+Шаг 2:  Если ≥2 main_contract без даты, но дата у каждого следует из паттерна `<id-YY> <ДД.ММ.YY>` — считается заполненной (Шаг 0).
+Шаг 3:  Если purpose_linked_documents содержит main_contract с заполненным number, но date пустая (null или "") → FAIL, message: «Дата договора не указана.»
+Шаг 4:  Если main_contract есть с заполненной date, но number пустой (null или "") и в тексте нет слова «б/н» → FAIL, message: «Номер договора не указан.»
+Шаг 5:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut, но при этом есть упоминание договора («ПО ДОГОВОРУ», «СОГЛАСНО ДОГОВОРУ») без номера и даты → FAIL, message: «Номер и дата договора не указаны.»
+Шаг 6:  Если в payment_purpose_raw нет ни одного main_contract / assignment_dut → FAIL, message: «Договор-основание не упомянут в назначении.»
+Шаг 7 (исключения — OUT_OF_SCOPE):
+  • Бюджетный платёж (ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ») — реквизиты договора не нужны → OUT_OF_SCOPE, message: «Бюджетный платёж — реквизиты договора не требуются.»
+  • Банковская операция («ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ») — основание не договор, а заявка/заявление → OUT_OF_SCOPE, message: «Банковская операция — реквизиты договора не требуются.»
+  • Договор не упоминается вообще, и платёж не подходит под бюджетный/банковский → OUT_OF_SCOPE, message: «Договор-основание не упомянут в назначении.»
+
+ЖЁСТКОЕ ПРАВИЛО (самопроверка перед выдачей ответа):
+  • Если у любого main_contract поле number равно null или "" — статус B2.CONTRACT НЕ МОЖЕТ быть PASS. Только FAIL.
+  • Если у любого main_contract поле date равно null или "" — статус B2.CONTRACT НЕ МОЖЕТ быть PASS. Только FAIL.
+  • PASS допустим ТОЛЬКО когда есть хотя бы одна запись main_contract, у которой ОБА поля number и date — непустые строки.
+</check>
+
+<check id="B2.THIRD_PARTY">
+Признаки ДУТ: «ПО ДУТ», «ДОГ. УСТ. ТРЕБ.», «ДОГОВОР УСТУПКИ ТРЕБОВАНИЙ», «УСТУПКА ТРЕБОВАНИЙ» или упоминание первоначального кредитора (в любой форме — см. ниже).
+
+Сокращения для первоначального кредитора:
+  «ПЕРВ. КРЕДИТ.», «ПЕРВ.КРЕД.», «ПЕРВОНАЧ. КРЕДИТОР», «ПЕРВОНАЧАЛЬНЫЙ КРЕДИТОР»
+
+Формат в скобках: «(ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  — ОСОО КАО КЕЙДЖИ = наименование, КЫРГЫЗ. = страна (Кыргызстан) → оба указаны → PASS.
+
+- PASS — указаны И наименование, И страна первоначального кредитора.
+- FAIL — отсутствует наименование ИЛИ страна. message — что именно не указано.
+- OUT_OF_SCOPE — признаки ДУТ не обнаружены. message: «Признаки ДУТ не обнаружены.»
+
+<examples>
+«ПО ДОГ. УСТ. ТРЕБ. 26/2435643 ОТ 20.03.2026 К КОНТР. 2404-5КР ОТ 03.04.2024 (ПЕРВ. КРЕДИТ. ОСОО КАО КЕЙДЖИ, КЫРГЫЗ.)»
+  → ДУТ найден. Первоначальный кредитор: «ОСОО КАО КЕЙДЖИ», страна «КЫРГЫЗ.» (Кыргызстан). → PASS.
+
+«ПО ДУТ № 5 ОТ 01.01.2024»
+  → ДУТ найден. Наименование и страна первоначального кредитора не указаны. → FAIL.
+
+«ОПЛАТА ЗА УСЛУГИ ПО ДОГОВОРУ № 7»
+  → Признаков ДУТ нет. → OUT_OF_SCOPE.
+</examples>
+</check>
+
+</checks>
+
+<full_examples>
+
+Пример 1 — судебный платёж с НК РФ:
+Вход: {"payment_purpose_raw": "VO70010 ЗА РАССМОТРЕНИЕ АРБИТРАЖНЫМ СУДОМ САНКТ-ПЕТЕРБУРГА И ЛЕНИНГРАДСКОЙ ОБЛАСТИ ЗАЯВЛЕНИЯ О ВЫДАЧЕ СУДЕБНОГО ПРИКАЗА В ОТНОШЕНИИ ООО \"ЦСБ 777\" О ВЗЫСКАНИИ 308 480,25 РОССИЙСКИХ РУБ СОГЛ. ПОДП.2 П.1 СТ.333.19 НК РФ N 146-ФЗ ОТ 31.07.98 ОКТМО 40391000 КБК 18210801000011000110"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "zakon", "number": "НК РФ N 146-ФЗ", "date": "31.07.1998", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "OUT_OF_SCOPE", "message": "Бюджетный платёж — реквизиты договора не требуются."},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+Пример 2 — договор + декрет:
+Вход: {"payment_purpose_raw": "ПЕРЕЧИСЛЕНИЕ ДЕН СР-В ОТ ПРОДАЖИ ТОКЕНОВ ПО ДОГ Б/Н ОТ 03.10.2019, В СООТВ П. 2.3. И 3.2. ДЕКРЕТА 8 ОТ 21.12.2017"}
+Ожидаемый ответ:
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "б/н", "date": "03.10.2019", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "ukaz", "number": "8", "date": "21.12.2017", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+</full_examples>
+
+
+
+==================== PROMPT_SENT (b2_purpose_documents/0) role=system ====================
+
+
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b1_legality_nonres/0) role=system ====================
+
+
+<role>
+Ты — валидатор правомерности валютной операции между резидентом РБ и нерезидентом (вне офшорных субтерриторий).
+Верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход: {"extracted_fields": {"payment_order_number": "161", "bn_no_number": false, "payment_order_date": "08.08.2024", "amount_number": 119404.15, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payer_unp": "101128058", "payer_account": "BY55BELB301200405001C0226000", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "sender_bank_swift": "BELBBY2X", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "beneficiary_tin": null, "beneficiary_account": null, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE\nN 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_bank_name": "BANK MELLI IRAN", "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_bank_country": "Объединённые Арабские Эмираты", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "contract_reference": null, "contract_date_candidates": [], "royalty_period": null, "received_at": "08.08.2024 14:04:00", "executed_at": "08.08.2024", "has_correspondent_bank_fields": true, "fees_payer": "ПЛ", "has_deal_registration_number": true, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "payment_details_raw": null, "deal_registration_entries": [], "offshore_fee_mentioned": false, "offshore_fee_payment_date": null, "offshore_fee_payment_order_number": null, "payer_account_type": null, "payer_is_resident_iban": null, "beneficiary_account_type": null, "beneficiary_is_resident_iban": null, "beneficiary_name_semantic": null, "beneficiary_country_semantic": null, "beneficiary_city_semantic": null, "beneficiary_tax_id_type": null, "beneficiary_tax_id_label": null, "beneficiary_country_inferred": null, "beneficiary_country_text": "Объединённые Арабские Эмираты", "beneficiary_country_text_code": "AE", "beneficiary_country_text_kind": "alias", "sender_bank_bic_info": {"source": "by_swift", "country": "BY", "name": "ОАО 'Банк БелВЭБ'", "city": "г.Минск", "address": null, "needs_llm_parse": true}, "beneficiary_bank_bic_info": {"source": "swift_country", "country": "AE", "name": "BANK MELLI IRAN", "city": "DUBAI", "address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "needs_llm_parse": false}, "contract_docs_present": true, "contract_text": null, "payer_is_resident": true, "payer_entity_type": "юрлицо", "beneficiary_is_resident": false, "beneficiary_entity_type": "unknown", "beneficiary_country_code": "AE", "beneficiary_country_name": "Объединённые Арабские Эмираты", "beneficiary_country_source": "alias", "phase1_b1_legality": {"status": "WARN", "message": "Бенефициар — нерезидент РБ, тип не определён.\nДля юрлица-нерезидента ограничений нет (ст.13 п.1 Закона 226-З); для физлица-нерезидента применяется ст.13 п.3 (SWIFT-переводы разрешены по п.3.1).\nУточните тип бенефициара для окончательного вывода."}}, "evidence_map": {"payment_order_number": ["№161"], "payment_order_date": ["Дата: 08.08.2024"], "amount_words": ["Сумма и валюта: СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ"], "amount_number": ["Сумма цифрами: 119404.15"], "currency_code": ["Код валюты: 784"], "payer_name": ["Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4"], "payer_account": ["Счет: BY55BELB301200405001C0226000"], "payer_unp": ["УНП плательщика: 101128058"], "sender_bank_name": ["Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь"], "sender_bank_swift": ["SWIFT: BELBBY2X"], "beneficiary_bank_swift": ["SWIFT: MELIAEA1XXX"], "beneficiary_bank_name": ["Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI"], "beneficiary_name": ["Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE"], "payment_purpose_raw": ["Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039"], "has_deal_registration_number": ["Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,"]}, "notes": []}
+</role>
+
+<output_schema>
+{
+  "checks": [
+    {"id": "B1.LEGALITY_LLM", "status": "PASS", "message": "..."}
+  ]
+}
+</output_schema>
+
+<allowed_statuses>
+B1.LEGALITY_LLM: PASS, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<global_rules>
+- Работай только с полями из входного JSON.
+- Вывод: один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски.
+- ПО УМОЛЧАНИЮ — OUT_OF_SCOPE (платёж в адрес нерезидента в общем порядке разрешён). PASS ставится только если назначение по смыслу подходит под один из специальных сценариев из <scenarios>. Маркеры — в помощь, не как жёсткое требование.
+</global_rules>
+
+<context>
+Бенефициар — нерезидент. По ст.13 Закона 226-З расчёты резидента в иностранной валюте с нерезидентом в общем случае разрешены.
+Твоя задача — найти специальное основание из <scenarios>; если ни одно не подошло — OUT_OF_SCOPE.
+</context>
+
+<scenarios>
+<scenario name="salary_nonres_abroad">
+  <summary>Выплата физлицу-нерезиденту вознаграждения за выполнение трудовых обязанностей на территории иностранного государства (ст.13 п.3.21 Закона 226-З).</summary>
+  <triggers>бенефициар — физлицо (нерезидент РБ); назначение содержит «зарплата», «заработная плата», «вознаграждение», «трудовые обязанности», «выполнение трудовых обязанностей», «salary», «wage», «remuneration».</triggers>
+  <message>«Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З).»</message>
+</scenario>
+
+<scenario name="decree8_tokens">
+  <summary>Операции с токенами / криптовалютой по Декрету Президента РБ №8 от 21.12.2017.</summary>
+  <triggers>назначение содержит «токен», «крипт», «майнинг», «смарт-контракт», «цифровой знак», «Декрет №8»; одна из сторон — оператор криптоплатформы / резидент Парка высоких технологий РБ.</triggers>
+  <message>«Операция с токенами разрешена Декретом Президента РБ №8 от 21.12.2017. Участие нерезидента допускается.»</message>
+</scenario>
+
+<scenario name="ukaz231_forex">
+  <summary>Форекс-операции по Указу Президента РБ №231 от 04.06.2015.</summary>
+  <triggers>назначение содержит «Указ 231», «форекс», «forex», «внебиржевые финансовые инструменты»; одна из сторон — банк / НКФО / форекс-компания.</triggers>
+  <message>«Операция в сфере форекс разрешена Указом Президента РБ №231 от 04.06.2015.»</message>
+</scenario>
+</scenarios>
+
+<message_templates>
+<out_of_scope>«Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З).»</out_of_scope>
+
+<example>
+  <input>payment_purpose_raw: «ОПЛАТА ПО ИНВОЙСУ №100 ЗА ПОСТАВКУ КОМПЛЕКТУЮЩИХ»; бенефициар — компания из Германии</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"OUT_OF_SCOPE","message":"Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ЗАРПЛАТА ЗА МАРТ ЗА ВЫПОЛНЕНИЕ ТРУДОВЫХ ОБЯЗАННОСТЕЙ»; бенефициар — физлицо-нерезидент</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «SALARY FOR APRIL»; бенефициар — физлицо-нерезидент</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Выплата вознаграждения физическому лицу – нерезиденту за выполнение трудовых обязанностей на территории иностранного государства разрешена (п.3.21 ст.13 Закона 226-З)."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ОПЛАТА ЗА КРИПТОВАЛЮТУ ПО СМАРТ-КОНТРАКТУ»; одна из сторон — резидент ПВТ</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Операция с токенами разрешена Декретом Президента РБ №8 от 21.12.2017. Участие нерезидента допускается."}]}</output>
+</example>
+<example>
+  <input>payment_purpose_raw: «ВЫПЛАТА ПО ФОРЕКС-СДЕЛКЕ»; плательщик — белорусская форекс-компания</input>
+  <output>{"checks":[{"id":"B1.LEGALITY_LLM","status":"PASS","message":"Операция в сфере форекс разрешена Указом Президента РБ №231 от 04.06.2015."}]}</output>
+</example>
+</message_templates>
+
+
+
+==================== PROMPT_SENT (b1_legality_nonres/0) role=system ====================
+
+
+[2026-05-14 13:19:31,406] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_documents/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_documents/1) role=user ====================
+
+
+[2026-05-14 13:19:31,407] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b1_legality_nonres/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b1_legality_nonres/1) role=user ====================
+
+
+[2026-05-14 13:19:31,407] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_documents) ====================
+
+
+{
+  "extracted_fields": {
+    "purpose_linked_documents": [
+      {"kind": "main_contract", "number": "24/053", "date": "08.07.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "24/039", "date": "18.05.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "1", "date": "22.07.2024", "counterparty_hint": null, "counterparty_country": null},
+      {"kind": "main_contract", "number": "б/н", "date": "22.07.2024", "counterparty_hint": null, "counterparty_country": null}
+    ]
+  },
+  "checks": [
+    {"id": "B2.CONTRACT", "status": "PASS", "message": ""},
+    {"id": "B2.THIRD_PARTY", "status": "OUT_OF_SCOPE", "message": "Признаки ДУТ не обнаружены."}
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_documents) ====================
+
+
+[2026-05-14 13:19:31,407] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_documents done elapsed_ms=1 elapsed_s=0.00 result_len=766
+[2026-05-14 13:19:31,407] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b1_legality_nonres) ====================
+
+
+{"checks": [{"id": "B1.LEGALITY_LLM", "status": "OUT_OF_SCOPE", "message": "Платёж в адрес нерезидента в общем порядке разрешён (ст.13 Закона 226-З)."}]}
+
+
+==================== PROMPT_RESULT (b1_legality_nonres) ====================
+
+
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b1_legality_nonres done elapsed_ms=1 elapsed_s=0.00 result_len=153
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_specificity start structured=False attachments=False payload_len=86
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_specificity/0) role=system ====================
+
+
+<role>
+Ты — валидатор конкретики предмета валютного платежа.
+Единственная задача: по назначению платежа (payment_purpose_semantic) вернуть один чек B2.PURPOSE_SPECIFICITY (PASS/FAIL).
+
+Вход: {"extracted_fields": {"payment_purpose_semantic": "ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО"}}
+(в JSON только одно поле: payment_purpose_semantic — текст назначения платежа)
+</role>
+
+<output_schema_sturcture>
+Верни РОВНО ОДИН валидный JSON (без markdown, без комментариев):
+{
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""}
+  ]
+}
+</output_schema_sturcture>
+
+<allowed_statuses>
+B2.PURPOSE_SPECIFICITY: FAIL
+B2.PURPOSE_SPECIFICITY: PASS
+</allowed_statuses>
+
+<global_rules>
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, для клиента банка. При PASS — пустая строка.
+- Если payment_purpose_semantic пустой → B2.PURPOSE_SPECIFICITY FAIL, message: «Назначение платежа не заполнено.»
+</global_rules>
+
+<task>
+Цель: убедиться что предмет платежа конкретен.
+
+Дисквалифицирующий список (общие токены, которые сами по себе НЕ являются предметом):
+  товары, товаров, услуги, услуг, оплата, расчёт, расчет, предоплата, аванс, авансовый, платёж, платеж, работы, работ,
+  goods, services, payment, prepayment.
+
+Алгоритм:
+1) Найди в payment_purpose_semantic хотя бы одно слово или словосочетание, которое называет конкретный товар, вид услуги, вид выплаты или вид обязательства (например: БЕНЗИН, КРЕСЛО, МЕТАЛЛОПРОКАТ, АВТОТРАНСПОРТНЫЕ, ЗАРПЛАТА, РОЯЛТИ, ЗАЙМ, АРЕНДА, ОБОРУДОВАНИЕ, "ПО" - если стоит в конце, значит это ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ: "УСЛУГИ ПО ВНЕДРЕНИЮ ПО").
+   Такое слово может стоять рядом с общим («ОПЛАТА ЗА БЕНЗИН»), в скобках («ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»), как прилагательное при общем слове («АВТОТРАНСПОРТНЫЕ УСЛУГИ») или быть единственным содержимым («МЕТАЛЛОПРОКАТ»).
+   Аббревиатуры конкретных товаров/услуг тоже считаются (ПО — «программное обеспечение», ОПЛ.АН.ОБОР. — конкретное оборудование).
+2) Если такое слово/словосочетание найдено → PASS, message: "".
+3) Если в payment_purpose_semantic присутствуют ТОЛЬКО общие токены из дисквалифицирующего списка (с допустимыми предлогами/союзами и числами/датами/периодами) → FAIL, message: «Предмет назначения платежа не конкретизирован.»
+
+Маршрут и период — конкретику предмета НЕ задают. Конкретику задаёт только слово, называющее сам товар/услугу/вид выплаты.
+
+Исключения (всегда PASS):
+  • Бюджетные платежи: ГОСПОШЛИНА / КБК / ОКТМО / «ВЗЫСКАНИЕ ПО СУДУ» / «СУДЕБНЫЙ ПРИКАЗ» — такие платежи в специфике не нуждаются.
+  • Банковские операции: «ПРОДАЖА ВАЛЮТЫ», «ПОКУПКА ВАЛЮТЫ», «КОНВЕРТАЦИЯ», «ПРОДАЖА ТОКЕНОВ», «ПЕРЕВОД СОБСТВЕННЫХ СРЕДСТВ» — конкретизация не требуется.
+</task>
+
+<examples_pass>
+«ОПЛАТА ЗА УСЛУГИ ПО ВНЕДРЕНИЮ ПО»                         → PASS  («ПО» в конце — аббревиатура «Программное Обеспечение», конкретный предмет)
+«ПЕРЕЧИСЛЕНИЕ ДЕНЕЖНЫХ СРЕДСТВ ОТ ПРОДАЖИ ТОКЕНОВ»         → PASS  (покупка/продажа токенов - это конкретная операция)
+«АВТОТРАНСПОРТНЫЕ УСЛУГИ ПО МАРШРУТУ РБ - РФ»              → PASS  (АВТОТРАНСПОРТНЫЕ — конкретный вид услуги)
+«МЕТАЛЛОПРОКАТ»                                            → PASS  (конкретный вид товара)
+«ПРЕДОПЛАТА ЗА ТОВАРЫ (КРЕСЛО)»                            → PASS  (КРЕСЛО — конкретный вид товара)
+«ОПЛАТА ЗА БЕНЗИН НЕЭТИЛИРОВАННЫЙ»                         → PASS  (БЕНЗИН — конкретный вид товара)
+«ОПЛАТА ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ»                        → PASS  (ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ — конкретный вид товара)
+«ОПЛ.АН.ОБОР.»                                             → PASS  (аббревиатура конкретного вида товара)
+«ПРАФЮМЕРНАЯ ВОДА, КОНДИТ. ИЗД., МАСЛО МОТОР.»             → PASS  (конкретные виды товаров)
+«АРЕНДА ЗЕМЕЛЬНОГО УЧАСТКА»                                → PASS
+«ЗАРПЛАТА ЗА МАРТ»                                         → PASS  (зарплата — конкретный вид выплаты)
+«РОЯЛТИ ЗА 2022»                                           → PASS  (роялти — конкретный вид платежа)
+«ВОЗВРАТ ЗАЙМА»                                            → PASS  (займа — конкретный вид обязательства)
+«ПРОДАЖА ВАЛЮТЫ»                                           → PASS  (банковская операция)
+«ВЗЫСКАНИЕ СУДЕБНОГО ПРИКАЗА»                              → PASS  (бюджетный платёж)
+</examples_pass>
+
+<examples_fail>
+«ПРЕДОПЛАТА ЗА ТОВАРЫ»                                     → FAIL  (ТОВАРЫ — общее слово; «ОПЛАТА»/«ПРЕДОПЛАТА» сами по себе не дают конкретики)
+«ОПЛАТА ЗА УСЛУГИ»                                         → FAIL  (УСЛУГИ — общее слово)
+«АВАНСОВЫЙ ПЛАТЁЖ»                                         → FAIL
+«»                                                         → FAIL  («Назначение платежа не заполнено.»)
+«ОПЛАТА»                                                   → FAIL  (только дисквалифицирующий токен)
+</examples_fail>
+
+
+
+==================== PROMPT_SENT (b2_purpose_specificity/0) role=system ====================
+
+
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (b2_purpose_specificity/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (b2_purpose_specificity/1) role=user ====================
+
+
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (b2_purpose_specificity) ====================
+
+
+{
+  "checks": [
+    {"id": "B2.PURPOSE_SPECIFICITY", "status": "PASS", "message": ""}
+  ]
+}
+
+
+==================== PROMPT_RESULT (b2_purpose_specificity) ====================
+
+
+[2026-05-14 13:19:31,408] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=b2_purpose_specificity done elapsed_ms=0 elapsed_s=0.00 result_len=91
+[2026-05-14 13:19:31,411] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2A (B2-purpose + B2-amounts + B1, parallel): Правомерность + реквизиты ПП  [DONE  ELAPSED=0.01S]
+  ⏱  elapsed: 0.01s
+============================================================
+[2026-05-14 13:19:31,411] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Compressor): Сжатие документов-оснований  [START]
+============================================================
+[2026-05-14 13:19:31,473] INFO in orchestrator: compressor(map-reduce): start chunks=6 token_budget=12413 overhead_tokens=3571
+[2026-05-14 13:19:31,484] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 11522, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:19:31,484] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:19:31,493] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 18553, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:19:31,493] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:19:31,497] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 17001, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:19:31,497] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:20:10,564] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:20:10,566] INFO in openai: OpenAI response received: choices=1 content_len=8482 finish_reason=stop usage=prompt=4825 completion=3490 total=8315
+[2026-05-14 13:20:10,573] INFO in orchestrator: compressor(map): chunk=[doc=004050_-_161_08.08.2024.docx chunk=1/1] ok elapsed=39.10s
+[2026-05-14 13:20:10,580] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 10522, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:20:10,580] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:20:16,755] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:20:16,757] WARNING in openai: OpenAI response received: choices=1 content_len=9529 finish_reason=length usage=prompt=7470 completion=4000 total=11470
+[2026-05-14 13:20:16,758] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:20:16,760] WARNING in openai: OpenAI response received: choices=1 content_len=9569 finish_reason=length usage=prompt=8357 completion=4000 total=12357
+[2026-05-14 13:20:16,769] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-039_18.05.2024_..pdf chunk=1/1] json_parse_failed elapsed=45.29s raw_len=9569
+[2026-05-14 13:20:16,772] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-039_18.05.2024.pdf chunk=1/1] json_parse_failed elapsed=45.30s raw_len=9529
+[2026-05-14 13:20:16,776] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-039_18.05.2024_..pdf chunk=1/1] could not split further at depth=0
+[2026-05-14 13:20:16,777] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-039_18.05.2024.pdf chunk=1/1] could not split further at depth=0
+[2026-05-14 13:20:16,784] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 10339, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:20:16,784] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:20:16,789] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 18526, 'content_head': '<role>\nТы — Compressor (chunk worker). Ты видишь ОДНУ СЕКЦИЮ одного документа. Другие секции и другие документы обрабатываются отдельно и затем объединяются reducer-ом.\n\nСожми имен'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:20:16,789] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:20:55,787] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:20:55,789] INFO in openai: OpenAI response received: choices=1 content_len=9424 finish_reason=stop usage=prompt=4051 completion=3942 total=7993
+[2026-05-14 13:20:55,797] INFO in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf chunk=1/1] ok elapsed=45.22s
+[2026-05-14 13:20:56,209] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:20:56,211] INFO in openai: OpenAI response received: choices=1 content_len=8381 finish_reason=stop usage=prompt=3991 completion=3469 total=7460
+[2026-05-14 13:20:56,218] INFO in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-053_08.07.2024__3-_.pdf chunk=1/1] ok elapsed=39.44s
+[2026-05-14 13:21:00,312] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:21:00,313] WARNING in openai: OpenAI response received: choices=1 content_len=9562 finish_reason=length usage=prompt=7325 completion=4000 total=11325
+[2026-05-14 13:21:00,321] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-053_08.07.2024.pdf chunk=1/1] json_parse_failed elapsed=43.54s raw_len=9562
+[2026-05-14 13:21:00,326] WARNING in orchestrator: compressor(map): chunk=[doc=004050__161_08.08.2024__24-053_08.07.2024.pdf chunk=1/1] could not split further at depth=0
+[2026-05-14 13:21:00,362] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 30162, 'content_head': '<role>\nТы — Compressor (reducer). На вход тебе приходят несколько частичных JSON-ядер, каждое — результат сжатия одной секции одного документа. Также может прийти структура _confli'}, {'role': 'user', 'content_len': 164, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).'}]}
+[2026-05-14 13:21:00,363] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:21:32,608] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:21:32,610] WARNING in openai: OpenAI response received: choices=1 content_len=9009 finish_reason=length usage=prompt=13335 completion=4000 total=17335
+[2026-05-14 13:21:32,618] WARNING in orchestrator: compressor(reduce): json parse failed attempt=1
+[2026-05-14 13:21:32,621] WARNING in orchestrator: compressor(reduce): json parse failed attempt=2
+[2026-05-14 13:21:32,621] ERROR in orchestrator: compressor(reduce): LLM reducer failed; returning deterministic merge
+[2026-05-14 13:21:32,623] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Compressor): Сжатие документов-оснований  [DONE]
+  ⏱  elapsed: 121.21s
+============================================================
+[2026-05-14 13:21:32,623] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Validator-B): Проверка по документам-основаниям  [START]
+============================================================
+[2026-05-14 13:21:32,625] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=validator_b start structured=False attachments=False payload_len=8868
+[2026-05-14 13:21:32,625] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (validator_b/0) role=system ====================
+
+
+<role>
+Ты — валидатор платёжного поручения по сжатым документам-основаниям.
+По входному JSON-ядру выполни проверки B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE и верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход (вопрос): Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+Вход (JSON-ядро): {"extracted_fields": {"sender_bank_bic_info": {"source": "by_swift", "country": "BY", "name": "ОАО 'Банк БелВЭБ'", "city": "г.Минск", "address": null, "needs_llm_parse": true}, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_tax_id_type": null, "phase1_b1_legality": {"status": "WARN", "message": "Бенефициар — нерезидент РБ, тип не определён.\nДля юрлица-нерезидента ограничений нет (ст.13 п.1 Закона 226-З); для физлица-нерезидента применяется ст.13 п.3 (SWIFT-переводы разрешены по п.3.1).\nУточните тип бенефициара для окончательного вывода."}, "sender_bank_swift": "BELBBY2X", "payer_unp": "101128058", "fees_payer": "ПЛ", "payment_details_raw": null, "beneficiary_country_source": "alias", "offshore_fee_payment_date": null, "beneficiary_tin": null, "contract_reference": null, "received_at": "08.08.2024 14:04:00", "payer_is_resident_iban": null, "beneficiary_city_semantic": null, "has_correspondent_bank_fields": true, "beneficiary_bank_country": "Объединённые Арабские Эмираты", "beneficiary_country_text_kind": "alias", "contract_text": null, "payer_is_resident": true, "beneficiary_bank_name": "BANK MELLI IRAN", "amount_number": 119404.15, "executed_at": "08.08.2024", "beneficiary_country_text": "Объединённые Арабские Эмираты", "offshore_fee_payment_order_number": null, "offshore_fee_mentioned": false, "beneficiary_account_type": null, "bn_no_number": false, "payer_account": "BY55BELB301200405001C0226000", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "beneficiary_country_inferred": null, "beneficiary_tax_id_label": null, "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payment_order_number": "161", "contract_date_candidates": null, "evidence_map": {"payment_order_number": [{"quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payment_order_date": [{"quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "amount_words": [{"quote": "Сумма и валюта:СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "amount_number": [{"quote": "|Код валюты|784|Сумма цифрами| 119404.15", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "currency_code": [{"quote": "|Код валюты|784|Сумма цифрами| 119404.15", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_name": [{"quote": "Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_account": [{"quote": "Счет BY55BELB301200405001C0226000", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_unp": [{"quote": "УНП плательщика| УНП бенефициара | УНП третьего лица |Код платежа |Очередь\n101128058 | | | | 21", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "sender_bank_name": [{"quote": "Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "sender_bank_swift": [{"quote": "Код банка BELBBY2X", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_bank_swift": [{"quote": "Код банка MELIAEA1XXX", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_bank_name": [{"quote": "Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI, UNITED ARAB EMIRATES", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_name": [{"quote": "Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payment_purpose_raw": [{"quote": "Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "has_deal_registration_number": [{"quote": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}]}, "notes": ["Детали платежа включают упоминание о частях лазера и номерах договоров, но не содержат полных условий оплаты."], "payment_order_date": "08.08.2024", "beneficiary_name_semantic": null, "beneficiary_is_resident": false, "beneficiary_country_text_code": "AE", "royalty_period": null, "payer_account_type": null, "beneficiary_entity_type": "unknown", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "payer_entity_type": "юрлицо", "contract_docs_present": true, "beneficiary_account": null, "has_deal_registration_number": true, "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_country_name": "Объединённые Арабские Эмираты", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_country_semantic": null, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "beneficiary_bank_bic_info": {"source": "swift_country", "country": "AE", "name": "BANK MELLI IRAN", "city": "DUBAI", "address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "needs_llm_parse": false}, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "deal_registration_entries": null, "beneficiary_is_resident_iban": null, "beneficiary_country_code": "AE"}, "evidence_map": {"contract_facts.documents[0].number": [{"quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024\nHer #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].date": [{"quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].parties": [{"quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].currency": [{"quote": "The amount of 32 552,09 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].amounts": [{"quote": "The amount of 32 552,09 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "The remaining amount of 77 417,40 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].payment_terms": [{"quote": "The remaining amount of 32 552,09 AED shall be paid within 30 calendar days after delivery.", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "The amount of 77 417,40 AED shall be paid within 30 calendar days after delivery.", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].effective_dates": [{"quote": "22.07.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].bank_details": [{"quote": "IBAN: AE 2601 00000 1010 139679 10", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].beneficiary_details": [{"quote": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].swift_codes": [{"quote": "SWIFT CODE: MELIAEA1XXX", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].tins": [{"quote": "BUSINESS LICENSE N 4308027.01", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}]}, "notes": ["Некоторые текстовые фрагменты в секции содержат опечатки и неразборчивые участки, например, 'SOL 4 Ste Repu V A T LAR LS' и 'Her #24 AED reby KMED /039'.", "Compressor map не смог обработать чанки: [doc=004050__161_08.08.2024__24-039_18.05.2024.pdf chunk=1/1], [doc=004050__161_08.08.2024__24-039_18.05.2024_..pdf chunk=1/1], [doc=004050__161_08.08.2024__24-053_08.07.2024.pdf chunk=1/1]"]}
+</role>
+
+<output_schema>
+{
+  "overall_status": "OK",
+  "extracted_fields": {},
+  "checks": [
+    {"id": "B2.CONTRACT_REF", "status": "PASS", "message": "...", "evidence": ["..."]},
+    {"id": "B3.DOC_MATCH",    "status": "PASS", "message": "...", "evidence": ["..."]},
+    {"id": "B3.ASSIGNMENT",   "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B2.OFFSHORE",     "status": "OUT_OF_SCOPE", "message": "...", "evidence": []}
+  ],
+  "remarks": [],
+  "requested_inputs": []
+}
+</output_schema>
+
+<allowed_statuses>
+B2.CONTRACT_REF: PASS, WARN, NEED_MORE_INFO.
+B3.DOC_MATCH:    PASS, WARN, FAIL, NEED_MORE_INFO.
+B3.ASSIGNMENT:   PASS, WARN, OUT_OF_SCOPE.
+B2.OFFSHORE:     WARN, OUT_OF_SCOPE.
+</allowed_statuses>
+
+<context>
+contract_facts.documents — это уже извлечённые факты из ВСЕХ приложенных документов. Каждый объект имеет doc_type ("main_contract", "assignment_dut", "invoice", "addendum", "other"). Если documents не пуст — документы получены и обработаны.
+</context>
+
+<checks>
+
+<check id="B2.CONTRACT_REF">
+  <intent>Полнота реквизитов договора в назначении платежа и согласованность с приложенными документами.</intent>
+  <algorithm>
+    Шаг 1. Из payment_purpose_raw извлеки (number, date) договора. Например:
+      "ОПЛАТА ПО ДОГОВОРУ 5 ОТ 04.07.2023" → number="5", date="04.07.2023".
+      "Контракт № БНК-НФТ/2024-01 от 15.01.2024" → number="БНК-НФТ/2024-01", date="15.01.2024".
+
+    Шаг 2. Если в ПП нет ссылки на договор → status = WARN, message "В ПП нет ссылки на договор".
+
+    Шаг 3. Если contract_facts.documents пуст → status = NEED_MORE_INFO.
+
+    Шаг 4. Иначе найди в documents[] объект, у которого:
+      - documents[i].number содержит number из ПП (без учёта префиксов "№", "Договор", "Контракт", регистра, пробелов)
+      - ИЛИ documents[i].date == date из ПП.
+
+    Шаг 5. Если такой объект НЕ найден → status = NEED_MORE_INFO, message "Договор № <number> от <date>, упомянутый в ПП, не найден в documents[]".
+
+    Шаг 6. Если объект найден — ПРОВЕРЬ ФАКТИЧЕСКИЕ значения documents[i].payment_terms и documents[i].amounts (массивы во входном JSON), а НЕ свои короткие цитаты в evidence:
+      - Если documents[i].payment_terms имеет ХОТЯ БЫ ОДИН элемент И documents[i].amounts имеет ХОТЯ БЫ ОДИН элемент → status = PASS.
+      - Иначе → status = WARN, message укажи КОНКРЕТНО, какой массив пуст.
+
+    ВАЖНО: непустой массив (с одним или более элементом) ЗАПОЛНЕН. Не пиши "пусты" или "не заполнены" о непустых массивах.
+  </algorithm>
+  <statuses>
+    - PASS — договор найден в documents[], payment_terms и amounts оба непустые.
+    - WARN — договор найден, но payment_terms ИЛИ amounts (как массив в documents[]) пуст.
+    - NEED_MORE_INFO — в ПП есть ссылка на договор, но в documents[] нет соответствующего объекта.
+  </statuses>
+</check>
+
+<check id="B3.DOC_MATCH">
+  <intent>Соответствие реквизитов ПП и приложенных документов.</intent>
+  <steps>
+    - Если contract_docs_present=false и documents пуст → NEED_MORE_INFO (запросить договор / приложения).
+    - Если documents не пуст: для каждого договора из payment_purpose_raw найди объект в documents[] по number / doc_type и сверь номер / дату.
+    - Сверяй реквизиты банка-получателя и бенефициара (наименование / адрес / SWIFT / счёт / TIN) с полями bank_details / beneficiary_details / swift_codes из соответствующего документа.
+    - Учитывай assignment_dut: данные нового кредитора могут отличаться от основного договора.
+  </steps>
+  <statuses>
+    - PASS — все доступные реквизиты совпадают.
+    - WARN — небольшие расхождения (объяснимые опечатки, регистр, форматирование).
+    - FAIL — грубые расхождения (разные номера / даты / SWIFT / бенефициары).
+    - NEED_MORE_INFO — нет documents и нет contract_text.
+  </statuses>
+</check>
+
+<check id="B3.ASSIGNMENT">
+  <intent>Корректность договора уступки права требования (ДУТ).</intent>
+  <steps>
+    - Найди объект в documents[] с doc_type="assignment_dut".
+    - Проверь поля original_creditor, new_creditor, original_contract_ref.
+  </steps>
+  <statuses>
+    - PASS — все три поля заполнены и согласуются с реквизитами ПП.
+    - WARN — поля заполнены, но есть расхождения с ПП.
+    - OUT_OF_SCOPE — в documents[] нет объекта с doc_type="assignment_dut".
+  </statuses>
+</check>
+
+<check id="B2.OFFSHORE">
+  <intent>Принадлежность бенефициара к офшорной субтерритории внутри US / MY / PT.</intent>
+  <steps>
+    - Если beneficiary_country_code НЕ в {US, MY, PT} → OUT_OF_SCOPE (большинство офшоров уже проверено Python до этого промпта).
+    - US: офшор только Делавэр и Вайоминг. Любой другой штат / город США → OUT_OF_SCOPE.
+    - MY: офшор только остров Лабуан. Остальная Малайзия → OUT_OF_SCOPE.
+    - PT: офшор только остров Мадейра. Остальная Португалия → OUT_OF_SCOPE.
+    - Ищи штат / остров в именах, адресах, contract_facts, evidence_map.
+  </steps>
+  <statuses>
+    - WARN — обнаружена офшорная субтерритория (Делавэр / Вайоминг / Лабуан / Мадейра).
+    - OUT_OF_SCOPE — субтерритория не найдена либо страна не US / MY / PT.
+  </statuses>
+</check>
+
+</checks>
+
+<global_rules>
+- extracted_fields в выходе ВСЕГДА должен быть пустым объектом {}. ЗАПРЕЩЕНО переносить, копировать или повторять поля из входного JSON-ядра в выходной extracted_fields. Любое непустое содержимое extracted_fields в твоём ответе — ошибка.
+- Работай только с полями из входного JSON для принятия решений по checks, но в выход их НЕ переноси.
+- Для договорных проверок используй contract_facts.documents (массив объектов по одному на документ) или contract_text (если есть).
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, без рассуждений о выборе статуса.
+- evidence: короткие фрагменты из evidence_map (без дублей, ≤200 символов на элемент).
+- НЕ включай тексты / фрагменты договоров в checks / remarks / requested_inputs.
+- remarks: только наблюдения, не покрытые конкретной проверкой выше (межпроверочные противоречия / контекстные предупреждения). Не пересказывай checks.
+- requested_inputs: запрашивай только если contract_facts.documents пуст. Запрос исходных текстов / копий / исправленных версий документов запрещён.
+- Верни РОВНО 4 чека в порядке: B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE.
+</global_rules>
+
+<overall_status_calc>
+- Хотя бы один FAIL → "REJECT".
+- Иначе хотя бы один NEED_MORE_INFO ИЛИ requested_inputs не пуст → "NEED_MORE_INFO".
+- Иначе хотя бы один WARN → "WARN".
+- Иначе → "OK".
+</overall_status_calc>
+
+
+
+==================== PROMPT_SENT (validator_b/0) role=system ====================
+
+
+[2026-05-14 13:21:32,625] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (validator_b/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (validator_b/1) role=user ====================
+
+
+[2026-05-14 13:21:32,636] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 15748, 'content_head': '<role>\nТы — валидатор платёжного поручения по сжатым документам-основаниям.\nПо входному JSON-ядру выполни проверки B2.CONTRACT_REF, B3.DOC_MATCH, B3.ASSIGNMENT, B2.OFFSHORE и верни'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:21:32,636] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:21:38,012] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:21:38,014] INFO in openai: OpenAI response received: choices=1 content_len=1709 finish_reason=stop usage=prompt=6659 completion=687 total=7346
+[2026-05-14 13:21:38,017] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (validator_b) ====================
+
+
+{
+  "overall_status": "OK",
+  "extracted_fields": {},
+  "checks": [
+    {
+      "id": "B2.CONTRACT_REF",
+      "status": "PASS",
+      "message": "Договор найден в документах, payment_terms и amounts оба непусты.",
+      "evidence": [
+        "The amount of 32 552,09 AED",
+        "The remaining amount of 77 417,40 AED",
+        "The remaining amount of 32 552,09 AED shall be paid within 30 calendar days after delivery.",
+        "The amount of 77 417,40 AED shall be paid within 30 calendar days after delivery."
+      ]
+    },
+    {
+      "id": "B3.DOC_MATCH",
+      "status": "PASS",
+      "message": "Все реквизиты бенефициара и банка-получателя совпадают с документами.",
+      "evidence": [
+        "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01",
+        "BANK MELLI IRAN",
+        "MELIAEA1XXX",
+        "IBAN: AE 2601 00000 1010 139679 10"
+      ]
+    },
+    {
+      "id": "B3.ASSIGNMENT",
+      "status": "OUT_OF_SCOPE",
+      "message": "В документах отсутствует договор уступки права требования.",
+      "evidence": []
+    },
+    {
+      "id": "B2.OFFSHORE",
+      "status": "OUT_OF_SCOPE",
+      "message": "Страна бенефициара — Объединённые Арабские Эмираты, не входит в US, MY, PT.",
+      "evidence": []
+    }
+  ],
+  "remarks": [
+    "Некоторые текстовые фрагменты в секции содержат опечатки и неразборчивые участки, например, 'SOL 4 Ste Repu V A T LAR LS' и 'Her #24 AED reby KMED /039'.",
+    "Compressor map не смог обработать чанки: [doc=004050__161_08.08.2024__24-039_18.05.2024.pdf chunk=1/1], [doc=004050__161_08.08.2024__24-039_18.05.2024_..pdf chunk=1/1], [doc=004050__161_08.08.2024__24-053_08.07.2024.pdf chunk=1/1]"
+  ],
+  "requested_inputs": []
+}
+
+
+==================== PROMPT_RESULT (validator_b) ====================
+
+
+[2026-05-14 13:21:38,017] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=validator_b done elapsed_ms=5393 elapsed_s=5.39 result_len=1709
+[2026-05-14 13:21:38,019] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2B (Validator-B): Проверка по документам-основаниям  [DONE  ELAPSED=5.40S]
+  ⏱  elapsed: 5.40s
+============================================================
+[2026-05-14 13:21:38,020] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2C (DocChecker): Бизнес-кейсы Блока 3  [START]
+============================================================
+[2026-05-14 13:21:38,021] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=doc_checker start structured=False attachments=False payload_len=8868
+[2026-05-14 13:21:38,021] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (doc_checker/0) role=system ====================
+
+
+<role>
+Ты — эксперт по валютному контролю Республики Беларусь.
+По входному JSON-ядру проверь содержание приложенных документов и их связность между собой и с платёжным поручением.
+Верни РОВНО ОДИН валидный JSON по схеме ниже.
+
+Вход (вопрос): Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+Вход (JSON-ядро): {"extracted_fields": {"sender_bank_bic_info": {"source": "by_swift", "country": "BY", "name": "ОАО 'Банк БелВЭБ'", "city": "г.Минск", "address": null, "needs_llm_parse": true}, "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты", "beneficiary_tax_id_type": null, "phase1_b1_legality": {"status": "WARN", "message": "Бенефициар — нерезидент РБ, тип не определён.\nДля юрлица-нерезидента ограничений нет (ст.13 п.1 Закона 226-З); для физлица-нерезидента применяется ст.13 п.3 (SWIFT-переводы разрешены по п.3.1).\nУточните тип бенефициара для окончательного вывода."}, "sender_bank_swift": "BELBBY2X", "payer_unp": "101128058", "fees_payer": "ПЛ", "payment_details_raw": null, "beneficiary_country_source": "alias", "offshore_fee_payment_date": null, "beneficiary_tin": null, "contract_reference": null, "received_at": "08.08.2024 14:04:00", "payer_is_resident_iban": null, "beneficiary_city_semantic": null, "has_correspondent_bank_fields": true, "beneficiary_bank_country": "Объединённые Арабские Эмираты", "beneficiary_country_text_kind": "alias", "contract_text": null, "payer_is_resident": true, "beneficiary_bank_name": "BANK MELLI IRAN", "amount_number": 119404.15, "executed_at": "08.08.2024", "beneficiary_country_text": "Объединённые Арабские Эмираты", "offshore_fee_payment_order_number": null, "offshore_fee_mentioned": false, "beneficiary_account_type": null, "bn_no_number": false, "payer_account": "BY55BELB301200405001C0226000", "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "beneficiary_country_inferred": null, "beneficiary_tax_id_label": null, "currency_code": "784", "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"", "payment_order_number": "161", "contract_date_candidates": null, "evidence_map": {"payment_order_number": [{"quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payment_order_date": [{"quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "amount_words": [{"quote": "Сумма и валюта:СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "amount_number": [{"quote": "|Код валюты|784|Сумма цифрами| 119404.15", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "currency_code": [{"quote": "|Код валюты|784|Сумма цифрами| 119404.15", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_name": [{"quote": "Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_account": [{"quote": "Счет BY55BELB301200405001C0226000", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payer_unp": [{"quote": "УНП плательщика| УНП бенефициара | УНП третьего лица |Код платежа |Очередь\n101128058 | | | | 21", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "sender_bank_name": [{"quote": "Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "sender_bank_swift": [{"quote": "Код банка BELBBY2X", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_bank_swift": [{"quote": "Код банка MELIAEA1XXX", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_bank_name": [{"quote": "Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI, UNITED ARAB EMIRATES", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "beneficiary_name": [{"quote": "Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "payment_purpose_raw": [{"quote": "Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}], "has_deal_registration_number": [{"quote": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"}]}, "notes": ["Детали платежа включают упоминание о частях лазера и номерах договоров, но не содержат полных условий оплаты."], "payment_order_date": "08.08.2024", "beneficiary_name_semantic": null, "beneficiary_is_resident": false, "beneficiary_country_text_code": "AE", "royalty_period": null, "payer_account_type": null, "beneficiary_entity_type": "unknown", "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь", "payer_entity_type": "юрлицо", "contract_docs_present": true, "beneficiary_account": null, "has_deal_registration_number": true, "beneficiary_bank_swift": "MELIAEA1XXX", "beneficiary_country_name": "Объединённые Арабские Эмираты", "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "beneficiary_country_semantic": null, "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.", "beneficiary_bank_bic_info": {"source": "swift_country", "country": "AE", "name": "BANK MELLI IRAN", "city": "DUBAI", "address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB", "needs_llm_parse": false}, "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ", "deal_registration_entries": null, "beneficiary_is_resident_iban": null, "beneficiary_country_code": "AE"}, "evidence_map": {"contract_facts.documents[0].number": [{"quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024\nHer #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].date": [{"quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].parties": [{"quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].currency": [{"quote": "The amount of 32 552,09 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].amounts": [{"quote": "The amount of 32 552,09 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "The remaining amount of 77 417,40 AED", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].payment_terms": [{"quote": "The remaining amount of 32 552,09 AED shall be paid within 30 calendar days after delivery.", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}, {"quote": "The amount of 77 417,40 AED shall be paid within 30 calendar days after delivery.", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].effective_dates": [{"quote": "22.07.2024", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].bank_details": [{"quote": "IBAN: AE 2601 00000 1010 139679 10", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].beneficiary_details": [{"quote": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].swift_codes": [{"quote": "SWIFT CODE: MELIAEA1XXX", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}], "contract_facts.documents[0].tins": [{"quote": "BUSINESS LICENSE N 4308027.01", "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"}]}, "notes": ["Некоторые текстовые фрагменты в секции содержат опечатки и неразборчивые участки, например, 'SOL 4 Ste Repu V A T LAR LS' и 'Her #24 AED reby KMED /039'.", "Compressor map не смог обработать чанки: [doc=004050__161_08.08.2024__24-039_18.05.2024.pdf chunk=1/1], [doc=004050__161_08.08.2024__24-039_18.05.2024_..pdf chunk=1/1], [doc=004050__161_08.08.2024__24-053_08.07.2024.pdf chunk=1/1]"]}
+</role>
+
+<output_schema>
+{
+  "overall_status": "OK",
+  "extracted_fields": {},
+  "checks": [
+    {"id": "B3.ROYALTY",    "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B3.ASSIGNMENT", "status": "OUT_OF_SCOPE", "message": "...", "evidence": []},
+    {"id": "B3.COHERENCE",  "status": "PASS",         "message": "...", "evidence": ["..."]}
+  ],
+  "remarks": [],
+  "requested_inputs": []
+}
+</output_schema>
+
+<allowed_statuses>
+B3.ROYALTY:    PASS, WARN, FAIL, NEED_MORE_INFO, OUT_OF_SCOPE.
+B3.ASSIGNMENT: PASS, WARN, FAIL, NEED_MORE_INFO, OUT_OF_SCOPE.
+B3.COHERENCE:  PASS, WARN, FAIL, NEED_MORE_INFO.
+</allowed_statuses>
+
+<global_rules>
+- Работай только с полями из входного JSON.
+- Для проверок используй contract_facts.documents (массив объектов по одному на документ) или contract_text (если есть).
+- Один валидный JSON без markdown. Строки экранируй.
+- message: 1–2 коротких предложения по-русски, без рассуждений о выборе статуса.
+- evidence: короткие цитаты из evidence_map (≤200 символов на элемент).
+- НЕ включай в выход поле extracted_fields.contract_text и НЕ включай тексты / фрагменты договоров в checks / remarks / requested_inputs.
+- Верни РОВНО 3 чека в порядке: B3.ROYALTY, B3.ASSIGNMENT, B3.COHERENCE.
+</global_rules>
+
+<context>
+contract_facts.documents — структурированные факты по каждому приложенному документу.
+Каждый объект: doc_type, number, date, parties, payment_terms, amounts и др.
+Для assignment_dut дополнительно: original_creditor, new_creditor, original_contract_ref.
+</context>
+
+<checks>
+
+<check id="B3.ROYALTY">
+  <intent>Проверка платежей-роялти: подтверждается ли роялти-характер платежа предметом договора.</intent>
+  <applicability>Выполняй только если payment_purpose_raw содержит «роялти», «royalty» или «лицензионный платёж». Иначе — OUT_OF_SCOPE.</applicability>
+  <steps>
+    - В contract_facts (или contract_text) проверь:
+      1. Раздел «Предмет договора» явно упоминает роялти как основной предмет — не вскользь.
+      2. Договор является лицензионным соглашением, франчайзингом или содержит лицензионное вознаграждение.
+  </steps>
+  <statuses>
+    - PASS — предмет договора явно подтверждает роялти-платёж.
+    - WARN — роялти упомянуто, но предмет договора сформулирован размыто.
+    - FAIL — в договоре нет упоминания роялти как предмета, хотя платёж позиционируется как роялти.
+    - NEED_MORE_INFO — данных в документе нет (запросить договор с предметом).
+  </statuses>
+</check>
+
+<check id="B3.ASSIGNMENT">
+  <intent>Содержательная проверка договора уступки права требования (ДУТ).</intent>
+  <applicability>Выполняй только если payment_purpose_raw или contract_facts содержат «уступка требования», «ДУТ», «договор уступки», «assignment of claim», «cession». Иначе — OUT_OF_SCOPE.</applicability>
+  <steps>
+    - Найди в documents[] объект с doc_type="assignment_dut" и проверь:
+      1. original_creditor — совпадает с продавцом / бенефициаром по основному договору.
+      2. new_creditor — совпадает с beneficiary_name из ПП.
+      3. original_contract_ref — совпадает с contract_reference из ПП.
+      4. Подписи сторон — если parties[] содержит обе стороны, считай отражёнными.
+      5. Предмет ДУТ — подтверждается самим doc_type="assignment_dut".
+  </steps>
+  <statuses>
+    - PASS — все пять элементов присутствуют и согласуются с ПП.
+    - WARN — один-два элемента отсутствуют или формулировки размыты (укажи конкретно что не найдено).
+    - FAIL — отсутствуют критические элементы (original_creditor, new_creditor или original_contract_ref).
+    - NEED_MORE_INFO — нет объекта assignment_dut и нет contract_text.
+  </statuses>
+</check>
+
+<check id="B3.COHERENCE">
+  <intent>Согласованность всех приложенных документов между собой и с платёжным поручением.</intent>
+  <steps>
+    - Сверяй (по каждому документу из documents[] отдельно):
+      1. Наименование бенефициара: beneficiary_name из ПП ↔ beneficiary_details в documents[].
+      2. Номера договоров: все упомянутые в payment_purpose_raw ↔ documents[].number.
+      3. Даты договоров: documents[].date ↔ даты из payment_purpose_raw.
+      4. SWIFT / счёт / банк: данные ПП ↔ swift_codes / bank_details из соответствующего документа.
+      5. Если есть assignment_dut: original_contract_ref ↔ number основного договора в documents[].
+      6. Если несколько документов — все они логически связаны с одним ПП.
+  </steps>
+  <statuses>
+    - PASS — все доступные элементы согласуются, противоречий нет.
+    - WARN — одно-два расхождения (незначительные / объяснимые); укажи конкретное поле и расхождение.
+    - FAIL — грубые противоречия (разные бенефициары, разные номера договоров, несовпадающие даты).
+    - NEED_MORE_INFO — documents[] пуст; сверка невозможна.
+  </statuses>
+</check>
+
+</checks>
+
+<overall_status_calc>
+- Хотя бы один FAIL → "REJECT".
+- Иначе хотя бы один NEED_MORE_INFO ИЛИ requested_inputs не пуст → "NEED_MORE_INFO".
+- Иначе хотя бы один WARN → "WARN".
+- Иначе → "OK".
+</overall_status_calc>
+
+
+
+==================== PROMPT_SENT (doc_checker/0) role=system ====================
+
+
+[2026-05-14 13:21:38,022] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_SENT (doc_checker/1) role=user ====================
+
+
+Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).
+TODAY: 14.05.2026
+
+
+==================== PROMPT_SENT (doc_checker/1) role=user ====================
+
+
+[2026-05-14 13:21:38,033] INFO in openai: Cleaned messages (summary): {'count': 2, 'items': [{'role': 'system', 'content_len': 14262, 'content_head': '<role>\nТы — эксперт по валютному контролю Республики Беларусь.\nПо входному JSON-ядру проверь содержание приложенных документов и их связность между собой и с платёжным поручением.\n'}, {'role': 'user', 'content_len': 182, 'content_head': 'Проверь платёжное поручение по первичному валютному контролю. Верни СТРОГО валидный JSON по схеме (overall_status/extracted_fields/checks/remarks/requested_inputs).\nTODAY: 14.05.20'}]}
+[2026-05-14 13:21:38,033] INFO in openai: OpenAI request start (non-stream): model=/model base_url=https://qwen3-ml.bveb.by/v1/ tools=no response_format=no
+[2026-05-14 13:22:08,347] INFO in _client: HTTP Request: POST https://qwen3-ml.bveb.by/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-05-14 13:22:08,349] WARNING in openai: OpenAI response received: choices=1 content_len=9290 finish_reason=length usage=prompt=6088 completion=4000 total=10088
+[2026-05-14 13:22:08,358] INFO in payment_validator_pipeline_agent: 
+
+==================== PROMPT_RESULT (doc_checker) ====================
+
+
+{
+  "overall_status": "OK",
+  "extracted_fields": {
+    "sender_bank_bic_info": {
+      "source": "by_swift",
+      "country": "BY",
+      "name": "ОАО 'Банк БелВЭБ'",
+      "city": "г.Минск",
+      "address": null,
+      "needs_llm_parse": true
+    },
+    "beneficiary_display": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH, BUSINESS LICENSE N 4308027.01\nСчет AE 2601 00000 1010 139679 10\nОбъединённые Арабские Эмираты",
+    "beneficiary_tax_id_type": null,
+    "phase1_b1_legality": {
+      "status": "WARN",
+      "message": "Бенефициар — нерезидент РБ, тип не определён. Для юрлица-нерезидента ограничений нет (ст.13 п.1 Закона 226-З); для физлица-нерезидента применяется ст.13 п.3 (SWIFT-переводы разрешены по п.3.1). Уточните тип бенефициара для окончательного вывода."
+    },
+    "sender_bank_swift": "BELBBY2X",
+    "payer_unp": "101128058",
+    "fees_payer": "ПЛ",
+    "payment_details_raw": null,
+    "beneficiary_country_source": "alias",
+    "offshore_fee_payment_date": null,
+    "beneficiary_tin": null,
+    "contract_reference": null,
+    "received_at": "08.08.2024 14:04:00",
+    "payer_is_resident_iban": null,
+    "beneficiary_city_semantic": null,
+    "has_correspondent_bank_fields": true,
+    "beneficiary_bank_country": "Объединённые Арабские Эмираты",
+    "beneficiary_country_text_kind": "alias",
+    "contract_text": null,
+    "payer_is_resident": true,
+    "beneficiary_bank_name": "BANK MELLI IRAN",
+    "amount_number": 119404.15,
+    "executed_at": "08.08.2024",
+    "beneficiary_country_text": "Объединённые Арабские Эмираты",
+    "offshore_fee_payment_order_number": null,
+    "offshore_fee_mentioned": false,
+    "beneficiary_account_type": null,
+    "bn_no_number": false,
+    "payer_account": "BY55BELB301200405001C0226000",
+    "beneficiary_name": "A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01",
+    "payment_purpose_raw": "/GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ",
+    "beneficiary_country_inferred": null,
+    "beneficiary_tax_id_label": null,
+    "currency_code": "784",
+    "payer_name": "ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\"",
+    "payment_order_number": "161",
+    "contract_date_candidates": null,
+    "evidence_map": {
+      "payment_order_number": [
+        {
+          "quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "payment_order_date": [
+        {
+          "quote": "ПЛАТЕЖНОЕ ПОРУЧЕНИЕ |Дата |Срочный| |Несрочный| |0401600031\n№161 |08.08.2024| | | | |",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "amount_words": [
+        {
+          "quote": "Сумма и валюта:СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "amount_number": [
+        {
+          "quote": "|Код валюты|784|Сумма цифрами| 119404.15",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "currency_code": [
+        {
+          "quote": "|Код валюты|784|Сумма цифрами| 119404.15",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "payer_name": [
+        {
+          "quote": "Плательщик:ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОЛАР ЛС\" 220024 Г.МИНСК ПЕР.СТЕБЕНЕВА Д.4",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "payer_account": [
+        {
+          "quote": "Счет BY55BELB301200405001C0226000",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "payer_unp": [
+        {
+          "quote": "УНП плательщика| УНП бенефициара | УНП третьего лица |Код платежа |Очередь\n101128058 | | | | 21",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "sender_bank_name": [
+        {
+          "quote": "Банк-отправитель:ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "sender_bank_swift": [
+        {
+          "quote": "Код банка BELBBY2X",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "beneficiary_bank_swift": [
+        {
+          "quote": "Код банка MELIAEA1XXX",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "beneficiary_bank_name": [
+        {
+          "quote": "Банк-получатель: BANK MELLI IRAN P.O. BOX: 1894, BANIYAS STREET,DEIRA-DUBAI, UNITED ARAB EMIRATES",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "beneficiary_name": [
+        {
+          "quote": "Бенефициар:A L L FZE PUBLISHING CITY FREE ZONE, SHARJAH UAE, BUSINESS LICENSE N 4308027.01",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "payment_purpose_raw": [
+        {
+          "quote": "Назначение платежа: /GDI/ FOR LASER PARTS, K. 24/053, OT 08.07.24, K. 24/039 OT 18.05.24, A.A. 1 OT 22.07.24. PARTY TO THE CONTRAKT KMED TRADIN LLC, UAE Б/Н ОТ 22.07.24. СТОР ПО КОНТ. KMED TRADIN LLC, ОАЭ",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ],
+      "has_deal_registration_number": [
+        {
+          "quote": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.",
+          "source": "doc=004050_-_161_08.08.2024.docx chunk=1/1"
+        }
+      ]
+    },
+    "notes": [
+      "Детали платежа включают упоминание о частях лазера и номерах договоров, но не содержат полных условий оплаты."
+    ],
+    "payment_order_date": "08.08.2024",
+    "beneficiary_name_semantic": null,
+    "beneficiary_is_resident": false,
+    "beneficiary_country_text_code": "AE",
+    "royalty_period": null,
+    "payer_account_type": null,
+    "beneficiary_entity_type": "unknown",
+    "sender_bank_name": "ОАО \"БАНК БЕЛВЭБ\",Г.МИНСК Республика Беларусь",
+    "payer_entity_type": "юрлицо",
+    "contract_docs_present": true,
+    "beneficiary_account": null,
+    "has_deal_registration_number": true,
+    "beneficiary_bank_swift": "MELIAEA1XXX",
+    "beneficiary_country_name": "Объединённые Арабские Эмираты",
+    "beneficiary_bank_address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB",
+    "beneficiary_country_semantic": null,
+    "deal_registration_raw": "Регистрационный номер сделки:ВАЛ.ДОГ. 24/053 OT 08.07.24. 24/039 ОТ 18.05.24,\nДОП. СОГЛ. 1 ОТ 22.07.24, НЕ ПОДЛ. РЕГ.",
+    "beneficiary_bank_bic_info": {
+      "source": "swift_country",
+      "country": "AE",
+      "name": "BANK MELLI IRAN",
+      "city": "DUBAI",
+      "address": "BANIYAS STREET,DEIRA-DUBAI UNITED ARAB",
+      "needs_llm_parse": false
+    },
+    "amount_words": "СТО ДЕВЯТНАДЦАТЬ ТЫСЯЧ ЧЕТЫРЕСТА ЧЕТЫРЕ ДИРХАМА ОАЭ, 15 ФИЛСОВ",
+    "deal_registration_entries": null,
+    "beneficiary_is_resident_iban": null,
+    "beneficiary_country_code": "AE"
+  },
+  "evidence_map": {
+    "contract_facts.documents[0].number": [
+      {
+        "quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024\nHer #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].date": [
+      {
+        "quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].parties": [
+      {
+        "quote": "To: SOL 4 Ste Repu V A T LAR LS, CJ ebenev lane ublic of Bel T: 10112805 JSC e, Minsk 22 larus 58 0024",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      },
+      {
+        "quote": "Her #24 AED reby KMED /039 dated D by bank t D Trading 18.05.2024",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].currency": [
+      {
+        "quote": "The amount of 32 552,09 AED",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].amounts": [
+      {
+        "quote": "The amount of 32 552,09 AED",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      },
+      {
+        "quote": "The remaining amount of 77 417,40 AED",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].payment_terms": [
+      {
+        "quote": "The remaining amount of 32 552,09 AED shall be paid within 30 calendar days after delivery.",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      },
+      {
+        "quote": "The amount of 77 417,40 AED shall be paid within 30 calendar days after delivery.",
+        "source": "004050__161_08.08.2024__24-039_18.05.2024__3-_.pdf#1/1"
+      }
+    ],
+    "contract_facts.documents[0].effective_dates": [
+      {
+        "quote": "22.07.2024",
+        "source": "004050__161_08.08.2024
+
+
+==================== PROMPT_RESULT (doc_checker) ====================
+
+
+[2026-05-14 13:22:08,358] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): stage=doc_checker done elapsed_ms=30337 elapsed_s=30.34 result_len=9290
+[2026-05-14 13:22:08,362] INFO in payment_validator_pipeline_agent: pipeline(payment_validator): overall_status corrected NEED_MORE_INFO → OK
+[2026-05-14 13:22:08,362] INFO in payment_validator_pipeline_agent: 
+============================================================
+  ▶ PHASE 2C (DocChecker): Бизнес-кейсы Блока 3  [DONE  TOTAL_PIPELINE=157.12S]
+  ⏱  elapsed: 30.34s
+============================================================
+[2026-05-14 13:22:08,363] INFO in base: complete_stream: first answer chunk received
