@@ -1,0 +1,105 @@
+[2026-05-14 13:16:18,528] INFO in docling_model_cache: Docling predictor cache installed
+[2026-05-14 13:16:19,790] WARNING in user_agent: USER_AGENT environment variable not set, consider setting it to identify your requests.
+ 
+ -------------- ocr@15499f29143f v5.6.0 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.17.0-14-generic-x86_64-with-glibc2.39 2026-05-14 13:16:20
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         application.celery_init:0x7f4d9390f020
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/1
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> ocr              exchange=ocr(direct) key=ocr
+                
+
+[tasks]
+  . application.api.user.tasks.ingest
+  . application.api.user.tasks.ingest_connector_task
+  . application.api.user.tasks.ingest_remote
+  . application.api.user.tasks.mcp_oauth_status_task
+  . application.api.user.tasks.mcp_oauth_task
+  . application.api.user.tasks.ocr_attachment_page
+  . application.api.user.tasks.process_agent_webhook
+  . application.api.user.tasks.reingest_source_task
+  . application.api.user.tasks.schedule_syncs
+  . application.api.user.tasks.store_attachment
+  . application.api.user.tasks.sync_source
+
+[2026-05-14 13:16:20,522] WARNING in warnings: /venv/lib/python3.12/site-packages/billiard/popen_fork.py:70: DeprecationWarning: This process (pid=1) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.pid = os.fork()
+
+[2026-05-14 13:16:20,725] INFO in connection: Connected to redis://redis:6379/0
+[2026-05-14 13:18:40,777] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[ddf2395f-d4e6-4c3c-86c4-a5e2c2f293f0] received
+[2026-05-14 13:18:40,777] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[f2b4e027-1bb6-430b-ba34-4878683956f9] received
+/tmp/tmptgexefeb.pdf
+[2026-05-14 13:18:40,987] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:18:40,987] INFO in document_converter: Initializing pipeline for StandardPdfPipeline with options hash 2c21f4646eef644443960ad4711b3071
+[2026-05-14 13:18:40,994] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:40,996] INFO in __init__: Registered picture descriptions: ['vlm', 'api']
+[2026-05-14 13:18:40,996] WARNING in warnings: /venv/lib/python3.12/site-packages/docling/pipeline/standard_pdf_pipeline.py:449: DeprecationWarning: This field is deprecated. Use `generate_page_images=True` and call `TableItem.get_image()` to extract table images from page images.
+  or self.pipeline_options.generate_table_images
+
+[2026-05-14 13:18:41,001] INFO in base_factory: Loading plugin 'docling_defaults'
+/tmp/tmpbxxavuut.pdf
+[2026-05-14 13:18:41,002] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:18:41,002] INFO in document_converter: Initializing pipeline for StandardPdfPipeline with options hash 2c21f4646eef644443960ad4711b3071
+[2026-05-14 13:18:41,002] INFO in __init__: Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+[2026-05-14 13:18:41,011] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:41,012] INFO in __init__: Registered picture descriptions: ['vlm', 'api']
+[2026-05-14 13:18:41,012] WARNING in warnings: /venv/lib/python3.12/site-packages/docling/pipeline/standard_pdf_pipeline.py:449: DeprecationWarning: This field is deprecated. Use `generate_page_images=True` and call `TableItem.get_image()` to extract table images from page images.
+  or self.pipeline_options.generate_table_images
+
+[2026-05-14 13:18:41,022] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:41,023] INFO in __init__: Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+[2026-05-14 13:18:41,405] WARNING in warnings: /venv/lib/python3.12/site-packages/docling/models/stages/ocr/rapid_ocr_model.py:212: DeprecationWarning: deprecated
+  if self.options.rec_font_path is not None:
+
+[2026-05-14 13:18:41,409] WARNING in warnings: /venv/lib/python3.12/site-packages/docling/models/stages/ocr/rapid_ocr_model.py:212: DeprecationWarning: deprecated
+  if self.options.rec_font_path is not None:
+
+[2026-05-14 13:18:42,275] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:42,278] INFO in __init__: Registered layout engines: ['docling_layout_default', 'docling_experimental_table_crops_layout']
+[2026-05-14 13:18:42,504] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:42,505] INFO in __init__: Registered layout engines: ['docling_layout_default', 'docling_experimental_table_crops_layout']
+[2026-05-14 13:18:42,881] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:42,882] INFO in __init__: Registered table structure engines: ['docling_tableformer']
+[2026-05-14 13:18:42,971] INFO in base_factory: Loading plugin 'docling_defaults'
+[2026-05-14 13:18:42,971] INFO in __init__: Registered table structure engines: ['docling_tableformer']
+[2026-05-14 13:18:45,611] INFO in base_pipeline: Processing document tmptgexefeb.pdf
+[2026-05-14 13:18:45,628] INFO in base_pipeline: Processing document tmpbxxavuut.pdf
+[2026-05-14 13:19:22,548] INFO in document_converter: Finished converting document tmptgexefeb.pdf in 41.57 sec.
+[2026-05-14 13:19:22,629] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[43004639-c1aa-42af-9ae1-f1c3c98aab15] received
+/tmp/tmpe89e_1rh.pdf
+[2026-05-14 13:19:22,635] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:22,635] INFO in base_pipeline: Processing document tmpe89e_1rh.pdf
+[2026-05-14 13:19:24,156] INFO in document_converter: Finished converting document tmpe89e_1rh.pdf in 1.52 sec.
+[2026-05-14 13:19:24,163] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[a22ff8fd-1aa8-4649-bb5e-bf41a6bb01b0] received
+/tmp/tmpkfg7tiz6.pdf
+[2026-05-14 13:19:24,168] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:24,168] INFO in base_pipeline: Processing document tmpkfg7tiz6.pdf
+[2026-05-14 13:19:25,764] INFO in document_converter: Finished converting document tmpkfg7tiz6.pdf in 1.60 sec.
+[2026-05-14 13:19:25,771] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[49e4c6c1-7ac7-4cee-a3ae-74233a05765f] received
+/tmp/tmp828wo6tq.pdf
+[2026-05-14 13:19:25,776] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:25,776] INFO in base_pipeline: Processing document tmp828wo6tq.pdf
+[2026-05-14 13:19:26,190] INFO in document_converter: Finished converting document tmpbxxavuut.pdf in 45.20 sec.
+[2026-05-14 13:19:26,274] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[c1f132de-e4a2-414c-a955-f8b91fc5dad0] received
+/tmp/tmpsc3bmri1.pdf
+[2026-05-14 13:19:26,279] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:26,280] INFO in base_pipeline: Processing document tmpsc3bmri1.pdf
+[2026-05-14 13:19:27,403] INFO in document_converter: Finished converting document tmpsc3bmri1.pdf in 1.12 sec.
+[2026-05-14 13:19:27,407] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[214302be-e018-4371-b47d-3f48b2d94c8f] received
+/tmp/tmpe18t_55n.pdf
+[2026-05-14 13:19:27,412] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:27,412] INFO in base_pipeline: Processing document tmpe18t_55n.pdf
+[2026-05-14 13:19:29,516] INFO in document_converter: Finished converting document tmpe18t_55n.pdf in 2.11 sec.
+[2026-05-14 13:19:29,523] INFO in strategy: Task application.api.user.tasks.ocr_attachment_page[e73d2708-963b-4a36-a0be-1933cac404ca] received
+/tmp/tmp3zxnfhzz.pdf
+[2026-05-14 13:19:29,528] INFO in document_converter: Going to convert document batch...
+[2026-05-14 13:19:29,528] INFO in base_pipeline: Processing document tmp3zxnfhzz.pdf
+[2026-05-14 13:19:30,281] INFO in document_converter: Finished converting document tmp828wo6tq.pdf in 4.51 sec.
+[2026-05-14 13:19:30,552] INFO in document_converter: Finished converting document tmp3zxnfhzz.pdf in 1.03 sec.
