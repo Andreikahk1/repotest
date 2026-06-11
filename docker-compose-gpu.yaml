@@ -69,6 +69,7 @@ services:
       - DOCLING_PDF_BATCH_POLLING_INTERVAL_SECONDS=0.5
       - DOCLING_PDF_QUEUE_MAX_SIZE=100
       - DOCLING_PDF_PAGE_BATCH_SIZE=4
+      - LLM_CONTEXT_TOKENS=4000
     ports:
       - "7091:7091"
     volumes:
@@ -124,9 +125,12 @@ services:
       - DOCLING_PDF_BATCH_POLLING_INTERVAL_SECONDS=0.5
       - DOCLING_PDF_QUEUE_MAX_SIZE=100
       - DOCLING_PDF_PAGE_BATCH_SIZE=4
-      - LLM_CONTEXT_TOKENS=19000
-      - COMPRESSOR_OUTPUT_RESERVE_TOKENS=3000
+      - LLM_CONTEXT_TOKENS=15000
       - COMPRESSOR_MAPREDUCE_ENABLED=True
+      - COMPRESSOR_RECOVERY_MAX_DEPTH=1
+      - COMPRESSOR_MAX_OUTPUT_TOKENS=9000
+      - COMPRESSOR_OUTPUT_RESERVE_TOKENS=9000
+      - COMPRESSOR_REDUCE_STRATEGY=deterministic
     volumes:
       - ../application/indexes:/app/indexes
       - ../application/inputs:/app/inputs
@@ -163,8 +167,8 @@ services:
       - DOCLING_DEVICE=cuda
       - DOCLING_OCR_USE_RAPIDOCR=true
       - DOCLING_RAPIDOCR_BACKEND=onnxruntime
-      - DOCLING_RAPIDOCR_PARAMS={"EngineConfig.onnxruntime.use_cuda":true,"EngineConfig.onnxruntime.cuda_ep_cfg.device_id":0,"EngineConfig.onnxruntime.cuda_ep_cfg.arena_extend_strategy":"kSameAsRequested","EngineConfig.onnxruntime.cuda_ep_cfg.cudnn_conv_algo_search":"HEURISTIC","EngineConfig.onnxruntime.cuda_ep_cfg.cudnn_conv_use_max_workspace":"1"}
-      - DOCLING_RAPIDOCR_CUDA_GPU_MEM_LIMIT_MB=6144
+      - DOCLING_RAPIDOCR_PARAMS={"EngineConfig.onnxruntime.use_cuda":true,"EngineConfig.onnxruntime.cuda_ep_cfg.device_id":0,"EngineConfig.onnxruntime.cuda_ep_cfg.arena_extend_strategy":"kSameAsRequested","EngineConfig.onnxruntime.cuda_ep_cfg.cudnn_conv_algo_search":"HEURISTIC","EngineConfig.onnxruntime.cuda_ep_cfg.cudnn_conv_use_max_workspace":"0"}
+      - DOCLING_RAPIDOCR_CUDA_GPU_MEM_LIMIT_MB=12288
       - DOCLING_RAPIDOCR_REC_BATCH_NUM=1
       - CELERY_WORKER_MAX_TASKS_PER_CHILD=50
       - DOCLING_EXIT_ON_ORT_OOM=true
@@ -183,9 +187,12 @@ services:
       - DOCLING_PDF_PAGE_BATCH_SIZE=4
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
-      - LLM_CONTEXT_TOKENS=19000
-      - COMPRESSOR_OUTPUT_RESERVE_TOKENS=3000
+      - LLM_CONTEXT_TOKENS=15000 
       - COMPRESSOR_MAPREDUCE_ENABLED=True
+      - COMPRESSOR_RECOVERY_MAX_DEPTH=1   
+      - COMPRESSOR_MAX_OUTPUT_TOKENS=9000
+      - COMPRESSOR_OUTPUT_RESERVE_TOKENS=9000
+      - COMPRESSOR_REDUCE_STRATEGY=deterministic
       # expandable_segments:True triggers cudaMallocAsync which is not
       # supported on NVIDIA vGPU profiles (e.g. GRID V100D-32Q). Newer
       # transformers' caching_allocator_warmup hits this during HF model load
